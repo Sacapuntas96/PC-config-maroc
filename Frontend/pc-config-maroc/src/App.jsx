@@ -41,8 +41,8 @@ function App() {
   const [selected_case, selectCase] = useState(null)
   const [selected_soundcard, selectSoundcard] = useState(null)
 
-  const [current_filter, selectFilter] = useState("Coeurs")
   const [order, changeOrder] = useState(null)
+  const [current_field, changeField] = useState(null)
   const [page_number, changePage] = useState(0)
   const [showIssues, setShowIssues] = useState(false)
   const MAX_PAGE = 20
@@ -85,8 +85,10 @@ function App() {
                 className={"category-item" + (name === activeCategory ? " is_active" : "")}
                 onClick={() => {
                   setActiveCategory(name)
-                  selectFilter("None")
+                  changeField("None")
                   changePage(0)
+                  changeField(null)
+                  changeOrder(null)
                 }}
               >
                 <span>{name}</span>
@@ -100,11 +102,30 @@ function App() {
               <h3>Filter by : </h3>
                 {getFields(activeCategory).map(filter =>(
 
-                <button key={filter.label} className={'filtering-button' + (current_filter === filter.label ? "-is-selected" : "")} onClick={() => selectFilter(filter.label)}>{filter.label}</button>
+                <button key={filter.label} className={'filtering-button' + (current_field === filter.label ? "-is-selected" : "")} onClick={() => {
+                  if(!order){
+                    changeOrder("ASC")
+                  }
+
+                  if(current_field == filter.label){
+                    if(order == "ASC"){
+                      changeOrder("DESC")
+                    }
+                    else{
+                      changeOrder("ASC")
+                    }
+                    
+                  }
+                  else{
+                    changeField(filter.label)
+                  }
+                  }}>
+                  {filter.label}
+                </button>
               ))}
             </div>
             <div className="card-grid">
-              {dataByCategory[activeCategory].slice(page_number * MAX_PAGE, page_number * MAX_PAGE + MAX_PAGE).map((item, i) => (
+              {(current_field === null ? dataByCategory[activeCategory] : sortByCategory(current_field, order, activeCategory, dataByCategory)).slice(page_number * MAX_PAGE, page_number * MAX_PAGE + MAX_PAGE).map((item, i) => (
                 <Item_Card
                   key={item.Name + i}
                   item={item}
@@ -185,7 +206,6 @@ function App() {
             </span>
           </div>
         </div>
-        
       </div>
     </>
   )
@@ -335,6 +355,32 @@ function getFields(category) {
     default:
       return []
   }
+}
+
+function sortByCategory(field_name, sorting_order, activeCategory, dataByCategory) {
+  const fieldsList = getFields(activeCategory)
+  const fieldObj = fieldsList.find(f => f.label === field_name)
+  if (!fieldObj) return dataByCategory[activeCategory]
+  const field = fieldObj.key
+
+  const elements = [...dataByCategory[activeCategory]]
+  const dir = sorting_order === "DESC" ? -1 : 1
+
+  const toComparable = (val) => {
+    if (val == null) return null
+    const match = String(val).match(/-?\d+(\.\d+)?/)
+    return match ? parseFloat(match[0]) : String(val).toLowerCase()
+  }
+
+  return elements.sort((a, b) => {
+    const va = toComparable(a[field])
+    const vb = toComparable(b[field])
+    if (va == null) return 1
+    if (vb == null) return -1
+    if (va > vb) return dir
+    if (va < vb) return -dir
+    return 0
+  })
 }
 
 export default App
