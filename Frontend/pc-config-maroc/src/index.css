@@ -518,6 +518,7 @@ body {
   gap: 5px;
   font-family: "IBM Plex Mono", ui-monospace, monospace;
   font-size: 14px;
+  position: relative;
 }
 
 .compat-issues-menu{
@@ -525,7 +526,10 @@ body {
   padding: 8px 10px;
   box-sizing: border-box;
   border-radius: 3px;
-  font-size: 12px;
+  font-size: 11px;
   background-color: #1f242a;
   font-family: "IBM Plex Mono", ui-monospace, monospace;
+  position: absolute;
+  top: 80px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
 }
