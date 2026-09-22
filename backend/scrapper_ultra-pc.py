@@ -59,7 +59,7 @@ for category_name, category_url in categories.items():
 
             soup = BeautifulSoup(request.text, 'html.parser')
 
-            
+            l = 0
             for product_card in soup.find_all('div', class_="product-block clearfix"):
                 stats = {}
                 number_of_result += 1
@@ -76,7 +76,7 @@ for category_name, category_url in categories.items():
                 fields = 0
                 info_name = ""
                 info_value = ""
-                stats["Name"] = title_text
+                stats["Name"] = complete_title
                 for info_row in complementary_soup.find('dl', class_="data-sheet d-flex flex-wrap justify-content-between m-0").contents:
                     if info_row != '\n':
                         fields += 1
@@ -95,6 +95,9 @@ for category_name, category_url in categories.items():
                 price = price.replace("MAD", "").replace(",", ".").replace(" ", "")
 
                 stats["Price"] = float(price)
+                stats["ID"] = i
+
+                i += 1
 
                 if fields >= 8 and float(price) > 0:
                     products.append(stats)
