@@ -43,6 +43,9 @@ function App() {
 
   const [current_filter, selectFilter] = useState("Coeurs")
   const [order, changeOrder] = useState(null)
+  const [page_number, changePage] = useState(0)
+  const [showIssues, setShowIssues] = useState(false)
+  const MAX_PAGE = 20
 
   const selectedByCategory = {
     "Processeur":           selected_processor,
@@ -67,6 +70,9 @@ function App() {
     "Boîtier":              selectCase,
     "Carte son":            selectSoundcard,
   }  
+
+  const incompatibilities = getIncompatibilities(selectedByCategory)
+
   return (
     <>
       <div className='content'>
@@ -80,6 +86,7 @@ function App() {
                 onClick={() => {
                   setActiveCategory(name)
                   selectFilter("None")
+                  changePage(0)
                 }}
               >
                 <span>{name}</span>
@@ -97,7 +104,7 @@ function App() {
               ))}
             </div>
             <div className="card-grid">
-              {dataByCategory[activeCategory].map((item, i) => (
+              {dataByCategory[activeCategory].slice(page_number * MAX_PAGE, page_number * MAX_PAGE + MAX_PAGE).map((item, i) => (
                 <Item_Card
                   key={item.Name + i}
                   item={item}
@@ -107,7 +114,7 @@ function App() {
                       selectionMethods[activeCategory](item)
                       setPrice(price + item.Price)
                     }
-                    else if(selectedByCategory[activeCategory].Name == item.Name){
+                    else if(selectedByCategory[activeCategory].ID == item.ID){
                       setPrice(price - item.Price)
                       selectionMethods[activeCategory](null)
                     }
@@ -122,20 +129,52 @@ function App() {
                 />
               ))}
             </div>
+            {dataByCategory[activeCategory].length && (
+  <div className='back-and-forth-buttons'>
+    <h3>Page {page_number + 1} / {Math.abs((parseInt(dataByCategory[activeCategory].length / MAX_PAGE) - (dataByCategory[activeCategory].length / MAX_PAGE))) > 0 ? parseInt(dataByCategory[activeCategory].length / MAX_PAGE) + 1 : parseInt(dataByCategory[activeCategory].length / MAX_PAGE)}</h3>
+    <button
+      className='page-change'
+      onClick={() => { if (page_number > 0) changePage(page_number - 1) }}
+    >
+      {'< Back'}
+    </button>
+    <button
+      className='page-change'
+      onClick={() => { if (page_number < ((dataByCategory[activeCategory].length / MAX_PAGE) - 1)) changePage(page_number + 1) }}
+    >
+      {'Forth >'}
+    </button>
+  </div>
+)}
         </div>
         <div className='right-panel'>
           <p className="panel-label">Configuration</p>
           <div className="compat-banner">
-            <span>incompatibilité détectée</span>
+            <span className={'compatibility-display' + (incompatibilities.length > 0 ? "-detected" : "")}>incompatibilité détectée</span>
+            {incompatibilities.length > 0 && (
+              <button className="compat-details-button" onClick={() => setShowIssues(!showIssues)}>
+                Voir : {incompatibilities.length} incompatibilité{incompatibilities.length > 1 ? "s" : ""}
+              </button>
+            )}
+            {showIssues && incompatibilities.length > 0 && (
+              <div className="compat-issues-menu">
+                {incompatibilities.map((issue, i) => (
+                  <div key={i} className="compat-issue">{issue.message}</div>
+                ))}
+              </div>
+            )}
           </div>
           <div className="summary-list">
-            {Object.keys(selectedByCategory).map(component => (
-              <div key={component} className="summary-line is_empty">
-                <span className="slot">{component}</span>
-                <span className="part">{selectedByCategory[component] === null ? "Aucun(e)" : selectedByCategory[component].Name}</span>
-                <span className="amount">—</span>
-              </div>
-            ))}
+            {Object.keys(selectedByCategory).map(component => {
+              const isIncompatible = incompatibilities.some(issue => issue.categories.includes(component))
+              return (
+                <div key={component} className={"summary-line is_empty" + (isIncompatible ? " incompatibility" : "")}>
+                  <span className="slot">{component}</span>
+                  <span className="part">{selectedByCategory[component] === null ? "Aucun(e)" : selectedByCategory[component].Name}</span>
+                  <span className="amount">—</span>
+                </div>
+              )
+            })}
           </div>
 
           <div className="summary-total">
@@ -155,7 +194,7 @@ function App() {
 function Item_Card({ item, fields, onClick, selection }) {
   
   return (
-    <button className={"item_card" + ((selection != null ? selection.Name : "") === item.Name ? "-selected" : "")} onClick={onClick}>
+    <button className={"item_card" + ((selection != null ? selection.ID : 999999) === item.ID ? "-selected" : "")} onClick={onClick}>
 
       <div className="card_top">
         <h2>{item.Name}</h2>
@@ -179,6 +218,62 @@ function Item_Card({ item, fields, onClick, selection }) {
   )
 }
 
+function socketToken(socket) {
+  const parts = socket.trim().split(" ")
+  return parts[parts.length - 1].toUpperCase()
+}
+
+function coolerSupportsSocket(coolerText, cpuSocket) {
+  const token = socketToken(cpuSocket)
+  return coolerText.replace(/\s/g, "").toUpperCase().includes(token)
+}
+
+function normFormat(str) {
+  const n = str.toUpperCase().replace(/[^A-Z]/g, "")
+  if (n === "MATX") return "MICROATX"
+  if (n === "ITX") return "MINIITX"
+  return n
+}
+
+function caseSupportsFormat(caseFormatText, moboFormat) {
+  const list = caseFormatText.split(/[,/]| et /i).map(s => normFormat(s.trim())).filter(Boolean)
+  return list.includes(normFormat(moboFormat))
+}
+
+function getIncompatibilities(sel) {
+  const issues = []
+
+  if (sel["Processeur"] && sel["Carte mère"] && sel["Processeur"].Socket !== sel["Carte mère"].Socket) {
+    issues.push({
+      categories: ["Processeur", "Carte mère"],
+      message: "- Le socket du processeur (" + sel["Processeur"].Socket + ") ne correspond pas à celui de la carte mère (" + sel["Carte mère"].Socket + ")",
+    })
+  }
+
+  if (sel["Mémoire RAM"] && sel["Carte mère"] && sel["Mémoire RAM"]["Type de mémoire"] !== sel["Carte mère"]["Type de mémoire"]) {
+    issues.push({
+      categories: ["Mémoire RAM", "Carte mère"],
+      message: "- Le type de mémoire RAM (" + sel["Mémoire RAM"]["Type de mémoire"] + ") n'est pas compatible avec la carte mère (" + sel["Carte mère"]["Type de mémoire"] + ")",
+    })
+  }
+
+  if (sel["Refroidissement"] && sel["Processeur"] && sel["Refroidissement"]["Support du processeur"] && !coolerSupportsSocket(sel["Refroidissement"]["Support du processeur"], sel["Processeur"].Socket)) {
+    issues.push({
+      categories: ["Refroidissement", "Processeur"],
+      message: "- Le refroidisseur ne supporte pas le socket du processeur (" + sel["Processeur"].Socket + ")",
+    })
+  }
+
+  if (sel["Boîtier"] && sel["Carte mère"] && sel["Boîtier"]["Format de carte mère"] && sel["Carte mère"].Format && !caseSupportsFormat(sel["Boîtier"]["Format de carte mère"], sel["Carte mère"].Format)) {
+    issues.push({
+      categories: ["Boîtier", "Carte mère"],
+      message: "- Le format de la carte mère (" + sel["Carte mère"].Format + ") n'est pas compatible avec le boîtier",
+    })
+  }
+
+  return issues
+}
+
 function getFields(category) {
   switch (category) {
     case "Processeur":
@@ -191,7 +286,7 @@ function getFields(category) {
     case "Carte mère":
       return [
         { label: "Socket",  key: "Socket" },
-        { label: "Chipset", key: "Chipset" },
+        { label: "Slots",   key: "Nombre de slots RAM" },
         { label: "Format",  key: "Format" },
         { label: "Mémoire", key: "Type de mémoire" },
       ]
