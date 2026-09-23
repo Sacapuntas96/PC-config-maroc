@@ -1,7 +1,4 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import './App.css'
 
 import caseData from "./Data/Case_data.json"
@@ -14,229 +11,509 @@ import soundCardData from "./Data/Sound_Card_data.json"
 import ssdHddData from "./Data/SSD_&_HDD_data.json"
 import watercoolingData from "./Data/Watercooling_data.json"
 
+const dataByCategory = {
+  "Processeur": processorData,
+  "Carte mère": motherboardData,
+  "Carte graphique": gpuData,
+  "Mémoire RAM": ramData,
+  "Stockage (SSD & HDD)": ssdHddData,
+  "Alimentation": psuData,
+  "Refroidissement": watercoolingData,
+  "Boîtier": caseData,
+  "Carte son": soundCardData,
+}
+
+const CATEGORY_NAMES = Object.keys(dataByCategory)
+
+const INITIAL_SELECTION = CATEGORY_NAMES.reduce((acc, name) => {
+  acc[name] = null
+  return acc
+}, {})
+
+const PAGE_SIZE = 20
+
+const formatMAD = (n) => Math.round(n).toLocaleString("fr-FR")
+
+/* ---------- App ---------- */
+
 function App() {
-
-  const dataByCategory = {
-    "Processeur": processorData,
-    "Carte mère": motherboardData,
-    "Carte graphique": gpuData,
-    "Mémoire RAM": ramData,
-    "Stockage (SSD & HDD)": ssdHddData,
-    "Alimentation": psuData,
-    "Refroidissement": watercoolingData,
-    "Boîtier": caseData,
-    "Carte son": soundCardData,
-  }
   const [activeCategory, setActiveCategory] = useState("Processeur")
-  const [price, setPrice] = useState(0)
-  const fields = getFields(activeCategory)
+  const [selectedByCategory, setSelectedByCategory] = useState(INITIAL_SELECTION)
 
-  const [selected_processor, selectProcessor] = useState(null)
-  const [selected_motherboard, selectMotherboard] = useState(null)
-  const [selected_gpu, selectGpu] = useState(null)
-  const [selected_ram, selectRam] = useState(null)
-  const [selected_storage, selectStorage] = useState(null)
-  const [selected_psu, selectPsu] = useState(null)
-  const [selected_cooling, selectCooling] = useState(null)
-  const [selected_case, selectCase] = useState(null)
-  const [selected_soundcard, selectSoundcard] = useState(null)
-
-  const [order, changeOrder] = useState(null)
-  const [current_field, changeField] = useState(null)
-  const [page_number, changePage] = useState(0)
+  const [sortField, setSortField] = useState(null)   // a label from sortOptions
+  const [order, setOrder] = useState("ASC")
+  const [query, setQuery] = useState("")
+  const [page, setPage] = useState(0)
   const [showIssues, setShowIssues] = useState(false)
-  const MAX_PAGE = 20
+  const [showRecap, setShowRecap] = useState(false)
 
-  const selectedByCategory = {
-    "Processeur":           selected_processor,
-    "Carte mère":           selected_motherboard,
-    "Carte graphique":      selected_gpu,
-    "Mémoire RAM":          selected_ram,
-    "Stockage (SSD & HDD)": selected_storage,
-    "Alimentation":         selected_psu,
-    "Refroidissement":      selected_cooling,
-    "Boîtier":              selected_case,
-    "Carte son":            selected_soundcard,
-  }  
+  const fields = useMemo(() => getFields(activeCategory), [activeCategory])
+  const sortOptions = useMemo(() => [...fields, { label: "Prix", key: "Price" }], [fields])
 
-  const selectionMethods = {
-    "Processeur":           selectProcessor,
-    "Carte mère":           selectMotherboard,
-    "Carte graphique":      selectGpu,
-    "Mémoire RAM":          selectRam,
-    "Stockage (SSD & HDD)": selectStorage,
-    "Alimentation":         selectPsu,
-    "Refroidissement":      selectCooling,
-    "Boîtier":              selectCase,
-    "Carte son":            selectSoundcard,
-  }  
+  const incompatibilities = useMemo(
+    () => getIncompatibilities(selectedByCategory),
+    [selectedByCategory]
+  )
 
-  const incompatibilities = getIncompatibilities(selectedByCategory)
+  // Derived from the selection, so it can never drift out of sync.
+  const total = useMemo(
+    () => Object.values(selectedByCategory).reduce((sum, item) => sum + (item ? Number(item.Price) || 0 : 0), 0),
+    [selectedByCategory]
+  )
+  const selectedCount = Object.values(selectedByCategory).filter(Boolean).length
+
+  const results = useMemo(() => {
+    const q = query.trim().toLowerCase()
+    let list = dataByCategory[activeCategory]
+    if (q) list = list.filter(item => String(item.Name).toLowerCase().includes(q))
+    const sortKey = sortOptions.find(o => o.label === sortField)?.key
+    return sortKey ? sortItems(list, sortKey, order) : list
+  }, [activeCategory, query, sortField, order, sortOptions])
+
+  const pageCount = Math.max(1, Math.ceil(results.length / PAGE_SIZE))
+  const pageItems = results.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)
+  const activeSelection = selectedByCategory[activeCategory]
+
+  useEffect(() => {
+    window.scrollTo({ top: 0 })
+  }, [page, activeCategory])
+
+  function handleSelectCategory(name) {
+    setActiveCategory(name)
+    setSortField(null)
+    setOrder("ASC")
+    setQuery("")
+    setPage(0)
+  }
+
+  function handleSortClick(label) {
+    if (sortField === label) {
+      setOrder(order === "ASC" ? "DESC" : "ASC")
+    } else {
+      setSortField(label)
+      setOrder("ASC")
+    }
+    setPage(0)
+  }
+
+  function handleQuery(value) {
+    setQuery(value)
+    setPage(0)
+  }
+
+  function handleSelectItem(item) {
+    setSelectedByCategory(prev => {
+      const current = prev[activeCategory]
+      return { ...prev, [activeCategory]: current && current.ID === item.ID ? null : item }
+    })
+  }
+
+  function removeItem(category) {
+    setSelectedByCategory(prev => ({ ...prev, [category]: null }))
+  }
+
+  function resetBuild() {
+    setSelectedByCategory(INITIAL_SELECTION)
+    setShowIssues(false)
+  }
 
   return (
-    <>
-      <div className='content'>
-        <div className='left-panel'>
-          <p className="panel-label">Composants</p>
-          <div className="category-list">
-            {Object.keys(dataByCategory).map(name =>(
-              <div 
-                key={name} 
-                className={"category-item" + (name === activeCategory ? " is_active" : "")}
-                onClick={() => {
-                  setActiveCategory(name)
-                  changeField("None")
-                  changePage(0)
-                  changeField(null)
-                  changeOrder(null)
-                }}
-              >
-                <span>{name}</span>
-              </div>
-            ))}
-          </div>
+    <div className="app">
+      {/* ---------- Categories ---------- */}
+      <nav className="rail" aria-label="Catégories">
+        <div className="brand">
+          <span className="brand-name">Configurateur PC</span>
+          <span className="brand-sub">Prix en dirhams (MAD)</span>
         </div>
-        <div className='middle-panel'>
-          <h1>{dataByCategory[activeCategory].length} élément{dataByCategory[activeCategory].length << 1 ? "s" : ""} trouvé{dataByCategory[activeCategory].length << 1 ? "s" : ""} </h1>
-            <div className='buttons'>
-              <h3>Filter by : </h3>
-                {getFields(activeCategory).map(filter =>(
-
-                <button key={filter.label} className={'filtering-button' + (current_field === filter.label ? "-is-selected" : "")} onClick={() => {
-                  if(!order){
-                    changeOrder("ASC")
-                  }
-
-                  if(current_field == filter.label){
-                    if(order == "ASC"){
-                      changeOrder("DESC")
-                    }
-                    else{
-                      changeOrder("ASC")
-                    }
-                    
-                  }
-                  else{
-                    changeField(filter.label)
-                  }
-                  }}>
-                  {filter.label}
+        <ul className="rail-list">
+          {CATEGORY_NAMES.map(name => {
+            const chosen = selectedByCategory[name]
+            const conflict = incompatibilities.some(i => i.categories.includes(name))
+            return (
+              <li key={name}>
+                <button
+                  className={"rail-item" + (name === activeCategory ? " is-active" : "")}
+                  aria-current={name === activeCategory ? "true" : undefined}
+                  onClick={() => handleSelectCategory(name)}
+                >
+                  <span className="rail-name">{name}</span>
+                  {conflict
+                    ? <span className="rail-flag is-conflict" title="Incompatibilité">!</span>
+                    : chosen && <span className="rail-flag is-done" title="Choisi"><CheckIcon /></span>}
                 </button>
-              ))}
-            </div>
-            <div className="card-grid">
-              {(current_field === null ? dataByCategory[activeCategory] : sortByCategory(current_field, order, activeCategory, dataByCategory)).slice(page_number * MAX_PAGE, page_number * MAX_PAGE + MAX_PAGE).map((item, i) => (
-                <Item_Card
-                  key={item.Name + i}
-                  item={item}
-                  fields={fields}
-                  onClick={() => {
-                    if(selectedByCategory[activeCategory] == null){
-                      selectionMethods[activeCategory](item)
-                      setPrice(price + item.Price)
-                    }
-                    else if(selectedByCategory[activeCategory].ID == item.ID){
-                      setPrice(price - item.Price)
-                      selectionMethods[activeCategory](null)
-                    }
-                    else{
-                      setPrice(price - selectedByCategory[activeCategory].Price + item.Price)
-                      selectionMethods[activeCategory](item)
-                    }
-                  }}
-                  selection = {selectedByCategory[activeCategory]}
-                  
-                  
-                />
-              ))}
-            </div>
-            {dataByCategory[activeCategory].length && (
-  <div className='back-and-forth-buttons'>
-    <h3>Page {page_number + 1} / {Math.abs((parseInt(dataByCategory[activeCategory].length / MAX_PAGE) - (dataByCategory[activeCategory].length / MAX_PAGE))) > 0 ? parseInt(dataByCategory[activeCategory].length / MAX_PAGE) + 1 : parseInt(dataByCategory[activeCategory].length / MAX_PAGE)}</h3>
-    <button
-      className='page-change'
-      onClick={() => { if (page_number > 0) changePage(page_number - 1) }}
-    >
-      {'< Back'}
-    </button>
-    <button
-      className='page-change'
-      onClick={() => { if (page_number < ((dataByCategory[activeCategory].length / MAX_PAGE) - 1)) changePage(page_number + 1) }}
-    >
-      {'Forth >'}
-    </button>
-  </div>
-)}
-        </div>
-        <div className='right-panel'>
-          <p className="panel-label">Configuration</p>
-          <div className="compat-banner">
-            <span className={'compatibility-display' + (incompatibilities.length > 0 ? "-detected" : "")}>incompatibilité détectée</span>
-            {incompatibilities.length > 0 && (
-              <button className="compat-details-button" onClick={() => setShowIssues(!showIssues)}>
-                Voir : {incompatibilities.length} incompatibilité{incompatibilities.length > 1 ? "s" : ""}
-              </button>
-            )}
-            {showIssues && incompatibilities.length > 0 && (
-              <div className="compat-issues-menu">
-                {incompatibilities.map((issue, i) => (
-                  <div key={i} className="compat-issue">{issue.message}</div>
-                ))}
-              </div>
-            )}
-          </div>
-          <div className="summary-list">
-            {Object.keys(selectedByCategory).map(component => {
-              const isIncompatible = incompatibilities.some(issue => issue.categories.includes(component))
+              </li>
+            )
+          })}
+        </ul>
+      </nav>
+
+      {/* ---------- Catalogue ---------- */}
+      <main className="catalog">
+        <header className="catalog-head">
+          <h1>{activeCategory}</h1>
+          <p className="count">
+            {results.length} produit{results.length > 1 ? "s" : ""}
+          </p>
+        </header>
+
+        <div className="toolbar">
+          <label className="search">
+            <SearchIcon />
+            <input
+              type="search"
+              value={query}
+              placeholder={"Rechercher dans « " + activeCategory + " »"}
+              onChange={e => handleQuery(e.target.value)}
+            />
+          </label>
+
+          <div className="sort" role="group" aria-label="Trier par">
+            <span className="sort-label">Trier par</span>
+            {sortOptions.map(opt => {
+              const on = sortField === opt.label
               return (
-                <div key={component} className={"summary-line is_empty" + (isIncompatible ? " incompatibility" : "")}>
-                  <span className="slot">{component}</span>
-                  <span className="part">{selectedByCategory[component] === null ? "Aucun(e)" : selectedByCategory[component].Name}</span>
-                  <span className="amount">—</span>
-                </div>
+                <button
+                  key={opt.label}
+                  className={"chip" + (on ? " is-on" : "")}
+                  aria-pressed={on}
+                  onClick={() => handleSortClick(opt.label)}
+                >
+                  {opt.label}
+                  {on && <span className="chip-dir" aria-label={order === "ASC" ? "croissant" : "décroissant"}>{order === "ASC" ? "↑" : "↓"}</span>}
+                </button>
               )
             })}
           </div>
-
-          <div className="summary-total">
-            <span className="label">Total</span>
-            <span>
-              <span className="amount">{price}</span>{" "}
-              <span className="currency">MAD</span>
-            </span>
-          </div>
         </div>
-      </div>
-    </>
+
+        {pageItems.length === 0 ? (
+          <div className="empty">
+            <p>Aucun produit ne correspond à « {query} ».</p>
+            <button className="btn-ghost" onClick={() => handleQuery("")}>Effacer la recherche</button>
+          </div>
+        ) : (
+          <div className="card-grid">
+            {pageItems.map((item, i) => (
+              <ItemCard
+                key={(item.ID ?? item.Name) + "-" + i}
+                item={item}
+                fields={fields}
+                isSelected={activeSelection != null && activeSelection.ID === item.ID}
+                onClick={() => handleSelectItem(item)}
+              />
+            ))}
+          </div>
+        )}
+
+        {results.length > PAGE_SIZE && (
+          <nav className="pager" aria-label="Pagination">
+            <button className="btn-ghost" disabled={page === 0} onClick={() => setPage(page - 1)}>
+              ← Précédent
+            </button>
+            <span className="pager-info">Page {page + 1} sur {pageCount}</span>
+            <button className="btn-ghost" disabled={page >= pageCount - 1} onClick={() => setPage(page + 1)}>
+              Suivant →
+            </button>
+          </nav>
+        )}
+      </main>
+
+      {/* ---------- Configuration ---------- */}
+      <aside className="build" id="configuration" aria-label="Configuration">
+        <header className="build-head">
+          <h2>Ma configuration</h2>
+          <p>{selectedCount} sur {CATEGORY_NAMES.length} composants</p>
+        </header>
+
+        <div className={"status" + (incompatibilities.length > 0 ? " is-bad" : " is-ok")}>
+          {incompatibilities.length === 0 ? (
+            <p className="status-text">Aucune incompatibilité détectée</p>
+          ) : (
+            <>
+              <button
+                className="status-toggle"
+                aria-expanded={showIssues}
+                onClick={() => setShowIssues(!showIssues)}
+              >
+                <span>
+                  {incompatibilities.length} incompatibilité{incompatibilities.length > 1 ? "s" : ""} détectée{incompatibilities.length > 1 ? "s" : ""}
+                </span>
+                <span className="status-caret">{showIssues ? "Masquer" : "Voir"}</span>
+              </button>
+              {showIssues && (
+                <ul className="status-issues">
+                  {incompatibilities.map((issue, i) => <li key={i}>{issue.message}</li>)}
+                </ul>
+              )}
+            </>
+          )}
+        </div>
+
+        <ul className="build-list">
+          {CATEGORY_NAMES.map(category => {
+            const part = selectedByCategory[category]
+            const conflict = incompatibilities.some(i => i.categories.includes(category))
+            return (
+              <li key={category} className={"line" + (part ? "" : " is-empty") + (conflict ? " is-conflict" : "")}>
+                <button className="line-main" onClick={() => handleSelectCategory(category)}>
+                  <span className="line-slot">{category}</span>
+                  <span className="line-part">{part ? part.Name : "Aucun(e)"}</span>
+                </button>
+                {part && (
+                  <div className="line-side">
+                    <span className="line-price">{formatMAD(part.Price)}</span>
+                    <button className="line-remove" aria-label={"Retirer " + category} onClick={() => removeItem(category)}>
+                      <CloseIcon />
+                    </button>
+                  </div>
+                )}
+              </li>
+            )
+          })}
+        </ul>
+
+        <footer className="build-total">
+          <div className="total-row">
+            <div>
+              <span className="total-label">Total</span>
+              <span className="total-value">
+                {formatMAD(total)} <span className="total-cur">MAD</span>
+              </span>
+            </div>
+            {selectedCount > 0 && (
+              <button className="btn-reset" onClick={resetBuild}>Tout retirer</button>
+            )}
+          </div>
+          <button
+            className="btn-finish"
+            disabled={selectedCount === 0}
+            onClick={() => setShowRecap(true)}
+          >
+            Terminer la configuration
+          </button>
+        </footer>
+      </aside>
+
+      {/* Small screens: the panel sits below the catalogue, this bar links to it */}
+      <a className="mobile-total" href="#configuration">
+        <span>{selectedCount}/{CATEGORY_NAMES.length} composants</span>
+        <strong>{formatMAD(total)} MAD</strong>
+      </a>
+
+      <RecapDialog
+        open={showRecap}
+        onClose={() => setShowRecap(false)}
+        selection={selectedByCategory}
+        incompatibilities={incompatibilities}
+        total={total}
+        selectedCount={selectedCount}
+      />
+    </div>
   )
 }
 
-function Item_Card({ item, fields, onClick, selection }) {
-  
+/* ---------- Recap dialog ---------- */
+
+function RecapDialog({ open, onClose, selection, incompatibilities, total, selectedCount }) {
+  const ref = useRef(null)
+
+  // The native <dialog> handles focus trapping and the Escape key for us.
+  useEffect(() => {
+    const dialog = ref.current
+    if (!dialog) return
+    if (open && !dialog.open) dialog.showModal()
+    if (!open && dialog.open) dialog.close()
+  }, [open])
+
+  const today = new Date()
+  const dateLabel = today.toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" })
+
+  function handleSave() {
+    const text = buildRecapText(selection, incompatibilities, total, today)
+    downloadTextFile(text, "configuration-pc-" + today.toLocaleDateString("sv-SE") + ".txt")
+  }
+
   return (
-    <button className={"item_card" + ((selection != null ? selection.ID : 999999) === item.ID ? "-selected" : "")} onClick={onClick}>
+    <dialog
+      ref={ref}
+      className="recap"
+      aria-labelledby="recap-title"
+      onClose={onClose}
+      onClick={e => { if (e.target === ref.current) onClose() }}   // click on the backdrop
+    >
+      <header className="recap-head">
+        <div>
+          <h2 id="recap-title">Récapitulatif de ma configuration</h2>
+          <p>{dateLabel} · {selectedCount} sur {CATEGORY_NAMES.length} composants</p>
+        </div>
+        <button className="recap-close" aria-label="Fermer" onClick={onClose}>
+          <CloseIcon />
+        </button>
+      </header>
 
-      <div className="card_top">
-        <h2>{item.Name}</h2>
-        <span className="arrow">+</span>
-      </div>
-
-      <div className="card_stats">
-        {fields.map(f => (
-          <div className="stat" key={f.key}>
-            <strong>{item[f.key] || "Non-Specified"}</strong>
-            <span>{f.label}</span>
+      <div className="recap-body">
+        {incompatibilities.length > 0 && (
+          <div className="recap-warning" role="alert">
+            <strong>
+              {incompatibilities.length} incompatibilité{incompatibilities.length > 1 ? "s" : ""} à corriger
+            </strong>
+            <ul>
+              {incompatibilities.map((issue, i) => <li key={i}>{issue.message}</li>)}
+            </ul>
           </div>
-        ))}
+        )}
+
+        <ul className="recap-list">
+          {CATEGORY_NAMES.map(category => {
+            const part = selection[category]
+            const conflict = incompatibilities.some(i => i.categories.includes(category))
+            return (
+              <li key={category} className={"recap-line" + (part ? "" : " is-empty") + (conflict ? " is-conflict" : "")}>
+                <span className="recap-slot">{category}</span>
+                <span className="recap-part">{part ? part.Name : "Non choisi"}</span>
+                <span className="recap-price">{part ? formatMAD(part.Price) + " MAD" : ""}</span>
+              </li>
+            )
+          })}
+        </ul>
+
+        <div className="recap-total">
+          <span>Total</span>
+          <strong>{formatMAD(total)} <small>MAD</small></strong>
+        </div>
       </div>
 
-      <div className="card_bottom">
-        <span className="price">{item.Price} DH</span>
-      </div>
+      <footer className="recap-actions">
+        <button className="btn-ghost" onClick={onClose}>Modifier</button>
+        <button className="btn-save" onClick={handleSave}>
+          <DownloadIcon /> Enregistrer en .txt
+        </button>
+      </footer>
+    </dialog>
+  )
+}
 
+// Plain-text version of the recap, for the downloaded file.
+function buildRecapText(selection, issues, total, date) {
+  const rule = "-".repeat(48)
+  const count = Object.values(selection).filter(Boolean).length
+  const lines = [
+    "CONFIGURATION PC",
+    rule,
+    "Date : " + date.toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" }),
+    "Composants choisis : " + count + " sur " + CATEGORY_NAMES.length,
+    "",
+  ]
+
+  CATEGORY_NAMES.forEach(category => {
+    const part = selection[category]
+    lines.push(category)
+    if (part) {
+      lines.push("  " + part.Name)
+      lines.push("  Prix : " + formatPlain(part.Price) + " MAD")
+    } else {
+      lines.push("  Non choisi")
+    }
+    lines.push("")
+  })
+
+  lines.push(rule, "TOTAL : " + formatPlain(total) + " MAD")
+
+  if (issues.length > 0) {
+    lines.push("", "Incompatibilités détectées :")
+    issues.forEach(issue => lines.push("- " + issue.message))
+  }
+
+  return lines.join("\r\n") + "\r\n"
+}
+
+// fr-FR formatting uses narrow no-break spaces, which some text editors show as odd characters.
+const formatPlain = (n) => formatMAD(n).replace(/[\u202f\u00a0]/g, " ")
+
+function downloadTextFile(text, filename) {
+  // The BOM makes Windows Notepad read the accents as UTF-8.
+  const blob = new Blob(["\uFEFF" + text], { type: "text/plain;charset=utf-8" })
+  const url = URL.createObjectURL(blob)
+  const link = document.createElement("a")
+  link.href = url
+  link.download = filename
+  document.body.appendChild(link)
+  link.click()
+  link.remove()
+  URL.revokeObjectURL(url)
+}
+
+/* ---------- Card ---------- */
+
+function ItemCard({ item, fields, isSelected, onClick }) {
+  return (
+    <button
+      className={"card" + (isSelected ? " is-selected" : "")}
+      aria-pressed={isSelected}
+      onClick={onClick}
+    >
+      <h2 className="card-name">{item.Name}</h2>
+
+      <dl className="card-specs">
+        {fields.map(f => {
+          const value = item[f.key]
+          return (
+            <div className="spec" key={f.key}>
+              <dt>{f.label}</dt>
+              <dd className={value ? "" : "is-missing"}>{value || "Non spécifié"}</dd>
+            </div>
+          )
+        })}
+      </dl>
+
+      <div className="card-foot">
+        <span className="card-price">
+          {formatMAD(item.Price)} <span className="card-cur">MAD</span>
+        </span>
+        <span className="card-action">
+          {isSelected ? <><CheckIcon /> Choisi</> : "Ajouter"}
+        </span>
+      </div>
     </button>
   )
 }
+
+/* ---------- Icons ---------- */
+
+function CheckIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+      <path d="M3 8.5l3.2 3L13 4.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
+function CloseIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+      <path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+    </svg>
+  )
+}
+
+function DownloadIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+      <path d="M8 2v8M4.5 7L8 10.5 11.5 7M3 13.5h10" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
+function SearchIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+      <circle cx="7" cy="7" r="4.5" stroke="currentColor" strokeWidth="1.6" />
+      <path d="M10.5 10.5L14 14" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+    </svg>
+  )
+}
+
+/* ---------- Compatibility ---------- */
 
 function socketToken(socket) {
   const parts = socket.trim().split(" ")
@@ -266,33 +543,35 @@ function getIncompatibilities(sel) {
   if (sel["Processeur"] && sel["Carte mère"] && sel["Processeur"].Socket !== sel["Carte mère"].Socket) {
     issues.push({
       categories: ["Processeur", "Carte mère"],
-      message: "- Le socket du processeur (" + sel["Processeur"].Socket + ") ne correspond pas à celui de la carte mère (" + sel["Carte mère"].Socket + ")",
+      message: "Le socket du processeur (" + sel["Processeur"].Socket + ") ne correspond pas à celui de la carte mère (" + sel["Carte mère"].Socket + ")",
     })
   }
 
   if (sel["Mémoire RAM"] && sel["Carte mère"] && sel["Mémoire RAM"]["Type de mémoire"] !== sel["Carte mère"]["Type de mémoire"]) {
     issues.push({
       categories: ["Mémoire RAM", "Carte mère"],
-      message: "- Le type de mémoire RAM (" + sel["Mémoire RAM"]["Type de mémoire"] + ") n'est pas compatible avec la carte mère (" + sel["Carte mère"]["Type de mémoire"] + ")",
+      message: "Le type de mémoire RAM (" + sel["Mémoire RAM"]["Type de mémoire"] + ") n'est pas compatible avec la carte mère (" + sel["Carte mère"]["Type de mémoire"] + ")",
     })
   }
 
   if (sel["Refroidissement"] && sel["Processeur"] && sel["Refroidissement"]["Support du processeur"] && !coolerSupportsSocket(sel["Refroidissement"]["Support du processeur"], sel["Processeur"].Socket)) {
     issues.push({
       categories: ["Refroidissement", "Processeur"],
-      message: "- Le refroidisseur ne supporte pas le socket du processeur (" + sel["Processeur"].Socket + ")",
+      message: "Le refroidisseur ne supporte pas le socket du processeur (" + sel["Processeur"].Socket + ")",
     })
   }
 
   if (sel["Boîtier"] && sel["Carte mère"] && sel["Boîtier"]["Format de carte mère"] && sel["Carte mère"].Format && !caseSupportsFormat(sel["Boîtier"]["Format de carte mère"], sel["Carte mère"].Format)) {
     issues.push({
       categories: ["Boîtier", "Carte mère"],
-      message: "- Le format de la carte mère (" + sel["Carte mère"].Format + ") n'est pas compatible avec le boîtier",
+      message: "Le format de la carte mère (" + sel["Carte mère"].Format + ") n'est pas compatible avec le boîtier",
     })
   }
 
   return issues
 }
+
+/* ---------- Fields & sorting ---------- */
 
 function getFields(category) {
   switch (category) {
@@ -357,29 +636,23 @@ function getFields(category) {
   }
 }
 
-function sortByCategory(field_name, sorting_order, activeCategory, dataByCategory) {
-  const fieldsList = getFields(activeCategory)
-  const fieldObj = fieldsList.find(f => f.label === field_name)
-  if (!fieldObj) return dataByCategory[activeCategory]
-  const field = fieldObj.key
-
-  const elements = [...dataByCategory[activeCategory]]
-  const dir = sorting_order === "DESC" ? -1 : 1
+function sortItems(items, key, sortingOrder) {
+  const dir = sortingOrder === "DESC" ? -1 : 1
 
   const toComparable = (val) => {
-    if (val == null) return null
+    if (val == null || val === "") return null
     const match = String(val).match(/-?\d+(\.\d+)?/)
     return match ? parseFloat(match[0]) : String(val).toLowerCase()
   }
 
-  return elements.sort((a, b) => {
-    const va = toComparable(a[field])
-    const vb = toComparable(b[field])
-    if (va == null) return 1
+  return [...items].sort((a, b) => {
+    const va = toComparable(a[key])
+    const vb = toComparable(b[key])
+    if (va == null && vb == null) return 0
+    if (va == null) return 1      // missing values always go last
     if (vb == null) return -1
-    if (va > vb) return dir
-    if (va < vb) return -dir
-    return 0
+    if (typeof va === "number" && typeof vb === "number") return (va - vb) * dir
+    return String(va).localeCompare(String(vb)) * dir
   })
 }
 
