@@ -1,6 +1,7 @@
 [
     {
         "Name": "MSI A520M-A PRO",
+        "URL": "https://www.ultrapc.ma/socket-am4/4721-msi-a520m-a-pro.html",
         "Socket": "AMD AM4",
         "Chipset": "AMD A520",
         "Nombre de slots RAM": "2",
@@ -9,10 +10,11 @@
         "Wi-Fi": "Non",
         "Marque": "MSI",
         "Price": 649.0,
-        "ID": 135
+        "ID": 40
     },
     {
         "Name": "MSI B550M PRO-VDH",
+        "URL": "https://www.ultrapc.ma/socket-am4/4187-msi-b550m-pro-vdh.html",
         "Socket": "AMD AM4",
         "Chipset": "AMD B550",
         "Nombre de slots RAM": "4",
@@ -21,10 +23,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tMSI",
         "Price": 999.0,
-        "ID": 136
+        "ID": 41
     },
     {
         "Name": "ASUS PRIME B550M-K",
+        "URL": "https://www.ultrapc.ma/socket-am4/3947-asus-prime-b550m-k.html",
         "Socket": "AMD AM4",
         "Chipset": "AMD B550",
         "Nombre de slots RAM": "4",
@@ -33,10 +36,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Price": 999.0,
-        "ID": 137
+        "ID": 42
     },
     {
         "Name": "Gigabyte H610M K DDR4",
+        "URL": "https://www.ultrapc.ma/socket-1700/7784-gigabyte-h610m-k-ddr4.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel H610 Express",
         "Nombre de slots RAM": "2",
@@ -45,10 +49,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tGigabyte",
         "Price": 799.0,
-        "ID": 138
+        "ID": 43
     },
     {
         "Name": "MSI PRO B760M-P",
+        "URL": "https://www.ultrapc.ma/socket-1700/7204-msi-pro-b760m-p.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel B760 Express",
         "Nombre de slots RAM": "4",
@@ -57,10 +62,11 @@
         "Wi-Fi": "Non",
         "Marque": "MSI",
         "Price": 1349.0,
-        "ID": 139
+        "ID": 44
     },
     {
         "Name": "MSI B550M-A PRO",
+        "URL": "https://www.ultrapc.ma/socket-am4/4188-msi-b550m-a-pro.html",
         "Socket": "AMD AM4",
         "Chipset": "AMD B550",
         "Nombre de slots RAM": "2",
@@ -69,10 +75,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tMSI",
         "Price": 949.0,
-        "ID": 140
+        "ID": 45
     },
     {
         "Name": "ASRock B550 Phantom Gaming 4",
+        "URL": "https://www.ultrapc.ma/socket-am4/7208-asrock-b550-phantom-gaming-4.html",
         "Socket": "AMD AM4",
         "Chipset": "AMD B550",
         "Nombre de slots RAM": "4",
@@ -81,10 +88,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASRock",
         "Price": 1199.0,
-        "ID": 141
+        "ID": 46
     },
     {
         "Name": "Gigabyte B850M D3HP",
+        "URL": "https://www.ultrapc.ma/socket-am5/11768-gigabyte-b850m-d3hp.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -93,22 +101,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tGigabyte",
         "Price": 1799.0,
-        "ID": 142
-    },
-    {
-        "Name": "MSI B550M PRO-VDH WIFI",
-        "Socket": "AMD AM4",
-        "Chipset": "AMD B550",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 1349.0,
-        "ID": 143
+        "ID": 47
     },
     {
         "Name": "MSI B850 GAMING PLUS WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/9815-msi-b850-gaming-plus-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -117,10 +114,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tMSI",
         "Price": 2499.0,
-        "ID": 144
+        "ID": 48
     },
     {
         "Name": "MSI MAG B850 TOMAHAWK MAX WIFI II",
+        "URL": "https://www.ultrapc.ma/socket-am5/12098-msi-mag-b850-tomahawk-max-wifi-ii.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -129,10 +127,24 @@
         "Wi-Fi": "Oui",
         "Marque": "\tMSI",
         "Price": 3599.0,
-        "ID": 145
+        "ID": 49
+    },
+    {
+        "Name": "MSI B550M PRO-VDH WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am4/5696-msi-b550m-pro-vdh-wifi.html",
+        "Socket": "AMD AM4",
+        "Chipset": "AMD B550",
+        "Nombre de slots RAM": "4",
+        "Format": "Micro ATX",
+        "Type de mémoire": "DDR4",
+        "Wi-Fi": "Oui",
+        "Marque": "\tMSI",
+        "Price": 1349.0,
+        "ID": 50
     },
     {
         "Name": "ASRock B550M-HDV",
+        "URL": "https://www.ultrapc.ma/socket-am4/7246-asrock-b550m-hdv.html",
         "Socket": "AMD AM4",
         "Chipset": "AMD B550",
         "Nombre de slots RAM": "2",
@@ -141,10 +153,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASRock",
         "Price": 949.0,
-        "ID": 146
+        "ID": 51
     },
     {
         "Name": "ASUS PRIME B850M-K",
+        "URL": "https://www.ultrapc.ma/socket-am5/11969-asus-prime-b850m-k.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "2",
@@ -153,10 +166,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Price": 1699.0,
-        "ID": 147
+        "ID": 52
     },
     {
         "Name": "MSI PRO H610M-E DDR5",
+        "URL": "https://www.ultrapc.ma/socket-1700/11391-msi-pro-h610m-e-ddr5.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel H610 Express",
         "Nombre de slots RAM": "2",
@@ -165,10 +179,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tMSI",
         "Price": 999.0,
-        "ID": 148
+        "ID": 53
     },
     {
         "Name": "MSI B850 GAMING PLUS WIFI6E",
+        "URL": "https://www.ultrapc.ma/socket-am5/12097-msi-b850-gaming-plus-wifi6e.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -177,22 +192,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tMSI",
         "Price": 2199.0,
-        "ID": 149
-    },
-    {
-        "Name": "Gigabyte B550M DS3H R2",
-        "Socket": "AMD AM4",
-        "Chipset": "AMD B550",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Non",
-        "Marque": "\tGigabyte",
-        "Price": 999.0,
-        "ID": 150
+        "ID": 54
     },
     {
         "Name": "MSI PRO B850-P WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/10399-msi-pro-b850-p-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -201,10 +205,24 @@
         "Wi-Fi": "Oui",
         "Marque": "\tMSI",
         "Price": 2299.0,
-        "ID": 151
+        "ID": 55
+    },
+    {
+        "Name": "Gigabyte B550M DS3H R2",
+        "URL": "https://www.ultrapc.ma/socket-am4/11322-gigabyte-b550m-ds3h-r2.html",
+        "Socket": "AMD AM4",
+        "Chipset": "AMD B550",
+        "Nombre de slots RAM": "4",
+        "Format": "Micro ATX",
+        "Type de mémoire": "DDR4",
+        "Wi-Fi": "Non",
+        "Marque": "\tGigabyte",
+        "Price": 999.0,
+        "ID": 56
     },
     {
         "Name": "Gigabyte Z790 D AX",
+        "URL": "https://www.ultrapc.ma/socket-1700/9992-gigabyte-z790-d-ax.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel Z790 Express",
         "Nombre de slots RAM": "4",
@@ -213,22 +231,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tGigabyte",
         "Price": 2349.0,
-        "ID": 152
-    },
-    {
-        "Name": "ASUS PRIME B550-PLUS",
-        "Socket": "AMD AM4",
-        "Chipset": "AMD B550",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Non",
-        "Marque": "ASUS",
-        "Price": 1499.0,
-        "ID": 153
+        "ID": 57
     },
     {
         "Name": "ASUS PRIME A520M-R",
+        "URL": "https://www.ultrapc.ma/socket-am4/12117-asus-prime-a520m-r.html",
         "Socket": "AMD AM4",
         "Chipset": "AMD A520",
         "Nombre de slots RAM": "2",
@@ -237,10 +244,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Price": 659.0,
-        "ID": 154
+        "ID": 58
     },
     {
         "Name": "ASRock B850M Pro-A",
+        "URL": "https://www.ultrapc.ma/socket-am5/11762-asrock-b850m-pro-a.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -249,10 +257,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASRock",
         "Price": 1599.0,
-        "ID": 155
+        "ID": 59
     },
     {
         "Name": "Gigabyte X870 GAMING WIFI6",
+        "URL": "https://www.ultrapc.ma/socket-am5/9621-gigabyte-x870-gaming-wifi6.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870",
         "Nombre de slots RAM": "4",
@@ -261,10 +270,11 @@
         "Wi-Fi": "Oui",
         "Marque": "Gigabyte",
         "Price": 2899.0,
-        "ID": 156
+        "ID": 60
     },
     {
         "Name": "GIGABYTE B550M K",
+        "URL": "https://www.ultrapc.ma/socket-am4/7786-gigabyte-b550m-k.html",
         "Socket": "AMD AM4",
         "Chipset": "AMD B550",
         "Nombre de slots RAM": "4",
@@ -273,10 +283,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tGigabyte",
         "Price": 949.0,
-        "ID": 157
+        "ID": 61
     },
     {
         "Name": "GIGABYTE A520M K V2",
+        "URL": "https://www.ultrapc.ma/socket-am4/7785-gigabyte-a520m-k-v2.html",
         "Socket": "AMD AM4",
         "Chipset": "AMD A520",
         "Nombre de slots RAM": "2",
@@ -285,10 +296,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tGigabyte",
         "Price": 649.0,
-        "ID": 158
+        "ID": 62
     },
     {
         "Name": "ASRock B650M-H/M.2+",
+        "URL": "https://www.ultrapc.ma/socket-am5/7377-asrock-b650m-h-m2.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B650",
         "Nombre de slots RAM": "2",
@@ -297,22 +309,24 @@
         "Wi-Fi": "Non",
         "Marque": "ASRock",
         "Price": 1249.0,
-        "ID": 159
+        "ID": 63
     },
     {
-        "Name": "MSI PRO B760M-E  DDR4",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
+        "Name": "ASUS PRIME B550-PLUS",
+        "URL": "https://www.ultrapc.ma/socket-am4/3709-asus-prime-b550-plus.html",
+        "Socket": "AMD AM4",
+        "Chipset": "AMD B550",
+        "Nombre de slots RAM": "4",
+        "Format": "ATX",
         "Type de mémoire": "DDR4",
         "Wi-Fi": "Non",
-        "Marque": "\tMSI",
-        "Price": 999.0,
-        "ID": 160
+        "Marque": "ASUS",
+        "Price": 1499.0,
+        "ID": 64
     },
     {
         "Name": "ASRock B850 Pro RS",
+        "URL": "https://www.ultrapc.ma/socket-am5/11769-asrock-b850-pro-rs.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -321,10 +335,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASRock",
         "Price": 1999.0,
-        "ID": 161
+        "ID": 65
     },
     {
         "Name": "ASRock B850M-X R2.0",
+        "URL": "https://www.ultrapc.ma/socket-am5/11765-asrock-b850m-x-r20.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "2",
@@ -332,10 +347,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASRock",
         "Price": 1599.0,
-        "ID": 162
+        "ID": 66
     },
     {
         "Name": "MSI PRO B840M-B",
+        "URL": "https://www.ultrapc.ma/socket-am5/11665-msi-pro-b840m-b.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B840",
         "Nombre de slots RAM": "2",
@@ -344,10 +360,24 @@
         "Wi-Fi": "Non",
         "Marque": "\tMSI",
         "Price": 1149.0,
-        "ID": 163
+        "ID": 67
+    },
+    {
+        "Name": "MSI PRO H610M-G DDR5",
+        "URL": "https://www.ultrapc.ma/socket-1700/10704-msi-pro-h610m-g-ddr5.html",
+        "Socket": "Intel 1700",
+        "Chipset": "Intel H610 Express",
+        "Nombre de slots RAM": "2",
+        "Format": "Micro ATX",
+        "Type de mémoire": "DDR5",
+        "Wi-Fi": "Non",
+        "Marque": "\tMSI",
+        "Price": 1149.0,
+        "ID": 68
     },
     {
         "Name": "MSI B840 GAMING PLUS WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/9816-msi-b840-gaming-plus-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B840",
         "Nombre de slots RAM": "4",
@@ -356,34 +386,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tMSI",
         "Price": 2149.0,
-        "ID": 164
-    },
-    {
-        "Name": "Gigabyte B850M AORUS ELITE WIFI6E",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B850",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 2899.0,
-        "ID": 165
-    },
-    {
-        "Name": "MSI PRO H610M-G DDR5",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel H610 Express",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "\tMSI",
-        "Price": 1149.0,
-        "ID": 166
+        "ID": 69
     },
     {
         "Name": "Gigabyte X870 AORUS ELITE WIFI7",
+        "URL": "https://www.ultrapc.ma/socket-am5/8792-gigabyte-x870-aorus-elite-wifi7.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870",
         "Nombre de slots RAM": "4",
@@ -392,10 +399,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tGigabyte",
         "Price": 3899.0,
-        "ID": 167
+        "ID": 70
     },
     {
         "Name": "ASUS PRIME A620M-K",
+        "URL": "https://www.ultrapc.ma/socket-am5/12118-asus-prime-a620m-k.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD A620",
         "Nombre de slots RAM": "2",
@@ -404,10 +412,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Price": 1099.0,
-        "ID": 168
+        "ID": 71
     },
     {
         "Name": "MSI B550 GAMING WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am4/12096-msi-b550-gaming-wifi.html",
         "Socket": "AMD AM4",
         "Chipset": "AMD B550",
         "Nombre de slots RAM": "4",
@@ -416,10 +425,24 @@
         "Wi-Fi": "Oui",
         "Marque": "\tMSI",
         "Price": 1649.0,
-        "ID": 169
+        "ID": 72
+    },
+    {
+        "Name": "MSI PRO B760M-E  DDR4",
+        "URL": "https://www.ultrapc.ma/socket-1700/11871-msi-pro-b760m-e-ddr4.html",
+        "Socket": "Intel 1700",
+        "Chipset": "Intel B760 Express",
+        "Nombre de slots RAM": "2",
+        "Format": "Micro ATX",
+        "Type de mémoire": "DDR4",
+        "Wi-Fi": "Non",
+        "Marque": "\tMSI",
+        "Price": 999.0,
+        "ID": 73
     },
     {
         "Name": "MSI PRO X870E-P WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/11775-msi-pro-x870e-p-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870E",
         "Nombre de slots RAM": "4",
@@ -428,10 +451,24 @@
         "Wi-Fi": "Oui",
         "Marque": "\tMSI",
         "Price": 3399.0,
-        "ID": 170
+        "ID": 74
+    },
+    {
+        "Name": "Gigabyte B850M AORUS ELITE WIFI6E",
+        "URL": "https://www.ultrapc.ma/socket-am5/11376-gigabyte-b850m-aorus-elite-wifi6e-.html",
+        "Socket": "AMD AM5",
+        "Chipset": "AMD B850",
+        "Nombre de slots RAM": "4",
+        "Format": "Micro ATX",
+        "Type de mémoire": "DDR5",
+        "Wi-Fi": "Oui",
+        "Marque": "\tGigabyte",
+        "Price": 2899.0,
+        "ID": 75
     },
     {
         "Name": "Gigabyte B650M AORUS ELITE",
+        "URL": "https://www.ultrapc.ma/socket-am5/11375-gigabyte-b650m-aorus-elite-.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B650",
         "Nombre de slots RAM": "4",
@@ -440,10 +477,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tGigabyte",
         "Price": 2049.0,
-        "ID": 171
+        "ID": 76
     },
     {
         "Name": "MSI PRO H610M-E DDR4",
+        "URL": "https://www.ultrapc.ma/socket-1700/5698-msi-pro-h610m-e-ddr4.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel H610 Express",
         "Nombre de slots RAM": "2",
@@ -452,10 +490,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tMSI",
         "Price": 729.0,
-        "ID": 172
+        "ID": 77
     },
     {
         "Name": "Gigabyte X870E AORUS PRO X3D",
+        "URL": "https://www.ultrapc.ma/socket-am5/12245-gigabyte-x870e-aorus-pro-x3d.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870E",
         "Nombre de slots RAM": "4",
@@ -464,10 +503,11 @@
         "Wi-Fi": "Oui",
         "Marque": "Gigabyte",
         "Price": 5399.0,
-        "ID": 173
+        "ID": 78
     },
     {
         "Name": "Gigabyte B650M D3HP 1.0",
+        "URL": "https://www.ultrapc.ma/socket-am5/11977-gigabyte-b650m-d3hp-10.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B650",
         "Nombre de slots RAM": "4",
@@ -476,10 +516,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tGigabyte",
         "Price": 1659.0,
-        "ID": 174
+        "ID": 79
     },
     {
         "Name": "ASUS PRIME X870-P WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/11952-asus-prime-x870-p-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870",
         "Nombre de slots RAM": "4",
@@ -488,10 +529,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 3399.0,
-        "ID": 175
+        "ID": 80
     },
     {
         "Name": "ASRock B650M PG Lightning",
+        "URL": "https://www.ultrapc.ma/socket-am5/11759--asrock-b650m-pg-lightning.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B650",
         "Nombre de slots RAM": "4",
@@ -500,10 +542,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASRock",
         "Price": 1599.0,
-        "ID": 176
+        "ID": 81
     },
     {
         "Name": "MSI MPG X870E CARBON WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/10325-msi-mpg-x870e-carbon-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870E",
         "Nombre de slots RAM": "4",
@@ -512,10 +555,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tMSI",
         "Price": 6399.0,
-        "ID": 177
+        "ID": 82
     },
     {
         "Name": "Gigabyte Z790 EAGLE",
+        "URL": "https://www.ultrapc.ma/socket-1700/10021-gigabyte-z790-eagle.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel Z790 Express",
         "Nombre de slots RAM": "4",
@@ -524,10 +568,11 @@
         "Wifi": "Non",
         "Marque": "\tGigabyte",
         "Price": 2349.0,
-        "ID": 178
+        "ID": 83
     },
     {
         "Name": "MSI MPG B850 EDGE TI WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/9818-msi-mpg-b850-edge-ti-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -536,10 +581,11 @@
         "Wi-Fi": "Oui",
         "Marque": "MSI",
         "Price": 3799.0,
-        "ID": 179
+        "ID": 84
     },
     {
         "Name": "MSI MPG X870E EDGE TI WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/9812-msi-mpg-x870e-edge-ti-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870E",
         "Nombre de slots RAM": "4",
@@ -548,10 +594,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tMSI",
         "Price": 3999.0,
-        "ID": 180
+        "ID": 85
     },
     {
         "Name": "Gigabyte H610M H V2",
+        "URL": "https://www.ultrapc.ma/socket-1700/9053-gigabyte-h610m-h-v2.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel H610 Express",
         "Nombre de slots RAM": "2",
@@ -560,10 +607,11 @@
         "Wi-Fi": "Non",
         "Bluetooth": "Non",
         "Price": 949.0,
-        "ID": 181
+        "ID": 86
     },
     {
         "Name": "Gigabyte X870 EAGLE WIFI7",
+        "URL": "https://www.ultrapc.ma/socket-am5/8793-gigabyte-x870-eagle-wifi7.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870",
         "Nombre de slots RAM": "4",
@@ -572,10 +620,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tMSI",
         "Price": 3049.0,
-        "ID": 182
+        "ID": 87
     },
     {
         "Name": "MSI B760 GAMING PLUS WIFI",
+        "URL": "https://www.ultrapc.ma/socket-1700/5678-msi-b760-gaming-plus-wifi.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel B760 Express",
         "Nombre de slots RAM": "4",
@@ -584,10 +633,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tMSI",
         "Price": 2049.0,
-        "ID": 183
+        "ID": 88
     },
     {
         "Name": "Gigabyte X870E AORUS ELITE WIFI7 ICE",
+        "URL": "https://www.ultrapc.ma/socket-am5/12247-gigabyte-x870e-aorus-elite-wifi7-ice.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870E",
         "Nombre de slots RAM": "4",
@@ -596,10 +646,11 @@
         "Wi-Fi": "Oui",
         "Marque": "Gigabyte",
         "Price": 4199.0,
-        "ID": 184
+        "ID": 89
     },
     {
         "Name": "ASUS PRIME B760M-R D4",
+        "URL": "https://www.ultrapc.ma/socket-1700/11946-asus-prime-b760m-r-d4.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel B760 Express",
         "Nombre de slots RAM": "2",
@@ -608,10 +659,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Price": 999.0,
-        "ID": 185
+        "ID": 90
     },
     {
         "Name": "Gigabyte B650E EAGLE WIFI6E",
+        "URL": "https://www.ultrapc.ma/socket-am5/11374-gigabyte-b650e-eagle-wifi6e-10.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B650E",
         "Nombre de slots RAM": "4",
@@ -620,10 +672,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tGigabyte",
         "Price": 2349.0,
-        "ID": 186
+        "ID": 91
     },
     {
         "Name": "Gigabyte Z790 D",
+        "URL": "https://www.ultrapc.ma/socket-1700/10698-gigabyte-z790-d.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel Z790 Express",
         "Nombre de slots RAM": "4",
@@ -631,10 +684,11 @@
         "Type de mémoire": "DDR5",
         "Wi-Fi": "Non",
         "Price": 2199.0,
-        "ID": 187
+        "ID": 92
     },
     {
         "Name": "ASUS PRIME X870-P",
+        "URL": "https://www.ultrapc.ma/socket-am5/9928-asus-prime-x870-p.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870",
         "Nombre de slots RAM": "4",
@@ -643,10 +697,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Price": 2899.0,
-        "ID": 188
+        "ID": 93
     },
     {
         "Name": "ASUS PRIME Z890-P",
+        "URL": "https://www.ultrapc.ma/socket-1851/9787-asus-prime-z890-p.html",
         "Socket": "Intel 1851",
         "Chipset": "Intel Z890",
         "Nombre de slots RAM": "4",
@@ -655,10 +710,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Price": 2899.0,
-        "ID": 189
+        "ID": 94
     },
     {
         "Name": "Gigabyte X870 AORUS ELITE WIFI7 ICE",
+        "URL": "https://www.ultrapc.ma/socket-am5/9620-gigabyte-x870-aorus-elite-wifi7-ice.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870",
         "Nombre de slots RAM": "4",
@@ -667,10 +723,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tGigabyte",
         "Price": 3899.0,
-        "ID": 190
+        "ID": 95
     },
     {
         "Name": "Gigabyte X870 GAMING X WIFI7",
+        "URL": "https://www.ultrapc.ma/socket-am5/8794-gigabyte-x870-gaming-x-wifi7.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870",
         "Nombre de slots RAM": "4",
@@ -679,10 +736,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tMSI",
         "Price": 3249.0,
-        "ID": 191
+        "ID": 96
     },
     {
         "Name": "Gigabyte X870E AORUS PRO X3D ICE",
+        "URL": "https://www.ultrapc.ma/socket-am5/12244-gigabyte-x870e-aorus-pro-x3d-ice.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870E",
         "Nombre de slots RAM": "4",
@@ -691,10 +749,11 @@
         "Wi-Fi": "Oui",
         "Marque": "Gigabyte",
         "Price": 5149.0,
-        "ID": 192
+        "ID": 97
     },
     {
         "Name": "ASUS TUF GAMING B850M-PLUS II",
+        "URL": "https://www.ultrapc.ma/socket-am5/11988-asus-tuf-gaming-b850m-plus-ii.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -703,10 +762,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Price": 2799.0,
-        "ID": 193
+        "ID": 98
     },
     {
         "Name": "ASUS X870 MAX GAMING WIFI7",
+        "URL": "https://www.ultrapc.ma/socket-am5/11973-asus-x870-max-gaming-wifi7.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870",
         "Nombre de slots RAM": "4",
@@ -715,10 +775,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 3199.0,
-        "ID": 194
+        "ID": 99
     },
     {
         "Name": "ASUS PRIME B840-PLUS WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/11962-asus-prime-b840-plus-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B840",
         "Nombre de slots RAM": "4",
@@ -727,10 +788,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 2199.0,
-        "ID": 195
+        "ID": 100
     },
     {
         "Name": "ASUS ROG STRIX B650-A GAMING WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/11943-asus-rog-strix-b650-a-gaming-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B650",
         "Nombre de slots RAM": "4",
@@ -739,10 +801,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 3499.0,
-        "ID": 196
+        "ID": 101
     },
     {
         "Name": "ASUS TUF GAMING B850M-PLUS WIFI7",
+        "URL": "https://www.ultrapc.ma/socket-am5/11937-asus-tuf-gaming-b850m-plus-wifi7.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -751,10 +814,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 3149.0,
-        "ID": 197
+        "ID": 102
     },
     {
         "Name": "GIGABYTE B650M D3HP AX",
+        "URL": "https://www.ultrapc.ma/socket-am5/10695-gigabyte-b650m-d3hp-ax.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B650",
         "Nombre de slots RAM": "4",
@@ -763,10 +827,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tGigabyte",
         "Price": 1649.0,
-        "ID": 198
+        "ID": 103
     },
     {
         "Name": "Gigabyte X870E AORUS ELITE WIFI7",
+        "URL": "https://www.ultrapc.ma/socket-am5/9619-gigabyte-x870e-aorus-elite-wifi7.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870E",
         "Nombre de slots RAM": "4",
@@ -775,10 +840,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tGigabyte",
         "Price": 4049.0,
-        "ID": 199
+        "ID": 104
     },
     {
         "Name": "MSI B760M PROJECT ZERO",
+        "URL": "https://www.ultrapc.ma/socket-1700/9606-msi-b760m-project-zero.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel B760 Express",
         "Nombre de slots RAM": "4",
@@ -788,10 +854,11 @@
         "Bluetooth": "Oui",
         "Marque": "\tMSI",
         "Price": 2199.0,
-        "ID": 200
+        "ID": 105
     },
     {
         "Name": "ASUS PRIME B760-PLUS",
+        "URL": "https://www.ultrapc.ma/socket-1700/6063-asus-prime-b760-plus.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel B760 Express",
         "Nombre de slots RAM": "4",
@@ -800,10 +867,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Price": 1849.0,
-        "ID": 201
+        "ID": 106
     },
     {
         "Name": "ASUS ROG STRIX B550-F GAMING (WI-FI) II",
+        "URL": "https://www.ultrapc.ma/socket-am4/4093-asus-rog-strix-b550-f-gaming-wi-fi-ii.html",
         "Socket": "AMD AM4",
         "Chipset": "AMD B550",
         "Nombre de slots RAM": "4",
@@ -812,10 +880,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 2199.0,
-        "ID": 202
+        "ID": 107
     },
     {
         "Name": "MSI B550-A PRO",
+        "URL": "https://www.ultrapc.ma/socket-am4/3890-msi-b550-a-pro.html",
         "Socket": "AMD AM4",
         "Chipset": "AMD B550",
         "Nombre de slots RAM": "4",
@@ -824,10 +893,24 @@
         "Wi-Fi": "Non",
         "Marque": "\tMSI",
         "Price": 1349.0,
-        "ID": 203
+        "ID": 108
+    },
+    {
+        "Name": "MSI PRO H610M-G DDR5 (Utilisé)",
+        "URL": "https://www.ultrapc.ma/socket-1700/12509-msi-pro-h610m-g-ddr5-utilise.html",
+        "Socket": "Intel 1700",
+        "Chipset": "Intel H610 Express",
+        "Nombre de slots RAM": "2",
+        "Format": "Micro ATX",
+        "Type de mémoire": "DDR5",
+        "Wi-Fi": "Non",
+        "Marque": "\tMSI",
+        "Price": 799.0,
+        "ID": 109
     },
     {
         "Name": "ASUS PRIME B850M-F WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/11989-asus-prime-b850m-f-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "2",
@@ -836,10 +919,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 1799.0,
-        "ID": 204
+        "ID": 110
     },
     {
         "Name": "ASUS ROG STRIX X870E-H GAMING WIFI7",
+        "URL": "https://www.ultrapc.ma/socket-am5/11987-asus-rog-strix-x870e-h-gaming-wifi7.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870E",
         "Nombre de slots RAM": "4",
@@ -848,10 +932,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 4899.0,
-        "ID": 205
+        "ID": 111
     },
     {
         "Name": "ASUS ROG CROSSHAIR X870E APEX",
+        "URL": "https://www.ultrapc.ma/socket-am5/11966--asus-rog-strix-b850-a-gaming-wifi-.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870E",
         "Nombre de slots RAM": "2",
@@ -860,10 +945,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 8799.0,
-        "ID": 206
+        "ID": 112
     },
     {
         "Name": "ASUS TUF GAMING B850M-PLUS WiFi7 White",
+        "URL": "https://www.ultrapc.ma/socket-am5/11936-asus-tuf-gaming-b850m-plus-wifi7-white.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -872,22 +958,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 3149.0,
-        "ID": 207
-    },
-    {
-        "Name": "MSI X870E GAMING PLUS WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X870E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 3199.0,
-        "ID": 208
+        "ID": 113
     },
     {
         "Name": "Gigabyte B850M DS3H",
+        "URL": "https://www.ultrapc.ma/socket-am5/10697-gigabyte-b850m-ds3h.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -896,10 +971,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tGigabyte",
         "Price": 1999.0,
-        "ID": 209
+        "ID": 114
     },
     {
         "Name": "Gigabyte H810M H",
+        "URL": "https://www.ultrapc.ma/socket-1700/10387-gigabyte-h610m-s2h-ddr4.html",
         "Socket": "Intel 1851",
         "Chipset": "Intel® H810 Express",
         "Nombre de slots RAM": "2",
@@ -909,10 +985,11 @@
         "Bluetooth": "Non",
         "Marque": "\tGigabyte",
         "Price": 1299.0,
-        "ID": 210
+        "ID": 115
     },
     {
         "Name": "Gigabyte H610M S2H V2",
+        "URL": "https://www.ultrapc.ma/socket-1700/10386-gigabyte-h610m-s2h-ddr4.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel H610 Express",
         "Nombre de slots RAM": "2",
@@ -923,10 +1000,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tGigabyte",
         "Price": 949.0,
-        "ID": 211
+        "ID": 116
     },
     {
         "Name": "MSI MAG X870E TOMAHAWK WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/9813-msi-mag-x870e-tomahawk-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870E",
         "Nombre de slots RAM": "4",
@@ -935,10 +1013,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tMSI",
         "Price": 3799.0,
-        "ID": 212
+        "ID": 117
     },
     {
         "Name": "Gigabyte B850M GAMING X WIFI6E",
+        "URL": "https://www.ultrapc.ma/socket-am5/9623-gigabyte-b850m-gaming-x-wifi6e.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -947,10 +1026,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tGigabyte",
         "Price": 2449.0,
-        "ID": 213
+        "ID": 118
     },
     {
         "Name": "Gigabyte Z790 EAGLE DDR5",
+        "URL": "https://www.ultrapc.ma/socket-1700/7694-gigabyte-z790-eagle-ddr5.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel Z790 Express",
         "Nombre de slots RAM": "4",
@@ -959,10 +1039,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tGigabyte",
         "Price": 2599.0,
-        "ID": 214
+        "ID": 119
     },
     {
         "Name": "ASUS PRIME B760M-K D4",
+        "URL": "https://www.ultrapc.ma/socket-1700/5869-asus-prime-b760m-k-d4.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel B760 Express",
         "Nombre de slots RAM": "2",
@@ -971,10 +1052,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Price": 1099.0,
-        "ID": 215
+        "ID": 120
     },
     {
         "Name": "Gigabyte B550 GAMING X V2",
+        "URL": "https://www.ultrapc.ma/socket-am4/4840-gigabyte-b550-gaming-x-v2.html",
         "Socket": "AMD AM4",
         "Chipset": "AMD B550",
         "Nombre de slots RAM": "4",
@@ -983,10 +1065,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tGigabyte",
         "Price": 1349.0,
-        "ID": 216
+        "ID": 121
     },
     {
         "Name": "Gigabyte X399 DESIGNARE EX",
+        "URL": "https://www.ultrapc.ma/socket-amd-tr4/1995-gigabyte-x399-designare-ex.html",
         "Socket": "AMD TR4",
         "Chipset": "AMD X399",
         "Nombre de slots RAM": "8",
@@ -995,10 +1078,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tGigabyte",
         "Price": 4290.0,
-        "ID": 217
+        "ID": 122
     },
     {
         "Name": "ASUS TUF GAMING X870E-PLUS WIFI7",
+        "URL": "https://www.ultrapc.ma/socket-am5/11981--asus-rog-strix-b850-a-gaming-wifi-.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870E",
         "Nombre de slots RAM": "4",
@@ -1007,10 +1091,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 3599.0,
-        "ID": 218
+        "ID": 123
     },
     {
         "Name": "ASUS PRIME B850M-A WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/11979--asus-rog-strix-b850-a-gaming-wifi-.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -1019,10 +1104,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 2199.0,
-        "ID": 219
+        "ID": 124
     },
     {
         "Name": "ASUS X870 MAX GAMING WIFI7 WHITE",
+        "URL": "https://www.ultrapc.ma/socket-am5/11974-asus-x870-max-gaming-wifi7-white.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870",
         "Nombre de slots RAM": "4",
@@ -1031,10 +1117,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 3199.0,
-        "ID": 220
+        "ID": 125
     },
     {
         "Name": "ASUS PRIME B840M-A WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/11961-asus-prime-b840m-a-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B840",
         "Nombre de slots RAM": "4",
@@ -1043,10 +1130,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 1999.0,
-        "ID": 221
+        "ID": 126
     },
     {
         "Name": "ASUS ROG STRIX B850-F GAMING WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/11959-asus-rog-strix-b850-f-gaming-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -1055,10 +1143,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 3599.0,
-        "ID": 222
+        "ID": 127
     },
     {
         "Name": "ASUS ROG STRIX B850-E GAMING WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/11958-asus-rog-strix-b850-e-gaming-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -1067,10 +1156,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 4349.0,
-        "ID": 223
+        "ID": 128
     },
     {
         "Name": "ASUS TUF GAMING B650-PLUS",
+        "URL": "https://www.ultrapc.ma/socket-am5/11942-asus-tuf-gaming-b650-plus.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B650",
         "Nombre de slots RAM": "4",
@@ -1079,10 +1169,24 @@
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Price": 2199.0,
-        "ID": 224
+        "ID": 129
+    },
+    {
+        "Name": "MSI X870E GAMING PLUS WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/11774-msi-x870e-gaming-plus-wifi.html",
+        "Socket": "AMD AM5",
+        "Chipset": "AMD X870E",
+        "Nombre de slots RAM": "4",
+        "Format": "ATX",
+        "Type de mémoire": "DDR5",
+        "Wi-Fi": "Oui",
+        "Marque": "\tMSI",
+        "Price": 3199.0,
+        "ID": 130
     },
     {
         "Name": "ASRock B550M Phantom Gaming 4",
+        "URL": "https://www.ultrapc.ma/socket-am4/11620-asrock-b550m-phantom-gaming-4.html",
         "Socket": "AMD AM4",
         "Chipset": "AMD B550",
         "Nombre de slots RAM": "4",
@@ -1091,10 +1195,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASRock",
         "Price": 1099.0,
-        "ID": 225
+        "ID": 131
     },
     {
         "Name": "Gigabyte B850M AORUS ELITE WIFI6E ICE",
+        "URL": "https://www.ultrapc.ma/socket-am5/10384-gigabyte-b850m-aorus-elite-wifi6e-ice.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -1103,10 +1208,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tGigabyte",
         "Price": 2699.0,
-        "ID": 226
+        "ID": 132
     },
     {
         "Name": "ASUS ROG STRIX X870-F GAMING WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/9864-asus-rog-strix-x870-f-gaming-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD X870",
         "Nombre de slots RAM": "4",
@@ -1115,10 +1221,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 4899.0,
-        "ID": 227
+        "ID": 133
     },
     {
         "Name": "MSI PRO B860M-A WIFI",
+        "URL": "https://www.ultrapc.ma/socket-1851/9811-msi-pro-b860m-a-wifi.html",
         "Socket": "Intel 1851",
         "Chipset": "Intel B860",
         "Nombre de slots RAM": "4",
@@ -1127,10 +1234,11 @@
         "Wi-Fi": "Oui",
         "Marque": "MSI",
         "Price": 2649.0,
-        "ID": 228
+        "ID": 134
     },
     {
         "Name": "MSI PRO B860-P",
+        "URL": "https://www.ultrapc.ma/socket-1851/9810-msi-pro-b860-p.html",
         "Socket": "Intel 1851",
         "Chipset": "Intel B860",
         "Nombre de slots RAM": "4",
@@ -1139,10 +1247,11 @@
         "Wi-Fi": "Non",
         "Marque": "MSI",
         "Price": 2299.0,
-        "ID": 229
+        "ID": 135
     },
     {
         "Name": "MSI B860M GAMING PLUS WIFI",
+        "URL": "https://www.ultrapc.ma/socket-1851/9808-msi-b860m-gaming-plus-wifi.html",
         "Socket": "Intel 1851",
         "Chipset": "Intel B860",
         "Nombre de slots RAM": "4",
@@ -1151,10 +1260,11 @@
         "Wi-Fi": "Oui",
         "Marque": "MSI",
         "Price": 2749.0,
-        "ID": 230
+        "ID": 136
     },
     {
         "Name": "MSI PRO B860 GAMING PLUS WIFI",
+        "URL": "https://www.ultrapc.ma/socket-1851/9807-msi-pro-b860-gaming-plus-wifi.html",
         "Socket": "Intel 1851",
         "Chipset": "Intel B860",
         "Nombre de slots RAM": "4",
@@ -1163,10 +1273,11 @@
         "Wi-Fi": "Oui",
         "Marque": "MSI",
         "Price": 2999.0,
-        "ID": 231
+        "ID": 137
     },
     {
         "Name": "Gigabyte B860M DS3H",
+        "URL": "https://www.ultrapc.ma/socket-1851/9613-gigabyte-b860m-ds3h.html",
         "Socket": "Intel 1851",
         "Chipset": "Intel B860",
         "Nombre de slots RAM": "4",
@@ -1175,10 +1286,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tGigabyte",
         "Price": 2149.0,
-        "ID": 232
+        "ID": 138
     },
     {
         "Name": "Gigabyte B650 GAMING X AX V2",
+        "URL": "https://www.ultrapc.ma/socket-am5/9062-gigabyte-b650-gaming-x-ax-v2.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B650",
         "Nombre de slots RAM": "4",
@@ -1187,10 +1299,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tGigabyte",
         "Price": 2199.0,
-        "ID": 233
+        "ID": 139
     },
     {
         "Name": "MSI PRO Z890-P WIFI",
+        "URL": "https://www.ultrapc.ma/socket-1851/8852-msi-pro-z890-p-wifi.html",
         "Socket": "Intel 1851",
         "Chipset": "Intel Z890",
         "Nombre de slots RAM": "4",
@@ -1199,10 +1312,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tMSI",
         "Price": 3349.0,
-        "ID": 234
+        "ID": 140
     },
     {
         "Name": "Gigabyte B760M H DDR4",
+        "URL": "https://www.ultrapc.ma/socket-1700/8781-gigabyte-b760m-h-ddr4.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel B760 Express",
         "Nombre de slots RAM": "2",
@@ -1211,10 +1325,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tGigabyte",
         "Price": 1189.0,
-        "ID": 235
+        "ID": 141
     },
     {
         "Name": "ASUS ROG STRIX B760-A GAMING WIFI",
+        "URL": "https://www.ultrapc.ma/socket-1700/8534-asus-rog-strix-b760-a-gaming-wifi.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel B760 Express",
         "Nombre de slots RAM": "4",
@@ -1223,10 +1338,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 2399.0,
-        "ID": 236
+        "ID": 142
     },
     {
         "Name": "ASUS ROG STRIX B760-F GAMING WIFI",
+        "URL": "https://www.ultrapc.ma/socket-1700/8533-asus-rog-strix-b760-f-gaming-wifi.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel B760 Express",
         "Nombre de slots RAM": "4",
@@ -1235,10 +1351,11 @@
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Price": 2599.0,
-        "ID": 237
+        "ID": 143
     },
     {
         "Name": "MSI MAG B760 TOMAHAWK WIFI",
+        "URL": "https://www.ultrapc.ma/socket-1700/6914-msi-mag-b760-tomahawk-wifi.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel B760 Express",
         "Nombre de slots RAM": "4",
@@ -1247,10 +1364,11 @@
         "Wi-Fi": "Oui",
         "Marque": "\tMSI",
         "Price": 2799.0,
-        "ID": 238
+        "ID": 144
     },
     {
         "Name": "ASUS PRIME B550M-A",
+        "URL": "https://www.ultrapc.ma/socket-am4/4679-asus-prime-b550m-a.html",
         "Socket": "AMD AM4",
         "Chipset": "AMD B550",
         "Nombre de slots RAM": "4",
@@ -1259,178 +1377,11 @@
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Price": 1099.0,
-        "ID": 239
-    },
-    {
-        "Name": "Gigabyte B550M AORUS ELITE AX",
-        "Socket": "AMD AM4",
-        "Chipset": "AMD B550",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Oui",
-        "Marque": "Gigabyte",
-        "Price": 1499.0,
-        "ID": 240
-    },
-    {
-        "Name": "ASUS ROG CROSSHAIR X870E EXTREME",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X870E",
-        "Nombre de slots RAM": "4",
-        "Format": "E-ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 13199.0,
-        "ID": 241
-    },
-    {
-        "Name": "ASUS TUF GAMING B850-PLUS WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B850",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 2799.0,
-        "ID": 242
-    },
-    {
-        "Name": "ASUS TUF GAMING B850M-PLUS WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B850",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 2399.0,
-        "ID": 243
-    },
-    {
-        "Name": "ASUS ROG STRIX Z890-F GAMING WIFI",
-        "Socket": "Intel 1851",
-        "Chipset": "Intel Z890",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 5299.0,
-        "ID": 244
-    },
-    {
-        "Name": "ASUS ROG MAXIMUS Z890 APEX",
-        "Socket": "Intel 1851",
-        "Chipset": "Intel Z890",
-        "Nombre de slots RAM": "2",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 4899.0,
-        "ID": 245
-    },
-    {
-        "Name": "ASUS ROG MAXIMUS Z890 HERO",
-        "Socket": "Intel 1851",
-        "Chipset": "Intel Z890",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 4899.0,
-        "ID": 246
-    },
-    {
-        "Name": "ASUS TUF GAMING X870-PLUS WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X870",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 3049.0,
-        "ID": 247
-    },
-    {
-        "Name": "ASUS ROG STRIX B850-A GAMING WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B850",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 2799.0,
-        "ID": 248
-    },
-    {
-        "Name": "Gigabyte B850 EAGLE ICE",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B850",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "\tGigabyte",
-        "Price": 2399.0,
-        "ID": 249
-    },
-    {
-        "Name": "MSI B850 MLG Edition",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B850",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 3259.0,
-        "ID": 250
-    },
-    {
-        "Name": "Gigabyte B650M GAMING PLUS WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 1799.0,
-        "ID": 251
-    },
-    {
-        "Name": "Gigabyte B650E AORUS ELITE X AX ICE",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 2699.0,
-        "ID": 252
-    },
-    {
-        "Name": "Gigabyte B650 UD AX",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 1849.0,
-        "ID": 253
+        "ID": 145
     },
     {
         "Name": "MSI PRO B760-P II DDR5",
+        "URL": "https://www.ultrapc.ma/socket-1700/10553-msi-pro-b760-p-ii-ddr5.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel B760 Express",
         "Nombre de slots RAM": "4",
@@ -1439,191 +1390,11 @@
         "Wi-Fi": "Non",
         "Marque": "\tMSI",
         "Price": 1749.0,
-        "ID": 254
-    },
-    {
-        "Name": "MSI PRO B650-A WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 2399.0,
-        "ID": 255
-    },
-    {
-        "Name": "MSI B650M GAMING PLUS WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 2199.0,
-        "ID": 256
-    },
-    {
-        "Name": "Gigabyte B860M EAGLE V2",
-        "Socket": "Intel 1851",
-        "Chipset": "Intel B860",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "\tGigabyte",
-        "Price": 1779.0,
-        "ID": 257
-    },
-    {
-        "Name": "Gigabyte H610M GAMING WIFI DDR4",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel H610 Express",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Oui",
-        "Bluetooth": "Oui",
-        "Price": 1199.0,
-        "ID": 258
-    },
-    {
-        "Name": "MSI X870 GAMING PLUS WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X870",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 3749.0,
-        "ID": 259
-    },
-    {
-        "Name": "MSI PRO Z890-S WIFI",
-        "Socket": "Intel 1851",
-        "Chipset": "Intel Z890",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 2899.0,
-        "ID": 268
-    },
-    {
-        "Name": "MSI PRO B760-P WIFI DDR4",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 1799.0,
-        "ID": 270
-    },
-    {
-        "Name": "Gigabyte B760 DS3H AX DDR4",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Oui",
-        "Bluetooth": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 1799.0,
-        "ID": 271
-    },
-    {
-        "Name": "ASUS PRIME H610M-K DDR5",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel H610 Express",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASUS",
-        "Price": 999.0,
-        "ID": 272
-    },
-    {
-        "Name": "ASUS ROG STRIX X870-A GAMING WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X870",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 3999.0,
-        "ID": 273
-    },
-    {
-        "Name": "ASUS ROG CROSSHAIR X870E HERO",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X870E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 7699.0,
-        "ID": 274
-    },
-    {
-        "Name": "ASUS ProArt X870E-CREATOR WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X870E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 4599.0,
-        "ID": 275
-    },
-    {
-        "Name": "ASUS ROG STRIX X870E-E GAMING WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X870E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 6099.0,
-        "ID": 276
-    },
-    {
-        "Name": "MSI PRO B840-P WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B840",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 1999.0,
-        "ID": 277
-    },
-    {
-        "Name": "MSI MAG B850 TOMAHAWK MAX WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B850",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 3399.0,
-        "ID": 278
+        "ID": 146
     },
     {
         "Name": "MSI PRO B860-P WIFI",
+        "URL": "https://www.ultrapc.ma/socket-1851/9809-msi-pro-b860-p-wifi.html",
         "Socket": "Intel 1851",
         "Chipset": "Intel B860",
         "Nombre de slots RAM": "4",
@@ -1632,1344 +1403,6 @@
         "Wi-Fi": "Oui",
         "Marque": "MSI",
         "Price": 2549.0,
-        "ID": 279
-    },
-    {
-        "Name": "MSI PRO B760-P DDR4 II",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Non",
-        "Marque": "\tMSI",
-        "Price": 1699.0,
-        "ID": 280
-    },
-    {
-        "Name": "Gigabyte B850 EAGLE WIFI6E",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B850",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 2399.0,
-        "ID": 281
-    },
-    {
-        "Name": "Gigabyte X870E AORUS PRO",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X870E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "Gigabyte",
-        "Price": 4999.0,
-        "ID": 282
-    },
-    {
-        "Name": "Gigabyte X870E AORUS PRO ICE",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X870E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 4649.0,
-        "ID": 283
-    },
-    {
-        "Name": "Gigabyte Z890 EAGLE",
-        "Socket": "Intel 1851",
-        "Chipset": "Intel Z890",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "Gigabyte",
-        "Price": 3299.0,
-        "ID": 284
-    },
-    {
-        "Name": "Gigabyte Z890 GAMING X WIFI7",
-        "Socket": "Intel 1851",
-        "Chipset": "Intel Z890",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "Gigabyte",
-        "Price": 3999.0,
-        "ID": 285
-    },
-    {
-        "Name": "MSI PRO Z890-A WIFI",
-        "Socket": "Intel 1851",
-        "Chipset": "Intel Z890",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "MSI",
-        "Price": 4299.0,
-        "ID": 286
-    },
-    {
-        "Name": "MSI MAG B860 TOMAHAWK WIFI",
-        "Socket": "Intel 1851",
-        "Chipset": "Intel B860",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 2999.0,
-        "ID": 287
-    },
-    {
-        "Name": "Gigabyte B650 AORUS ELITE AX V2",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 2349.0,
-        "ID": 288
-    },
-    {
-        "Name": "Gigabyte B760 DS3H",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "4",
-        "Port(s) PCI-Express 16x": "1",
-        "Compatible NVIDIA SLI": "Non",
-        "Compatible AMD Crossfire": "Non",
-        "Format": "ATX",
-        "Wi-Fi": "Non",
-        "Marque": "\tGigabyte",
-        "Price": 1649.0,
-        "ID": 289
-    },
-    {
-        "Name": "Gigabyte B550 AORUS ELITE AX V2",
-        "Socket": "AMD AM4",
-        "Chipset": "AMD B550",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 1799.0,
-        "ID": 290
-    },
-    {
-        "Name": "Gigabyte  A620M H",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD A620",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "\tGigabyte",
-        "Price": 1049.0,
-        "ID": 291
-    },
-    {
-        "Name": "Gigabyte B650 EAGLE AX",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 1899.0,
-        "ID": 292
-    },
-    {
-        "Name": "Gigabyte B650 AERO G",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Marque": "\tGigabyte",
-        "Price": 3699.0,
-        "ID": 293
-    },
-    {
-        "Name": "Gigabyte X670 GAMING X AX V2",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "Gigabyte",
-        "Price": 2899.0,
-        "ID": 294
-    },
-    {
-        "Name": "Gigabyte X670E AORUS MASTER",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670E",
-        "Nombre de slots RAM": "4",
-        "Format": "E-ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 5199.0,
-        "ID": 295
-    },
-    {
-        "Name": "Gigabyte B760M GAMING X AX",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 1999.0,
-        "ID": 296
-    },
-    {
-        "Name": "Gigabyte B760M A ELITE X AX",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 2599.0,
-        "ID": 297
-    },
-    {
-        "Name": "Gigabyte B760 DS3H AX",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Bluetooth": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 1799.0,
-        "ID": 298
-    },
-    {
-        "Name": "Gigabyte B760 GAMING X AX",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 2199.0,
-        "ID": 299
-    },
-    {
-        "Name": "Gigabyte B760 AORUS ELITE AX",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 2599.0,
-        "ID": 300
-    },
-    {
-        "Name": "Gigabyte Z790 UD AX",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 2899.0,
-        "ID": 301
-    },
-    {
-        "Name": "MSI MPG B550 GAMING PLUS Bulk",
-        "Socket": "AMD AM4",
-        "Chipset": "AMD B550",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Non",
-        "Marque": "\tMSI",
-        "Price": 1549.0,
-        "ID": 302
-    },
-    {
-        "Name": "ASRock Z890 LiveMixer WiFi",
-        "Socket": "Intel 1851",
-        "Chipset": "Intel Z890",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 3649.0,
-        "ID": 303
-    },
-    {
-        "Name": "MSI MAG Z890 TOMAHAWK WIFI",
-        "Socket": "Intel 1851",
-        "Chipset": "Intel Z890",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 4399.0,
-        "ID": 304
-    },
-    {
-        "Name": "MSI Z890 GAMING PLUS WIFI",
-        "Socket": "Intel 1851",
-        "Chipset": "Intel Z890",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 3299.0,
-        "ID": 305
-    },
-    {
-        "Name": "MSI B760 GAMING PLUS WIFI DDR4",
-        "Socket": "Intel 1700",
-        "Chipset": "AMD B760",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 1549.0,
-        "ID": 306
-    },
-    {
-        "Name": "MSI MAG X870 TOMAHAWK WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X870",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 4299.0,
-        "ID": 307
-    },
-    {
-        "Name": "MSI PRO X870-P WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X870",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 3149.0,
-        "ID": 308
-    },
-    {
-        "Name": "Gigabyte B650M S2H",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "\tGigabyte",
-        "Price": 1199.0,
-        "ID": 309
-    },
-    {
-        "Name": "ASUS PRIME B650M-K",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASUS",
-        "Price": 1499.0,
-        "ID": 310
-    },
-    {
-        "Name": "ASUS TUF GAMING B650-E WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 2399.0,
-        "ID": 311
-    },
-    {
-        "Name": "ASUS ROG STRIX X670E-E GAMING WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 6099.0,
-        "ID": 312
-    },
-    {
-        "Name": "ASUS ROG CROSSHAIR X670E HERO",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 7399.0,
-        "ID": 313
-    },
-    {
-        "Name": "Asus PRIME B760M-K",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASUS",
-        "Price": 1349.0,
-        "ID": 314
-    },
-    {
-        "Name": "ASUS PRIME B760M-PLUS",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASUS",
-        "Price": 1799.0,
-        "ID": 315
-    },
-    {
-        "Name": "ASUS TUF GAMING Z790-BTF WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 4099.0,
-        "ID": 316
-    },
-    {
-        "Name": "ASUS ROG STRIX Z790-A GAMING WIFI II",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Connecteur(s) graphique": "1 X PCI Express 5.0 16x",
-        "Bluetooth": "Oui",
-        "Marque": "ASUS",
-        "Price": 4799.0,
-        "ID": 317
-    },
-    {
-        "Name": "ASUS ROG STRIX Z790-E GAMING WIFI II",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 5799.0,
-        "ID": 318
-    },
-    {
-        "Name": "Gigabyte X670E AORUS MASTER",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 6499.0,
-        "ID": 319
-    },
-    {
-        "Name": "ASUS TUF GAMING B650-PLUS WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 2099.0,
-        "ID": 320
-    },
-    {
-        "Name": "Gigabyte Z790 AORUS ELITE AX",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tGigabyte",
-        "Price": 3699.0,
-        "ID": 321
-    },
-    {
-        "Name": "ASUS ROG MAXIMUS Z790 DARK HERO",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 8290.0,
-        "ID": 322
-    },
-    {
-        "Name": "ASUS ROG MAXIMUS Z790 FORMULA",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 7990.0,
-        "ID": 323
-    },
-    {
-        "Name": "MSI MPG Z790 EDGE TI MAX WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Marque": "\tMSI",
-        "Price": 4399.0,
-        "ID": 324
-    },
-    {
-        "Name": "MSI MAG X670E TOMAHAWK WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 3899.0,
-        "ID": 325
-    },
-    {
-        "Name": "MSI MPG B650 EDGE WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 3499.0,
-        "ID": 326
-    },
-    {
-        "Name": "MSI PRO B650M-B",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "MSI",
-        "Price": 1249.0,
-        "ID": 327
-    },
-    {
-        "Name": "ASUS TUF GAMING A520M-PLUS WIFI",
-        "Socket": "AMD AM4",
-        "Chipset": "AMD A520",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 999.0,
-        "ID": 328
-    },
-    {
-        "Name": "MSI PRO H610M-G DDR4",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel H610 Express",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Non",
-        "Marque": "\tMSI",
-        "Price": 999.0,
-        "ID": 329
-    },
-    {
-        "Name": "ASUS PRIME B550M-K ARGB",
-        "Socket": "AMD AM4",
-        "Chipset": "AMD B550",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Non",
-        "Marque": "ASUS",
-        "Price": 1190.0,
-        "ID": 330
-    },
-    {
-        "Name": "Gigabyte B650 GAMING X",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "Gigabyte",
-        "Price": 2399.0,
-        "ID": 331
-    },
-    {
-        "Name": "ASRock X670E Pro RS",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 3999.0,
-        "ID": 332
-    },
-    {
-        "Name": "ASRock A620M Pro RS WiFi",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD A620",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 1549.0,
-        "ID": 333
-    },
-    {
-        "Name": "ASUS ROG STRIX B650E-I GAMING WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650E",
-        "Nombre de slots RAM": "2",
-        "Format": "Mini ITX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 3399.0,
-        "ID": 334
-    },
-    {
-        "Name": "ASUS ROG STRIX X670E-E GAMING WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 5699.0,
-        "ID": 335
-    },
-    {
-        "Name": "ASUS ROG STRIX X670E-I GAMING WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670E",
-        "Nombre de slots RAM": "2",
-        "Format": "Mini ITX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 4999.0,
-        "ID": 336
-    },
-    {
-        "Name": "ASUS TUF GAMING A620M-PLUS WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 1499.0,
-        "ID": 337
-    },
-    {
-        "Name": "ASUS TUF GAMING B650-PLUS WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 2649.0,
-        "ID": 338
-    },
-    {
-        "Name": "ASUS PRIME B650M-R",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASUS",
-        "Price": 1379.0,
-        "ID": 339
-    },
-    {
-        "Name": "ASUS PRIME B650M-A WIFI II",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 2099.0,
-        "ID": 340
-    },
-    {
-        "Name": "ASUS PRIME A620M-K",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD A620",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASRock",
-        "Price": 1199.0,
-        "ID": 341
-    },
-    {
-        "Name": "ASRock B650M-HDV/M.2",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASRock",
-        "Price": 1349.0,
-        "ID": 342
-    },
-    {
-        "Name": "ASRock X670E Steel Legend",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 3789.0,
-        "ID": 343
-    },
-    {
-        "Name": "ASRock X670E Taichi",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 6299.0,
-        "ID": 344
-    },
-    {
-        "Name": "ASRock B650M Pro RS WiFi",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 1899.0,
-        "ID": 345
-    },
-    {
-        "Name": "ASRock B650M PG Riptide",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASRock",
-        "Price": 1989.0,
-        "ID": 346
-    },
-    {
-        "Name": "ASRock B650M PG Lightning WiFi",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 1789.0,
-        "ID": 347
-    },
-    {
-        "Name": "ASRock B650M PG Lightning",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASRock",
-        "Price": 1439.0,
-        "ID": 348
-    },
-    {
-        "Name": "ASRock B650M Pro RS",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASRock",
-        "Price": 1699.0,
-        "ID": 349
-    },
-    {
-        "Name": "ASRock B650E Steel Legend WiFi",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 3139.0,
-        "ID": 350
-    },
-    {
-        "Name": "ASRock B650E PG Riptide WiFi",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 2989.0,
-        "ID": 351
-    },
-    {
-        "Name": "ASRock X670E Taichi Carrara",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670E",
-        "Nombre de slots RAM": "4",
-        "Format": "E-ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 6989.0,
-        "ID": 352
-    },
-    {
-        "Name": "ASRock B650E Taichi Lite",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650E",
-        "Nombre de slots RAM": "4",
-        "Format": "E-ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 3789.0,
-        "ID": 353
-    },
-    {
-        "Name": "ASRock B650E Taichi",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650E",
-        "Nombre de slots RAM": "4",
-        "Format": "E-ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 5389.0,
-        "ID": 354
-    },
-    {
-        "Name": "ASRock B650E PG-ITX WiFi",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650E",
-        "Nombre de slots RAM": "2",
-        "Format": "Mini ITX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 3489.0,
-        "ID": 355
-    },
-    {
-        "Name": "ASRock B650 Pro RS",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASRock",
-        "Price": 2489.0,
-        "ID": 356
-    },
-    {
-        "Name": "ASRock B650 PG Lightning",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASRock",
-        "Price": 1999.0,
-        "ID": 357
-    },
-    {
-        "Name": "ASRock B650 LiveMixer",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASRock",
-        "Price": 2589.0,
-        "ID": 358
-    },
-    {
-        "Name": "ASRock A620M-HDV/M.2+",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD A620",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASRock",
-        "Price": 1169.0,
-        "ID": 359
-    },
-    {
-        "Name": "ASRock A620M Pro RS",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD A620",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASRock",
-        "Price": 1439.0,
-        "ID": 360
-    },
-    {
-        "Name": "ASRock A620I Lightning WiFi",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD A620",
-        "Nombre de slots RAM": "2",
-        "Format": "Mini ITX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 1989.0,
-        "ID": 361
-    },
-    {
-        "Name": "ASRock A620M-HDV/M.2",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD A620",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASRock",
-        "Price": 1299.0,
-        "ID": 362
-    },
-    {
-        "Name": "MSI B760M GAMING PLUS WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 1949.0,
-        "ID": 363
-    },
-    {
-        "Name": "MSI X670E Gaming Plus WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 3099.0,
-        "ID": 364
-    },
-    {
-        "Name": "Asus ROG Strix X670E-A Gaming WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 5299.0,
-        "ID": 365
-    },
-    {
-        "Name": "Asus Prime X670E-Pro WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 4799.0,
-        "ID": 366
-    },
-    {
-        "Name": "MSI PRO B650M-P",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "MSI",
-        "Price": 1549.0,
-        "ID": 367
-    },
-    {
-        "Name": "ASRock A520M-HVS",
-        "Socket": "AMD AM4",
-        "Chipset": "AMD A520",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Non",
-        "Marque": "ASRock",
-        "Price": 799.0,
-        "ID": 368
-    },
-    {
-        "Name": "ASUS TUF GAMING B760-PLUS WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 2099.0,
-        "ID": 369
-    },
-    {
-        "Name": "ASUS ProArt X670E-CREATOR WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 6899.0,
-        "ID": 370
-    },
-    {
-        "Name": "ASUS ROG STRIX X670E-F GAMING WIFI",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD X670E",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 5199.0,
-        "ID": 371
-    },
-    {
-        "Name": "MSI B450 GAMING PLUS MAX",
-        "Socket": "AMD AM4",
-        "Chipset": "AMD B450",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Non",
-        "Marque": "MSI",
-        "Price": 1299.0,
-        "ID": 372
-    },
-    {
-        "Name": "ASRock Z790 Pro RS",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 2799.0,
-        "ID": 373
-    },
-    {
-        "Name": "ASUS ROG STRIX Z790-F GAMING WIFI II",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 5199.0,
-        "ID": 374
-    },
-    {
-        "Name": "ASRock Z790 Steel Legend",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Bluetooth": "Oui",
-        "Marque": "ASRock",
-        "Price": 2899.0,
-        "ID": 375
-    },
-    {
-        "Name": "Gigabyte A620M GAMING X",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD A620",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "\tGigabyte",
-        "Price": 1699.0,
-        "ID": 376
-    },
-    {
-        "Name": "ASUS ROG STRIX Z790-F GAMING WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 6199.0,
-        "ID": 377
-    },
-    {
-        "Name": "MSI PRO Z790-A MAX WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Bluetooth": "Oui",
-        "Marque": "MSI",
-        "Price": 3299.0,
-        "ID": 378
-    },
-    {
-        "Name": "ASUS ROG MAXIMUS Z790 HERO",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 8499.0,
-        "ID": 379
-    },
-    {
-        "Name": "ASUS ROG STRIX Z790-E GAMING WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 7899.0,
-        "ID": 380
-    },
-    {
-        "Name": "MSI MPG Z790 CARBON WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "MSI",
-        "Price": 4499.0,
-        "ID": 381
-    },
-    {
-        "Name": "ASUS TUF GAMING Z790-PRO WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 3899.0,
-        "ID": 382
-    },
-    {
-        "Name": "ASUS ROG STRIX Z790-H GAMING WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Price": 4299.0,
-        "ID": 383
-    },
-    {
-        "Name": "MSI MAG Z790 TOMAHAWK MAX WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "MSI",
-        "Price": 4049.0,
-        "ID": 384
-    },
-    {
-        "Name": "MSI MAG Z790 TOMAHAWK WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "MSI",
-        "Price": 3299.0,
-        "ID": 385
-    },
-    {
-        "Name": "Gigabyte Z790 AORUS ELITE AX ICE",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "Gigabyte",
-        "Price": 4199.0,
-        "ID": 386
-    },
-    {
-        "Name": "ASRock Z790 Riptide WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 3749.0,
-        "ID": 387
-    },
-    {
-        "Name": "ASRock Z790 Pro RS WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASRock",
-        "Price": 2999.0,
-        "ID": 388
-    },
-    {
-        "Name": "MSI PRO Z790-S WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "\tMSI",
-        "Price": 2199.0,
-        "ID": 389
-    },
-    {
-        "Name": "MSI Z790 GAMING PLUS WIFI",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel Z790 Express",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Bluetooth": "Oui",
-        "Marque": "\tMSI",
-        "Price": 2799.0,
-        "ID": 390
+        "ID": 147
     }
 ]

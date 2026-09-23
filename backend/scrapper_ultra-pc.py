@@ -61,47 +61,51 @@ for category_name, category_url in categories.items():
 
             l = 0
             for product_card in soup.find_all('div', class_="product-block clearfix"):
-                stats = {}
-                number_of_result += 1
-                title_text = product_card.find('h3').text
+                availability = product_card.find('div', class_="product-availability unavailable font-weight-bold hidden-lg-up")
+                if(not availability):
+                    stats = {}
+                    number_of_result += 1
+                    title_text = product_card.find('h3').text
 
-                complementary_url = product_card.find('a')['href']
-                complementary_request = requests.get(complementary_url, headers)
+                    complementary_url = product_card.find('a')['href']
+                    complementary_request = requests.get(complementary_url, headers)
 
-                complementary_soup = BeautifulSoup(complementary_request.text, 'html.parser')
-                complete_title = complementary_soup.find('h1', class_="product-title").text
-                print(time.strftime("%H:%M:%S"),"- Full title : ", complete_title)
-                
-                alt = 0
-                fields = 0
-                info_name = ""
-                info_value = ""
-                stats["Name"] = complete_title
-                for info_row in complementary_soup.find('dl', class_="data-sheet d-flex flex-wrap justify-content-between m-0").contents:
-                    if info_row != '\n':
-                        fields += 1
+                    complementary_soup = BeautifulSoup(complementary_request.text, 'html.parser')
+                    complete_title = complementary_soup.find('h1', class_="product-title").text
+                    print(time.strftime("%H:%M:%S"),"- Full title : ", complete_title)
+                    
+                    alt = 0
+                    fields = 0
+                    info_name = ""
+                    info_value = ""
+                    stats["Name"] = complete_title
+                    stats["URL"] = complementary_url
+                    for info_row in complementary_soup.find('dl', class_="data-sheet d-flex flex-wrap justify-content-between m-0").contents:
+                        if info_row != '\n':
+                            fields += 1
 
-                        if alt == 0:
-                            info_name = info_row.text
-                        elif alt == 1:
-                            info_value = info_row.text
-                        else:
-                            stats[info_name] = info_value
-                            alt = 0
-                            info_name = info_row.text
+                            if alt == 0:
+                                info_name = info_row.text
+                            elif alt == 1:
+                                info_value = info_row.text
+                            else:
+                                stats[info_name] = info_value
+                                alt = 0
+                                info_name = info_row.text
 
-                        alt += 1
-                price = product_card.find("span", class_="price").text
-                price = price.replace("MAD", "").replace(",", ".").replace(" ", "")
+                            alt += 1
+                    price = product_card.find("span", class_="price").text
+                    price = price.replace("MAD", "").replace(",", ".").replace(" ", "")
 
-                stats["Price"] = float(price)
-                stats["ID"] = i
+                    stats["Price"] = float(price)
+                    stats["ID"] = i
 
-                i += 1
+                    i += 1
 
-                if fields >= 8 and float(price) > 0:
-                    products.append(stats)
-
+                    if fields >= 8 and float(price) > 0:
+                        products.append(stats)
+                else:
+                    print(time.strftime("%H:%M:%S"),"- Produit en rupture de stock")
         json_file = open("Frontend/pc-config-maroc/src/Data/" + category_name + "_data.json", "w", encoding="utf-8")
         json.dump(products, json_file, indent=4, ensure_ascii=False)
         json_file.close()
