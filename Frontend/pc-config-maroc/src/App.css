@@ -740,3 +740,18 @@ body:has(dialog[open]) { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+.link-redirect{
+  background-color: transparent;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  padding: 4px 8px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.08s ease;
+}
+
+.link-redirect:hover{
+  background-color: var(--faint);
+}

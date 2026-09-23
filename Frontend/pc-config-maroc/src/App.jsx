@@ -258,6 +258,9 @@ function App() {
                 <button className="line-main" onClick={() => handleSelectCategory(category)}>
                   <span className="line-slot">{category}</span>
                   <span className="line-part">{part ? part.Name : "Aucun(e)"}</span>
+                  {(part &&
+                    <a target="_blank" href={part.URL}><button className='link-redirect'>Lien</button></a>
+          )}
                 </button>
                 {part && (
                   <div className="line-side">
@@ -411,6 +414,7 @@ function buildRecapText(selection, issues, total, date) {
     if (part) {
       lines.push("  " + part.Name)
       lines.push("  Prix : " + formatPlain(part.Price) + " MAD")
+      if (part.URL) lines.push("  Lien : " + part.URL)
     } else {
       lines.push("  Non choisi")
     }
