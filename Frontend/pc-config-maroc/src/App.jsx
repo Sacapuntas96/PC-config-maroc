@@ -34,13 +34,12 @@ const PAGE_SIZE = 20
 
 const formatMAD = (n) => Math.round(n).toLocaleString("fr-FR")
 
-/* ---------- App ---------- */
 
 function App() {
   const [activeCategory, setActiveCategory] = useState("Processeur")
   const [selectedByCategory, setSelectedByCategory] = useState(INITIAL_SELECTION)
 
-  const [sortField, setSortField] = useState(null)   // a label from sortOptions
+  const [sortField, setSortField] = useState(null)   
   const [order, setOrder] = useState("ASC")
   const [query, setQuery] = useState("")
   const [page, setPage] = useState(0)
@@ -55,7 +54,6 @@ function App() {
     [selectedByCategory]
   )
 
-  // Derived from the selection, so it can never drift out of sync.
   const total = useMemo(
     () => Object.values(selectedByCategory).reduce((sum, item) => sum + (item ? Number(item.Price) || 0 : 0), 0),
     [selectedByCategory]
@@ -119,7 +117,6 @@ function App() {
 
   return (
     <div className="app">
-      {/* ---------- Categories ---------- */}
       <nav className="rail" aria-label="Catégories">
         <div className="brand">
           <span className="brand-name">Configurateur PC</span>
@@ -147,7 +144,6 @@ function App() {
         </ul>
       </nav>
 
-      {/* ---------- Catalogue ---------- */}
       <main className="catalog">
         <header className="catalog-head">
           <h1>{activeCategory}</h1>
@@ -218,7 +214,6 @@ function App() {
         )}
       </main>
 
-      {/* ---------- Configuration ---------- */}
       <aside className="build" id="configuration" aria-label="Configuration">
         <header className="build-head">
           <h2>Ma configuration</h2>
@@ -297,7 +292,6 @@ function App() {
         </footer>
       </aside>
 
-      {/* Small screens: the panel sits below the catalogue, this bar links to it */}
       <a className="mobile-total" href="#configuration">
         <span>{selectedCount}/{CATEGORY_NAMES.length} composants</span>
         <strong>{formatMAD(total)} MAD</strong>
@@ -315,12 +309,10 @@ function App() {
   )
 }
 
-/* ---------- Recap dialog ---------- */
 
 function RecapDialog({ open, onClose, selection, incompatibilities, total, selectedCount }) {
   const ref = useRef(null)
 
-  // The native <dialog> handles focus trapping and the Escape key for us.
   useEffect(() => {
     const dialog = ref.current
     if (!dialog) return
@@ -342,7 +334,7 @@ function RecapDialog({ open, onClose, selection, incompatibilities, total, selec
       className="recap"
       aria-labelledby="recap-title"
       onClose={onClose}
-      onClick={e => { if (e.target === ref.current) onClose() }}   // click on the backdrop
+      onClick={e => { if (e.target === ref.current) onClose() }}    
     >
       <header className="recap-head">
         <div>
@@ -396,7 +388,6 @@ function RecapDialog({ open, onClose, selection, incompatibilities, total, selec
   )
 }
 
-// Plain-text version of the recap, for the downloaded file.
 function buildRecapText(selection, issues, total, date) {
   const rule = "-".repeat(48)
   const count = Object.values(selection).filter(Boolean).length
@@ -431,11 +422,9 @@ function buildRecapText(selection, issues, total, date) {
   return lines.join("\r\n") + "\r\n"
 }
 
-// fr-FR formatting uses narrow no-break spaces, which some text editors show as odd characters.
 const formatPlain = (n) => formatMAD(n).replace(/[\u202f\u00a0]/g, " ")
 
 function downloadTextFile(text, filename) {
-  // The BOM makes Windows Notepad read the accents as UTF-8.
   const blob = new Blob(["\uFEFF" + text], { type: "text/plain;charset=utf-8" })
   const url = URL.createObjectURL(blob)
   const link = document.createElement("a")
@@ -447,7 +436,6 @@ function downloadTextFile(text, filename) {
   URL.revokeObjectURL(url)
 }
 
-/* ---------- Card ---------- */
 
 function ItemCard({ item, fields, isSelected, onClick }) {
   return (
@@ -482,7 +470,6 @@ function ItemCard({ item, fields, isSelected, onClick }) {
   )
 }
 
-/* ---------- Icons ---------- */
 
 function CheckIcon() {
   return (
@@ -517,7 +504,6 @@ function SearchIcon() {
   )
 }
 
-/* ---------- Compatibility ---------- */
 
 function socketToken(socket) {
   const parts = socket.trim().split(" ")
@@ -575,13 +561,12 @@ function getIncompatibilities(sel) {
   return issues
 }
 
-/* ---------- Fields & sorting ---------- */
 
 function getFields(category) {
   switch (category) {
     case "Processeur":
       return [
-        { label: "Coeurs",    key: "Nombre de coeurs " },   // trailing space is in the JSON
+        { label: "Coeurs",    key: "Nombre de coeurs " },   
         { label: "Threads",   key: "Nombre de threads" },
         { label: "Fréquence", key: "Fréquence CPU" },
         { label: "Socket",    key: "Socket" },
@@ -630,7 +615,7 @@ function getFields(category) {
       ]
     case "Boîtier":
       return [
-        { label: "Format",       key: "Format du boitier" },        // "boitier" has no accent in the JSON
+        { label: "Format",       key: "Format du boitier" },       
         { label: "Carte mère",   key: "Format de carte mère" },
         { label: "Dimensions",   key: "Dimensions (L x H x P)" },
         { label: "Ventilateurs", key: "Nombre de ventilateurs fournis" },
@@ -653,7 +638,7 @@ function sortItems(items, key, sortingOrder) {
     const va = toComparable(a[key])
     const vb = toComparable(b[key])
     if (va == null && vb == null) return 0
-    if (va == null) return 1      // missing values always go last
+    if (va == null) return 1      
     if (vb == null) return -1
     if (typeof va === "number" && typeof vb === "number") return (va - vb) * dir
     return String(va).localeCompare(String(vb)) * dir
