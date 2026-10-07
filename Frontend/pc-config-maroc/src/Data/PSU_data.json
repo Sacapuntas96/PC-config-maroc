@@ -8,7 +8,7 @@
         "Capacité": "condensateurs entièrement japonais",
         "Marque": "XTRMLAB",
         "Price": 299.0,
-        "ID": 417
+        "ID": 435
     },
     {
         "Name": "MSI MAG A500N-H Bulk",
@@ -16,9 +16,13 @@
         "Puissance": "500 Watts",
         "Certification": "80 PLUS",
         "Modulaire": "Non",
-        "Marque": "\tMSI",
+        "Couleur": "Noir",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Non",
+        "Câble 12V-2x6 natif": "Non",
         "Price": 279.0,
-        "ID": 418
+        "ID": 436
     },
     {
         "Name": "XTRMLAB XP-650B 80+ BRONZE 650W ( 2 ANS GARANTIE )",
@@ -29,7 +33,7 @@
         "Capacité": "condensateurs entièrement japonais",
         "Marque": "XTRMLAB",
         "Price": 499.0,
-        "ID": 419
+        "ID": 437
     },
     {
         "Name": "XTRMLAB XP-750B 80+ BRONZE 750W ( 2 ANS GARANTIE )",
@@ -40,7 +44,7 @@
         "Capacité": "condensateurs entièrement japonais",
         "Marque": "XTRMLAB",
         "Price": 499.0,
-        "ID": 420
+        "ID": 438
     },
     {
         "Name": "XTRMLAB LYNX + XTRMLAB XP-650B 80+ BRONZE 650W ( 2 ANS GARANTIE )",
@@ -53,7 +57,7 @@
         "Fenêtre": "Oui",
         "Nombre de ventilateurs fournis": "1 x 120 mm ARGB",
         "Price": 678.0,
-        "ID": 421
+        "ID": 439
     },
     {
         "Name": "XTRMLAB LYNX + XTRMLAB XP-550B 80+ BRONZE 550W ( 2 ANS GARANTIE )",
@@ -66,7 +70,7 @@
         "Fenêtre": "Oui",
         "Nombre de ventilateurs fournis": "1 x 120 mm ARGB",
         "Price": 578.0,
-        "ID": 422
+        "ID": 440
     },
     {
         "Name": "XTRMLAB SPIDER + XTRMLAB XP-650B 80+ BRONZE 650W ( 2 ANS GARANTIE )",
@@ -79,7 +83,7 @@
         "Fenêtre": "Oui",
         "Nombre de ventilateurs fournis": "1 x 120 mm",
         "Price": 698.0,
-        "ID": 423
+        "ID": 441
     },
     {
         "Name": "XTRMLAB SPIDER + XTRMLAB XP-550B 80+ BRONZE 550W ( 2 ANS GARANTIE )",
@@ -91,8 +95,24 @@
         "Format de carte mère": "ATX, Micro ATX, Mini ITX",
         "Fenêtre": "Oui",
         "Nombre de ventilateurs fournis": "1 x 120 mm",
+        "Hauteur Max. Ventilateur CPU": "160 mm",
+        "Longueur Max. Carte Graphique": "345 mm",
         "Price": 598.0,
-        "ID": 424
+        "ID": 442
+    },
+    {
+        "Name": "Lian Li RB Series 80PLUS Bronze 750W (Black)",
+        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/11703-lian-li-rb-series-80plus-bronze-750w-black.html",
+        "Puissance": "750 Watts",
+        "Certification": "80 PLUS BRONZE",
+        "Modulaire": "Semi-modulaire",
+        "Couleur": "Noir",
+        "Marque": "Lian Li",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 789.0,
+        "ID": 443
     },
     {
         "Name": "Cooler Master Elite Gold 850 Full Modular ATX 3.1",
@@ -100,19 +120,13 @@
         "Puissance": "850 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
+        "Couleur": "Noir",
         "Marque": "Cooler Master",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1149.0,
-        "ID": 425
-    },
-    {
-        "Name": "Lian Li RB Series 80PLUS Bronze 750W (Black)",
-        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/11703-lian-li-rb-series-80plus-bronze-750w-black.html",
-        "Puissance": "750 Watts",
-        "Certification": "80 PLUS BRONZE",
-        "Modulaire": "Non",
-        "Marque": "\tLian Li",
-        "Price": 789.0,
-        "ID": 426
+        "ID": 444
     },
     {
         "Name": "Cooler Master Elite Gold 750 Full Modular ATX 3.1",
@@ -120,14 +134,18 @@
         "Puissance": "750 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
+        "Couleur": "Noir",
         "Marque": "Cooler Master",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 999.0,
-        "ID": 427
+        "ID": 445
     },
     {
         "Name": "XTRMLAB LYNX V2 + XTRMLAB XP-650B 80+ BRONZE 650W ( 2 ANS GARANTIE )",
         "URL": "https://www.ultrapc.ma/les-moyennes-tours/11609-xtrmlab-lynx-v2-xtrmlab-xp-650b-80-bronze-650w-2-ans-garantie.html",
-        "Puissance": "550 Watts",
+        "Puissance": "650 Watts",
         "Certification": "80 PLUS BRONZE",
         "Format du boitier": "Moyen Tour",
         "Matériau boitier": "ABS (Plastique), acier",
@@ -135,7 +153,7 @@
         "Fenêtre": "Oui",
         "Nombre de ventilateurs fournis": "4 x 120 mm FRGB",
         "Price": 698.0,
-        "ID": 428
+        "ID": 446
     },
     {
         "Name": "XTRMLAB LYNX V2 + XTRMLAB XP-550B 80+ BRONZE 550W ( 2 ANS GARANTIE )",
@@ -148,7 +166,7 @@
         "Fenêtre": "Oui",
         "Nombre de ventilateurs fournis": "4 x 120 mm FRGB",
         "Price": 598.0,
-        "ID": 429
+        "ID": 447
     },
     {
         "Name": "DeepCool PL650D 80 PLUS Bronze 650W Black",
@@ -156,19 +174,13 @@
         "Puissance": "650 Watts",
         "Certification": "80 PLUS BRONZE",
         "Modulaire": "Non",
+        "Couleur": "Noir",
         "Marque": "DeepCool",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 699.0,
-        "ID": 430
-    },
-    {
-        "Name": "Lian Li RB Series 80PLUS Bronze 650W (Black)",
-        "URL": "https://www.ultrapc.ma/entre-600-w-et-699-w/11702-lian-li-rb-series-80plus-bronze-650w-black.html",
-        "Puissance": "650 Watts",
-        "Certification": "80 PLUS BRONZE",
-        "Modulaire": "Non",
-        "Marque": "\tLian Li",
-        "Price": 689.0,
-        "ID": 431
+        "ID": 448
     },
     {
         "Name": "Cooler Master MWE Bronze 550W V3",
@@ -176,9 +188,27 @@
         "Puissance": "550 Watts",
         "Certification": "80 PLUS BRONZE",
         "Modulaire": "Non",
+        "Couleur": "Noir",
         "Marque": "Cooler Master",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Non",
         "Price": 599.0,
-        "ID": 432
+        "ID": 449
+    },
+    {
+        "Name": "Lian Li RB Series 80PLUS Bronze 650W (Black)",
+        "URL": "https://www.ultrapc.ma/entre-600-w-et-699-w/11702-lian-li-rb-series-80plus-bronze-650w-black.html",
+        "Puissance": "650 Watts",
+        "Certification": "80 PLUS BRONZE",
+        "Modulaire": "Semi-modulaire",
+        "Couleur": "Noir",
+        "Marque": "Lian Li",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 689.0,
+        "ID": 450
     },
     {
         "Name": "DeepCool PL750-D 80PLUS Bronze 750W",
@@ -186,9 +216,27 @@
         "Puissance": "750 Watts",
         "Certification": "80 PLUS BRONZE",
         "Modulaire": "Non",
+        "Couleur": "Noir",
         "Marque": "DeepCool",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 799.0,
-        "ID": 433
+        "ID": 451
+    },
+    {
+        "Name": "Lian Li RB 550W 80 PLUS Bronze (Black)",
+        "URL": "https://www.ultrapc.ma/entre-500-w-et-599-w/12500-lian-li-rb-550w-80-plus-bronze-black.html",
+        "Puissance": "550 Watts",
+        "Certification": "80 PLUS BRONZE",
+        "Modulaire": "Semi-modulaire",
+        "Couleur": "Noir",
+        "Marque": "Lian Li",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Non",
+        "Price": 599.0,
+        "ID": 452
     },
     {
         "Name": "Cooler Master Elite Gold 1000 Full Modular ATX 3.1",
@@ -196,9 +244,13 @@
         "Puissance": "1000 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
+        "Couleur": "Noir",
         "Marque": "Cooler Master",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1499.0,
-        "ID": 434
+        "ID": 453
     },
     {
         "Name": "Cooler Master MWE Bronze 750W V3",
@@ -206,9 +258,41 @@
         "Puissance": "750 Watts",
         "Certification": "80 PLUS BRONZE",
         "Modulaire": "Non",
+        "Couleur": "Noir",
         "Marque": "Cooler Master",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Non",
         "Price": 799.0,
-        "ID": 435
+        "ID": 454
+    },
+    {
+        "Name": "Lian Li SP850 v2 850W 80 PLUS Gold (Black)",
+        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/12498-lian-li-sp850-v2-850w-80-plus-gold-black.html",
+        "Puissance": "850 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "Lian Li",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1349.0,
+        "ID": 455
+    },
+    {
+        "Name": "Lian Li SP750 v2 750W 80 PLUS Gold (Black)",
+        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/12496-lian-li-sp750-v2-750w-80-plus-gold-black.html",
+        "Puissance": "750 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "Lian Li",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1199.0,
+        "ID": 456
     },
     {
         "Name": "DeepCool PL800-D 80PLUS BRONZE 800W",
@@ -216,9 +300,13 @@
         "Puissance": "800 Watts",
         "Certification": "80 PLUS BRONZE",
         "Modulaire": "Non",
+        "Couleur": "Noir",
         "Marque": "DeepCool",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 999.0,
-        "ID": 436
+        "ID": 457
     },
     {
         "Name": "DeepCool DQ750-M-V2L 80PLUS GOLD 750W White",
@@ -226,9 +314,13 @@
         "Puissance": "750 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
+        "Couleur": "Blanc",
         "Marque": "DeepCool",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Non",
+        "Câble 12V-2x6 natif": "Non",
         "Price": 899.0,
-        "ID": 437
+        "ID": 458
     },
     {
         "Name": "NZXT C750 Bronze ATX 3.1 80PLUS Bronze 750W",
@@ -236,19 +328,13 @@
         "Puissance": "750 Watts",
         "Certification": "80 PLUS BRONZE",
         "Modulaire": "Non",
-        "Marque": "\tNZXT",
+        "Couleur": "Noir",
+        "Marque": "NZXT",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 899.0,
-        "ID": 438
-    },
-    {
-        "Name": "Lian Li SX 850P Series 80PLUS PLATINUM 850W (Black)",
-        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/11704-lian-li-sx-850p-series-80plus-platinum-850w-black.html",
-        "Puissance": "850 Watts",
-        "Certification": "80 PLUS PLATINUM",
-        "Modulaire": "Oui",
-        "Marque": "\tLian Li",
-        "Price": 1399.0,
-        "ID": 439
+        "ID": 459
     },
     {
         "Name": "Lian Li SX 1000P Series 80PLUS PLATINUM 1000W (Black)",
@@ -256,9 +342,41 @@
         "Puissance": "1000 Watts",
         "Certification": "80 PLUS PLATINUM",
         "Modulaire": "Oui",
-        "Marque": "\tLian Li",
+        "Couleur": "Noir",
+        "Marque": "Lian Li",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1599.0,
-        "ID": 440
+        "ID": 460
+    },
+    {
+        "Name": "Lian Li SX 850P Series 80PLUS PLATINUM 850W (Black)",
+        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/11704-lian-li-sx-850p-series-80plus-platinum-850w-black.html",
+        "Puissance": "850 Watts",
+        "Certification": "80 PLUS PLATINUM",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "Lian Li",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1399.0,
+        "ID": 461
+    },
+    {
+        "Name": "Cooler Master Elite Gold 1200 Full Modular ATX 3.1",
+        "URL": "https://www.ultrapc.ma/plus-de-900-w/11807-cooler-master-elite-gold-1200-full-modular-atx-31.html",
+        "Puissance": "1200 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "Cooler Master",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1899.0,
+        "ID": 462
     },
     {
         "Name": "Connect PSU 650 PC CORE 80 PLUS Bronze 650W",
@@ -268,37 +386,7 @@
         "Modulaire": "Non",
         "Marque": "Connect",
         "Price": 349.0,
-        "ID": 441
-    },
-    {
-        "Name": "MSI MAG A550BNL 80PLUS Bronze 550W",
-        "URL": "https://www.ultrapc.ma/alimentations-pc/7742-msi-mag-a550bnl-80plus-bronze-550w.html",
-        "Puissance": "550 Watts",
-        "Certification": "80 PLUS BRONZE",
-        "Modulaire": "Non",
-        "Marque": "\tMSI",
-        "Price": 499.0,
-        "ID": 442
-    },
-    {
-        "Name": "Deepcool Gamer STORM PN750M 80 Plus Gold 750W Black",
-        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/12064-deepcool-gamer-storm-pn750m-80-plus-gold-750w-black.html",
-        "Puissance": "750 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Marque": "GamerStorm by DeepCool",
-        "Price": 1099.0,
-        "ID": 443
-    },
-    {
-        "Name": "Cooler Master Elite Gold 1200 Full Modular ATX 3.1",
-        "URL": "https://www.ultrapc.ma/plus-de-900-w/11807-cooler-master-elite-gold-1200-full-modular-atx-31.html",
-        "Puissance": "1200 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Marque": "Cooler Master",
-        "Price": 1899.0,
-        "ID": 444
+        "ID": 463
     },
     {
         "Name": "MSI MAG A650BNL 80PLUS Bronze 650W Blanc",
@@ -306,19 +394,27 @@
         "Puissance": "650 Watts",
         "Certification": "80 PLUS BRONZE",
         "Modulaire": "Non",
-        "Marque": "\tMSI",
+        "Couleur": "Blanc",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Non",
+        "Câble 12V-2x6 natif": "Non",
         "Price": 699.0,
-        "ID": 445
+        "ID": 464
     },
     {
-        "Name": "NZXT C1200 Gold ATX 3.1 80PLUS GOLD 1200W (Black)",
-        "URL": "https://www.ultrapc.ma/plus-de-900-w/8869-nzxt-c1200-gold-atx-31-80plus-gold-1200w-black.html",
-        "Puissance": "1200 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Marque": "\tNZXT",
-        "Price": 2199.0,
-        "ID": 446
+        "Name": "MSI MAG A550BNL 80PLUS Bronze 550W",
+        "URL": "https://www.ultrapc.ma/alimentations-pc/7742-msi-mag-a550bnl-80plus-bronze-550w.html",
+        "Puissance": "550 Watts",
+        "Certification": "80 PLUS BRONZE",
+        "Modulaire": "Non",
+        "Couleur": "Noir",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Non",
+        "Câble 12V-2x6 natif": "Non",
+        "Price": 499.0,
+        "ID": 465
     },
     {
         "Name": "DeepCool PL650D 80 PLUS Bronze 650W White",
@@ -326,9 +422,27 @@
         "Puissance": "650 Watts",
         "Certification": "80 PLUS BRONZE",
         "Modulaire": "Non",
+        "Couleur": "Blanc",
         "Marque": "DeepCool",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 699.0,
-        "ID": 447
+        "ID": 466
+    },
+    {
+        "Name": "Deepcool Gamer STORM PN750M 80 Plus Gold 750W Black",
+        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/12064-deepcool-gamer-storm-pn750m-80-plus-gold-750w-black.html",
+        "Puissance": "750 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "GamerStorm by DeepCool",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1099.0,
+        "ID": 467
     },
     {
         "Name": "Antec G850 80 Plus Gold 850W",
@@ -336,9 +450,12 @@
         "Puissance": "850 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Semi-modulaire",
-        "Marque": "\tAntec",
+        "Marque": "Antec",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Non",
+        "Câble 12V-2x6 natif": "Non",
         "Price": 899.0,
-        "ID": 448
+        "ID": 468
     },
     {
         "Name": "NZXT C850 Gold Core ATX 3.1 80PLUS GOLD 850W (Black)",
@@ -346,19 +463,13 @@
         "Puissance": "850 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
-        "Marque": "\tNZXT",
+        "Couleur": "Noir",
+        "Marque": "NZXT",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1499.0,
-        "ID": 449
-    },
-    {
-        "Name": "DeepCool Gamer STORM PN850M 80 Plus Gold 850W Black",
-        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/12063-deepcool-gamer-storm-pn850m-80-plus-gold-850w-black.html",
-        "Puissance": "850 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Marque": "GamerStorm by DeepCool",
-        "Price": 1199.0,
-        "ID": 450
+        "ID": 469
     },
     {
         "Name": "MSI MAG A1000GL PCIE5 80PLUS Gold 1000W Noir",
@@ -366,9 +477,69 @@
         "Puissance": "1000 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
-        "Marque": "\tMSI",
+        "Couleur": "Noir",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1899.0,
-        "ID": 451
+        "ID": 470
+    },
+    {
+        "Name": "NZXT C1200 Gold ATX 3.1 80PLUS GOLD 1200W (Black)",
+        "URL": "https://www.ultrapc.ma/plus-de-900-w/8869-nzxt-c1200-gold-atx-31-80plus-gold-1200w-black.html",
+        "Puissance": "1200 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "NZXT",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1999.0,
+        "ID": 471
+    },
+    {
+        "Name": "Antec G750 80 Plus Gold 750W",
+        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/11358-antec-g750-80-plus-gold-750w-4710562755428.html",
+        "Puissance": "750 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Semi-modulaire",
+        "Couleur": "Noir",
+        "Marque": "Antec",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Non",
+        "Câble 12V-2x6 natif": "Non",
+        "Price": 819.0,
+        "ID": 472
+    },
+    {
+        "Name": "DeepCool Gamer STORM PN850M 80 Plus Gold 850W Black",
+        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/12063-deepcool-gamer-storm-pn850m-80-plus-gold-850w-black.html",
+        "Puissance": "850 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "GamerStorm by DeepCool",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1199.0,
+        "ID": 473
+    },
+    {
+        "Name": "Lian Li SP750 v2 750W 80 PLUS Gold (White)",
+        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/12497-lian-li-sp750-v2-750w-80-plus-gold-white.html",
+        "Puissance": "750 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Blanc",
+        "Marque": "Lian Li",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1199.0,
+        "ID": 474
     },
     {
         "Name": "Cooler Master MWE Gold 850 V3 ATX 3.1 Full Modular 80PLUS GOLD 850W",
@@ -376,9 +547,41 @@
         "Puissance": "850 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
+        "Couleur": "Noir",
         "Marque": "Cooler Master",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1299.0,
-        "ID": 452
+        "ID": 475
+    },
+    {
+        "Name": "Corsair RM850e Gold Blanc (2025)",
+        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/11234-corsair-rm850e-gold-blanc-2025.html",
+        "Puissance": "850 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Blanc",
+        "Marque": "Corsair",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1399.0,
+        "ID": 476
+    },
+    {
+        "Name": "Lian Li SP850 v2 850W 80 PLUS Gold (White)",
+        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/12499-lian-li-sp850-v2-850w-80-plus-gold-white.html",
+        "Puissance": "850 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Blanc",
+        "Marque": "Lian Li",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1349.0,
+        "ID": 477
     },
     {
         "Name": "Lian Li SX 1200P Series 80PLUS PLATINUM 1200W (Black)",
@@ -386,9 +589,27 @@
         "Puissance": "1200 Watts",
         "Certification": "80 PLUS PLATINUM",
         "Modulaire": "Oui",
-        "Marque": "\tLian Li",
+        "Couleur": "Noir",
+        "Marque": "Lian Li",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1749.0,
-        "ID": 453
+        "ID": 478
+    },
+    {
+        "Name": "Gigabyte P550SS 550W Silver",
+        "URL": "https://www.ultrapc.ma/entre-500-w-et-599-w/10030-gigabyte-p550ss-550w-silver.html",
+        "Puissance": "550 Watts",
+        "Certification": "80 PLUS SILVER",
+        "Modulaire": "Non",
+        "Couleur": "Noir",
+        "Marque": "Gigabyte",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Non",
+        "Price": 469.0,
+        "ID": 479
     },
     {
         "Name": "Connect PSU 550 PC CORE 80 PLUS Bronze 550W",
@@ -398,17 +619,172 @@
         "Modulaire": "Non",
         "Marque": "Connect",
         "Price": 299.0,
-        "ID": 454
+        "ID": 480
     },
     {
-        "Name": "Antec G750 80 Plus Gold 750W",
-        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/11358-antec-g750-80-plus-gold-750w-4710562755428.html",
+        "Name": "Corsair RM850e Gold Noir (2025)",
+        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/9832-corsair-rm850e-gold-noir-2025.html",
+        "Puissance": "850 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1399.0,
+        "ID": 481
+    },
+    {
+        "Name": "Cooler Master MWE Gold 1250 Full Modular V2 ATX 3.1 80PLUS GOLD 1250W",
+        "URL": "https://www.ultrapc.ma/plus-de-900-w/11262-cooler-master-mwe-gold-1250-full-modular-v2-atx-31-80plus-gold-1250w.html",
+        "Puissance": "1250 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "Cooler Master",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 2299.0,
+        "ID": 482
+    },
+    {
+        "Name": "Corsair RM750e Gold Blanc (2025)",
+        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/11233-corsair-rm750e-gold-blanc-2025.html",
         "Puissance": "750 Watts",
         "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Blanc",
+        "Marque": "Corsair",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1249.0,
+        "ID": 483
+    },
+    {
+        "Name": "Corsair RM1000e Gold Noir (2025)",
+        "URL": "https://www.ultrapc.ma/plus-de-900-w/9833-corsair-rm1000e-gold-noir-2025.html",
+        "Puissance": "1000 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "Corsair",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1899.0,
+        "ID": 484
+    },
+    {
+        "Name": "Corsair RM750e Gold Noir (2025)",
+        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/9831-corsair-rm750e-gold-noir-2025.html",
+        "Puissance": "750 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1249.0,
+        "ID": 485
+    },
+    {
+        "Name": "MSI MAG A1000GL PCIE5 80PLUS Gold 1000W Blanc",
+        "URL": "https://www.ultrapc.ma/plus-de-900-w/12109-msi-mag-a1000gl-pcie5-80plus-gold-1000w-blanc.html",
+        "Puissance": "1000 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Blanc",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1949.0,
+        "ID": 486
+    },
+    {
+        "Name": "Antec CSK1000 Pro 80PLUS Bronze 1000W",
+        "URL": "https://www.ultrapc.ma/plus-de-900-w/11312-antec-csk1000-pro-80plus-bronze-1000w.html",
+        "Puissance": "1000 Watts",
+        "Certification": "80 PLUS BRONZE",
         "Modulaire": "Semi-modulaire",
-        "Marque": "\tAntec",
-        "Price": 819.0,
-        "ID": 455
+        "Marque": "Antec",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1199.0,
+        "ID": 487
+    },
+    {
+        "Name": "Cooler Master MWE Gold 1050 Full Modular V2 ATX 3.1 80PLUS GOLD 1050W",
+        "URL": "https://www.ultrapc.ma/plus-de-900-w/11263-cooler-master-mwe-gold-1050-full-modular-v2-atx-31-80plus-gold-1050w.html",
+        "Puissance": "1050 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "Cooler Master",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 2099.0,
+        "ID": 488
+    },
+    {
+        "Name": "Lian Li SX 1000P Series 80PLUS PLATINUM 1000W (White)",
+        "URL": "https://www.ultrapc.ma/plus-de-900-w/11707-lian-li-sx-1000p-series-80plus-platinum-1000w-white.html",
+        "Puissance": "1000 Watts",
+        "Certification": "80 PLUS PLATINUM",
+        "Modulaire": "Oui",
+        "Couleur": "Blanc",
+        "Marque": "Lian Li",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1599.0,
+        "ID": 489
+    },
+    {
+        "Name": "Lian Li SX 850P Series 80PLUS PLATINUM 850W (White)",
+        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/11705-lian-li-sx-850p-series-80plus-platinum-850w-white.html",
+        "Puissance": "850 Watts",
+        "Certification": "80 PLUS PLATINUM",
+        "Modulaire": "Oui",
+        "Couleur": "Blanc",
+        "Marque": "Lian Li",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1399.0,
+        "ID": 490
+    },
+    {
+        "Name": "Antec NE1000G M 80Plus Gold 1000W Blanc",
+        "URL": "https://www.ultrapc.ma/plus-de-900-w/11313-antec-ne1000g-m-80plus-gold-1000w-blanc.html",
+        "Puissance": "1000 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Blanc",
+        "Marque": "Antec",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1949.0,
+        "ID": 491
+    },
+    {
+        "Name": "Corsair RM1000e Gold Blanc (2025)",
+        "URL": "https://www.ultrapc.ma/plus-de-900-w/11235-corsair-rm1000e-gold-blanc-2025.html",
+        "Puissance": "1000 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Blanc",
+        "Marque": "Corsair",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1899.0,
+        "ID": 492
     },
     {
         "Name": "Gigabyte P650SS ICE 650W Silver",
@@ -418,68 +794,11 @@
         "Modulaire": "Non",
         "Couleur": "Blanc",
         "Marque": "Gigabyte",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Non",
         "Price": 549.0,
-        "ID": 456
-    },
-    {
-        "Name": "MSI MAG A1000GL PCIE5 80PLUS Gold 1000W Blanc",
-        "URL": "https://www.ultrapc.ma/plus-de-900-w/12109-msi-mag-a1000gl-pcie5-80plus-gold-1000w-blanc.html",
-        "Puissance": "1000 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Marque": "\tMSI",
-        "Price": 1949.0,
-        "ID": 457
-    },
-    {
-        "Name": "ASUS TUF GAMING 750W GOLD",
-        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/11940-asus-tuf-gaming-750w-gold.html",
-        "Puissance": "750 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Marque": "ASUS",
-        "Price": 1199.0,
-        "ID": 458
-    },
-    {
-        "Name": "Cooler Master MWE Gold 750 V3 ATX 3.1 80PLUS GOLD 750W",
-        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/11265-cooler-master-mwe-gold-750-v3-atx-31-80plus-gold-750w.html",
-        "Puissance": "750 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Non",
-        "Marque": "Cooler Master",
-        "Price": 1099.0,
-        "ID": 459
-    },
-    {
-        "Name": "Cooler Master MWE Gold 1050 Full Modular V2 ATX 3.1 80PLUS GOLD 1050W",
-        "URL": "https://www.ultrapc.ma/plus-de-900-w/11263-cooler-master-mwe-gold-1050-full-modular-v2-atx-31-80plus-gold-1050w.html",
-        "Puissance": "1050 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Marque": "Cooler Master",
-        "Price": 2099.0,
-        "ID": 460
-    },
-    {
-        "Name": "Cooler Master MWE Gold 1250 Full Modular V2 ATX 3.1 80PLUS GOLD 1250W",
-        "URL": "https://www.ultrapc.ma/plus-de-900-w/11262-cooler-master-mwe-gold-1250-full-modular-v2-atx-31-80plus-gold-1250w.html",
-        "Puissance": "1250 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Marque": "Cooler Master",
-        "Price": 2299.0,
-        "ID": 461
-    },
-    {
-        "Name": "Gigabyte P550SS 550W Silver",
-        "URL": "https://www.ultrapc.ma/entre-500-w-et-599-w/10030-gigabyte-p550ss-550w-silver.html",
-        "Puissance": "550 Watts",
-        "Certification": "80 PLUS SILVER",
-        "Modulaire": "Non",
-        "Marque": "Gigabyte",
-        "Price": 469.0,
-        "ID": 462
+        "ID": 493
     },
     {
         "Name": "ASUS TUF GAMING 850W GOLD",
@@ -487,38 +806,13 @@
         "Puissance": "850 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
+        "Couleur": "Noir",
         "Marque": "ASUS",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1399.0,
-        "ID": 463
-    },
-    {
-        "Name": "DeepCool PQ750G 80PLUS GOLD 750W Black",
-        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/12223-deepcool-pq750g-80plus-gold-750w-black.html",
-        "Puissance": "750 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Marque": "GamerStorm by DeepCool",
-        "Price": 999.0,
-        "ID": 464
-    },
-    {
-        "Name": "Antec CSK1000 Pro 80PLUS Bronze 1000W",
-        "URL": "https://www.ultrapc.ma/plus-de-900-w/11312-antec-csk1000-pro-80plus-bronze-1000w.html",
-        "Puissance": "1000 Watts",
-        "Certification": "80 PLUS BRONZE",
-        "Modulaire": "Semi-modulaire",
-        "Marque": "\tAntec",
-        "Price": 1199.0,
-        "ID": 465
-    },
-    {
-        "Name": "Corsair RM750e Gold Noir (2025)",
-        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/9831-corsair-rm750e-gold-noir-2025.html",
-        "Puissance": "750 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Price": 1249.0,
-        "ID": 466
+        "ID": 494
     },
     {
         "Name": "Cooler Master MWE Bronze 650W V3",
@@ -526,69 +820,27 @@
         "Puissance": "650 Watts",
         "Certification": "80 PLUS BRONZE",
         "Modulaire": "Non",
+        "Couleur": "Noir",
         "Marque": "Cooler Master",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Non",
         "Price": 699.0,
-        "ID": 467
+        "ID": 495
     },
     {
-        "Name": "MSI MAG A750BN PCIE5 II 80PLUS Bronze 750W",
-        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/12111-msi-mag-a750bn-pcie5-ii-80plus-bronze-750w.html",
-        "Puissance": "750 Watts",
-        "Certification": "80 PLUS BRONZE",
-        "Modulaire": "Non",
-        "Marque": "\tMSI",
-        "Price": 799.0,
-        "ID": 468
-    },
-    {
-        "Name": "Lian Li SX 1000P Series 80PLUS PLATINUM 1000W (White)",
-        "URL": "https://www.ultrapc.ma/plus-de-900-w/11707-lian-li-sx-1000p-series-80plus-platinum-1000w-white.html",
-        "Puissance": "1000 Watts",
+        "Name": "Lian Li SX 1200P Series 80PLUS PLATINUM 1200W White",
+        "URL": "https://www.ultrapc.ma/plus-de-900-w/12505-lian-li-sx-1200p-series-80plus-platinum-1200w-white.html",
+        "Puissance": "1200 Watts",
         "Certification": "80 PLUS PLATINUM",
         "Modulaire": "Oui",
-        "Marque": "\tLian Li",
-        "Price": 1599.0,
-        "ID": 469
-    },
-    {
-        "Name": "Lian Li SX 850P Series 80PLUS PLATINUM 850W (White)",
-        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/11705-lian-li-sx-850p-series-80plus-platinum-850w-white.html",
-        "Puissance": "850 Watts",
-        "Certification": "80 PLUS PLATINUM",
-        "Modulaire": "Oui",
-        "Marque": "\tLian Li",
-        "Price": 1399.0,
-        "ID": 470
-    },
-    {
-        "Name": "Antec NE1000G M 80Plus Gold 1000W Blanc",
-        "URL": "https://www.ultrapc.ma/plus-de-900-w/11313-antec-ne1000g-m-80plus-gold-1000w-blanc.html",
-        "Puissance": "1000 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Marque": "\tAntec",
-        "Price": 1949.0,
-        "ID": 471
-    },
-    {
-        "Name": "Cooler Master MWE Gold 750 V3 ATX 3.1 Full Modular 80PLUS GOLD 750W",
-        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/11267-cooler-master-mwe-gold-750-v3-atx-31-full-modular-80plus-gold-750w.html",
-        "Puissance": "750 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Marque": "Cooler Master",
-        "Price": 1199.0,
-        "ID": 472
-    },
-    {
-        "Name": "MSI MAG A850GN PCIE5 80PLUS Gold 850W",
-        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/10559-msi-mag-a850gn-pcie5-80plus-gold-850w.html",
-        "Puissance": "850 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Non",
-        "Marque": "\tMSI",
-        "Price": 999.0,
-        "ID": 473
+        "Couleur": "Blanc",
+        "Marque": "Lian Li",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1799.0,
+        "ID": 496
     },
     {
         "Name": "DeepCool PQ850G 80 PLUS GOLD 850W Black",
@@ -596,9 +848,27 @@
         "Puissance": "850 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
+        "Couleur": "Noir",
         "Marque": "GamerStorm by DeepCool",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1099.0,
-        "ID": 474
+        "ID": 497
+    },
+    {
+        "Name": "DeepCool PQ750G 80PLUS GOLD 750W Black",
+        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/12223-deepcool-pq750g-80plus-gold-750w-black.html",
+        "Puissance": "750 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "GamerStorm by DeepCool",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 999.0,
+        "ID": 498
     },
     {
         "Name": "DeepCool PF550X 80PLUS BRONZE 550W Black",
@@ -606,19 +876,40 @@
         "Puissance": "550 Watts",
         "Certification": "80 PLUS BRONZE",
         "Modulaire": "Non",
+        "Couleur": "Noir",
         "Marque": "GamerStorm by DeepCool",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Non",
+        "Câble 12V-2x6 natif": "Non",
         "Price": 499.0,
-        "ID": 475
+        "ID": 499
     },
     {
-        "Name": "NZXT C1000 Gold Core ATX 3.1 80PLUS GOLD 1000W (Black)",
-        "URL": "https://www.ultrapc.ma/plus-de-900-w/11287-nzxt-c1000-gold-core-atx-31-80plus-gold-1000w-black.html",
-        "Puissance": "1000 Watts",
+        "Name": "ASUS TUF GAMING 750W GOLD",
+        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/11940-asus-tuf-gaming-750w-gold.html",
+        "Puissance": "750 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
-        "Marque": "\tNZXT",
-        "Price": 1849.0,
-        "ID": 476
+        "Couleur": "Noir",
+        "Marque": "ASUS",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1199.0,
+        "ID": 500
+    },
+    {
+        "Name": "Cooler Master MWE Gold 750 V3 ATX 3.1 80PLUS GOLD 750W",
+        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/11265-cooler-master-mwe-gold-750-v3-atx-31-80plus-gold-750w.html",
+        "Puissance": "750 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Non",
+        "Couleur": "Noir",
+        "Marque": "Cooler Master",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Price": 1099.0,
+        "ID": 501
     },
     {
         "Name": "Corsair RM1200e (2025)",
@@ -626,8 +917,26 @@
         "Puissance": "1200 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 2749.0,
-        "ID": 477
+        "ID": 502
+    },
+    {
+        "Name": "MSI MAG A850GN PCIE5 80PLUS Gold 850W",
+        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/10559-msi-mag-a850gn-pcie5-80plus-gold-850w.html",
+        "Puissance": "850 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Non",
+        "Couleur": "Noir",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1049.0,
+        "ID": 503
     },
     {
         "Name": "MSI MPG A1250GS PCIE5 80PLUS Gold 1250W",
@@ -635,38 +944,27 @@
         "Puissance": "1250 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
-        "Marque": "\tMSI",
+        "Couleur": "Noir",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 2899.0,
-        "ID": 478
+        "ID": 504
     },
     {
-        "Name": "Corsair RM1000e Gold Noir (2025)",
-        "URL": "https://www.ultrapc.ma/plus-de-900-w/9833-corsair-rm1000e-gold-noir-2025.html",
-        "Puissance": "1000 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Marque": "Corsair",
-        "Price": 1899.0,
-        "ID": 479
-    },
-    {
-        "Name": "Corsair RM850e Gold Noir (2025)",
-        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/9832-corsair-rm850e-gold-noir-2025.html",
-        "Puissance": "850 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Price": 1399.0,
-        "ID": 480
-    },
-    {
-        "Name": "DeepCool PF750X 80PLUS BRONZE 750W Black",
-        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/12222-deepcool-pf750x-80plus-bronze-750w-black.html",
+        "Name": "MSI MAG A750BN PCIE5 II 80PLUS Bronze 750W",
+        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/12111-msi-mag-a750bn-pcie5-ii-80plus-bronze-750w.html",
         "Puissance": "750 Watts",
         "Certification": "80 PLUS BRONZE",
         "Modulaire": "Non",
-        "Marque": "GamerStorm by DeepCool",
-        "Price": 649.0,
-        "ID": 481
+        "Couleur": "Noir",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 799.0,
+        "ID": 505
     },
     {
         "Name": "ASUS TUF GAMING 1000W GOLD",
@@ -674,29 +972,27 @@
         "Puissance": "1000 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
+        "Couleur": "Noir",
         "Marque": "ASUS",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1799.0,
-        "ID": 482
+        "ID": 506
     },
     {
-        "Name": "Cooler Master MWE Gold 850 V3 ATX 3.1 80PLUS GOLD 850W",
-        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/11264-cooler-master-mwe-gold-850-v3-atx-31-80plus-gold-850w.html",
-        "Puissance": "850 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Non",
-        "Marque": "Cooler Master",
-        "Price": 1199.0,
-        "ID": 483
-    },
-    {
-        "Name": "Corsair RM750e Gold Blanc (2025)",
-        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/11233-corsair-rm750e-gold-blanc-2025.html",
+        "Name": "Cooler Master MWE Gold 750 V3 ATX 3.1 Full Modular 80PLUS GOLD 750W",
+        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/11267-cooler-master-mwe-gold-750-v3-atx-31-full-modular-80plus-gold-750w.html",
         "Puissance": "750 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
-        "Marque": "Corsair",
-        "Price": 1249.0,
-        "ID": 484
+        "Couleur": "Noir",
+        "Marque": "Cooler Master",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1199.0,
+        "ID": 507
     },
     {
         "Name": "MSI MAG A1000G PCIE5 80PLUS Gold 1000W",
@@ -704,19 +1000,27 @@
         "Puissance": "1000 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
-        "Marque": "\tMSI",
+        "Couleur": "Noir",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 2249.0,
-        "ID": 485
+        "ID": 508
     },
     {
-        "Name": "DeepCool Gamer STORM PQ1000G 80 Plus Gold 1000W Black",
-        "URL": "https://www.ultrapc.ma/plus-de-900-w/12065-deepcool-gamer-storm-pq1000g-80-plus-gold-1000w-black.html",
-        "Puissance": "1000 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
+        "Name": "DeepCool PF750X 80PLUS BRONZE 750W Black",
+        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/12222-deepcool-pf750x-80plus-bronze-750w-black.html",
+        "Puissance": "750 Watts",
+        "Certification": "80 PLUS BRONZE",
+        "Modulaire": "Non",
+        "Couleur": "Noir",
         "Marque": "GamerStorm by DeepCool",
-        "Price": 1299.0,
-        "ID": 486
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Non",
+        "Câble 12V-2x6 natif": "Non",
+        "Price": 649.0,
+        "ID": 509
     },
     {
         "Name": "MSI A850GLS MLG Edition 80PLUS Gold 850W",
@@ -724,19 +1028,27 @@
         "Puissance": "850 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
-        "Marque": "\tMSI",
+        "Couleur": "Noir",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1349.0,
-        "ID": 487
+        "ID": 510
     },
     {
-        "Name": "MSI MAG A850GS PCIE5 80PLUS Gold 850W",
-        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/10557-msi-mag-a850gs-pcie5-80plus-gold-850w.html",
+        "Name": "Cooler Master MWE Gold 850 V3 ATX 3.1 80PLUS GOLD 850W",
+        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/11264-cooler-master-mwe-gold-850-v3-atx-31-80plus-gold-850w.html",
         "Puissance": "850 Watts",
         "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Marque": "\tMSI",
-        "Price": 1499.0,
-        "ID": 488
+        "Modulaire": "Non",
+        "Couleur": "Noir",
+        "Marque": "Cooler Master",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1199.0,
+        "ID": 511
     },
     {
         "Name": "Gigabyte  UD 1000GM PG5 1000W Gold",
@@ -744,8 +1056,12 @@
         "Puissance": "1000 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1799.0,
-        "ID": 489
+        "ID": 512
     },
     {
         "Name": "MSI MAG  A1250GL PCIE5 80PLUS Gold 1250W",
@@ -753,9 +1069,13 @@
         "Puissance": "1250 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
-        "Marque": "\tMSI",
+        "Couleur": "Noir",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 2299.0,
-        "ID": 490
+        "ID": 513
     },
     {
         "Name": "ASUS ROG LOKI SFX-L 80PLUS Platinum 750W",
@@ -763,29 +1083,55 @@
         "Puissance": "750 Watts",
         "Certification": "80 PLUS PLATINUM",
         "Modulaire": "Oui",
+        "Couleur": "Noir",
         "Marque": "ASUS",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1999.0,
-        "ID": 491
+        "ID": 514
     },
     {
-        "Name": "be quiet! Pure Power 13 M 850W 80PLUS Gold",
-        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/11254-be-quiet-pure-power-13-m-850w-80plus-gold.html",
-        "Puissance": "850 Watts",
-        "Certification": "80 PLUS GOLD",
-        "Modulaire": "Oui",
-        "Marque": "\tbe quiet!",
-        "Price": 1699.0,
-        "ID": 492
-    },
-    {
-        "Name": "Corsair RM1000e Gold Blanc (2025)",
-        "URL": "https://www.ultrapc.ma/plus-de-900-w/11235-corsair-rm1000e-gold-blanc-2025.html",
+        "Name": "Lian Li Edge 1000 80PLUS GOLD 1000W (Black) - With Hub",
+        "URL": "https://www.ultrapc.ma/plus-de-900-w/11697-lian-li-edge-1000-80plus-gold-1000w-black-with-hub.html",
         "Puissance": "1000 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
-        "Marque": "Corsair",
-        "Price": 1899.0,
-        "ID": 493
+        "Couleur": "Noir",
+        "Marque": "Lian Li",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1649.0,
+        "ID": 515
+    },
+    {
+        "Name": "NZXT C1000 Gold Core ATX 3.1 80PLUS GOLD 1000W (Black)",
+        "URL": "https://www.ultrapc.ma/plus-de-900-w/11287-nzxt-c1000-gold-core-atx-31-80plus-gold-1000w-black.html",
+        "Puissance": "1000 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "NZXT",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1849.0,
+        "ID": 516
+    },
+    {
+        "Name": "MSI MAG A850GS PCIE5 80PLUS Gold 850W",
+        "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/10557-msi-mag-a850gs-pcie5-80plus-gold-850w.html",
+        "Puissance": "850 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 1499.0,
+        "ID": 517
     },
     {
         "Name": "MSI MAG A1000GS PCIE5 80PLUS Gold 1000W",
@@ -793,19 +1139,26 @@
         "Puissance": "1000 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
-        "Marque": "\tMSI",
+        "Couleur": "Noir",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1999.0,
-        "ID": 494
+        "ID": 518
     },
     {
         "Name": "ANTEC ATOM G850 850W GOLD 80+",
         "URL": "https://www.ultrapc.ma/entre-800-w-et-899-w/10102-antec-atom-g850-850w-gold-80.html",
         "Puissance": "850 Watts",
         "Certification": "80 PLUS GOLD",
-        "Modulaire": "Non",
-        "Marque": "\tAntec",
+        "Modulaire": "Semi-modulaire",
+        "Marque": "Antec",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Non",
+        "Câble 12V-2x6 natif": "Non",
         "Price": 1049.0,
-        "ID": 495
+        "ID": 519
     },
     {
         "Name": "ASUS TUF GAMING 1000W GOLD EDITION BLANC",
@@ -813,9 +1166,13 @@
         "Puissance": "1000 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
+        "Couleur": "Blanc",
         "Marque": "ASUS",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1849.0,
-        "ID": 496
+        "ID": 520
     },
     {
         "Name": "Mars Gaming MPB850 80 PLUS Bronze 850W",
@@ -823,9 +1180,13 @@
         "Puissance": "850 Watts",
         "Certification": "80 PLUS BRONZE",
         "Modulaire": "Non",
+        "Couleur": "Noir",
         "Marque": "Mars Gaming",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Non",
+        "Câble 12V-2x6 natif": "Non",
         "Price": 849.0,
-        "ID": 497
+        "ID": 521
     },
     {
         "Name": "ASUS ROG LOKI SFX-L 850W Platinum White Edition",
@@ -833,9 +1194,13 @@
         "Puissance": "850 Watts",
         "Certification": "80 PLUS PLATINUM",
         "Modulaire": "Oui",
+        "Couleur": "Blanc",
         "Marque": "ASUS",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 3299.0,
-        "ID": 498
+        "ID": 522
     },
     {
         "Name": "MSI MAG A850GL PCIE5 80PLUS Gold 850W Noir",
@@ -843,19 +1208,41 @@
         "Puissance": "850 Watts",
         "Certification": "80 PLUS GOLD",
         "Modulaire": "Oui",
-        "Marque": "\tMSI",
+        "Couleur": "Noir",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 1199.0,
-        "ID": 499
+        "ID": 523
     },
     {
-        "Name": "MSI MAG A650BN 80PLUS Bronze 650W",
-        "URL": "https://www.ultrapc.ma/entre-600-w-et-699-w/4531-msi-mag-a650bn-80plus-bronze-650w.html",
-        "Puissance": "650 Watts",
-        "Certification": "80 PLUS BRONZE",
-        "Modulaire": "Non",
-        "Marque": "\tMSI",
-        "Price": 599.0,
-        "ID": 500
+        "Name": "MSI MAG A750GL PCIE5 80PLUS Gold 750W",
+        "URL": "https://www.ultrapc.ma/entre-700-w-et-799-w/5763-msi-mag-a750gl-pcie5-80plus-gold-750w.html",
+        "Puissance": "750 Watts",
+        "Certification": "80 PLUS GOLD",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 999.0,
+        "ID": 524
+    },
+    {
+        "Name": "Corsair HX1500i 80PLUS Platinum ATX 3.1",
+        "URL": "https://www.ultrapc.ma/plus-de-900-w/12525-corsair-hx1500i-80plus-platinum-atx-31.html",
+        "Puissance": "1500 Watts",
+        "Certification": "80 PLUS PLATINUM",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "Corsair",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 4199.0,
+        "ID": 525
     },
     {
         "Name": "Antec ST1000 EC 80PLUS Titanium 1000W",
@@ -863,17 +1250,40 @@
         "Puissance": "1000 Watts",
         "Certification": "80 PLUS TITANIUM",
         "Modulaire": "Oui",
-        "Marque": "\tAntec",
+        "Couleur": "Noir",
+        "Marque": "Antec",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Non",
+        "Câble 12V-2x6 natif": "Non",
         "Price": 2099.0,
-        "ID": 501
+        "ID": 526
+    },
+    {
+        "Name": "Corsair HX1200i 80PLUS Platinum ATX 3.1",
+        "URL": "https://www.ultrapc.ma/plus-de-900-w/11731-corsair-hx1200i-80plus-platinum-atx-31.html",
+        "Puissance": "1200 Watts",
+        "Certification": "80 PLUS PLATINUM",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
+        "Marque": "Corsair",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
+        "Price": 3649.0,
+        "ID": 527
     },
     {
         "Name": "ASUS ROG Strix 1000W Platinum",
         "URL": "https://www.ultrapc.ma/plus-de-900-w/9862-asus-rog-strix-1000w-platinum.html",
         "Puissance": "1000 Watts",
         "Certification": "80 PLUS PLATINUM",
+        "Modulaire": "Oui",
+        "Couleur": "Noir",
         "Marque": "ASUS",
+        "Garantie": "12 Mois",
+        "ATX 3.0 / 3.1": "Oui",
+        "Câble 12V-2x6 natif": "Oui",
         "Price": 2599.0,
-        "ID": 502
+        "ID": 528
     }
 ]
