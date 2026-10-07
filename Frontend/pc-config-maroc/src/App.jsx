@@ -179,6 +179,11 @@ function App() {
                 </button>
               )
             })}
+            <button
+                  key={"clear"}
+                  className="chip"
+                  onClick={() => setSortField(null)}
+                >Clear</button>
           </div>
         </div>
 
@@ -580,7 +585,7 @@ function getFields(category) {
       ]
     case "Carte graphique":
       return [
-        { label: "Puce",        key: "Puce graphique" },
+        { label: "Marque",        key: "Marque" },
         { label: "VRAM",        key: "Quantité mémoire" },
         { label: "Fréq. mém.",  key: "Fréquence mémoire" },
         { label: "Cœurs",       key: "Unités de calcul" },
