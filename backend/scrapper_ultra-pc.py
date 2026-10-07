@@ -89,7 +89,7 @@ for category_name, category_url in categories.items():
                             elif alt == 1:
                                 info_value = info_row.text
                             else:
-                                stats[info_name] = info_value
+                                stats[info_name.strip()] = info_value.strip()
                                 alt = 0
                                 info_name = info_row.text
 
