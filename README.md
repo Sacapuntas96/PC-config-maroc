@@ -1,55 +1,85 @@
 # PC-config-maroc
-PC-config-maroc is a website that helps users build a PC config using components from the Ultrapc.ma official website
-a# TeeOne
 
-**Count your carbs. Dose with confidence.**
+**Build your PC with real prices from Morocco.**
 
-TeeOne is a lightweight web app for people managing type 1 diabetes — search a food database, build a meal, track total carbs against a daily goal, and calculate the insulin units to inject, all in a fast, theme-aware interface.
+PC-config-maroc is a website that helps users build a PC config using components from the [Ultrapc.ma](https://www.ultrapc.ma) official website — browse the catalog by category, pick one part per slot, catch incompatible choices, and see the total price in dirhams (MAD).
 
 ## Features
 
-- 🔍 **Food search** — instantly search a database of 600+ foods by name, with a live result count
-- 🍽️ **Meal builder** — add foods to a cart, adjust the weight (in grams) per item, and see the carb total update live
-- 📊 **Progress bar** — visual, color-coded progress (red → yellow → green) toward your daily carb goal
-- 💉 **Insulin calculator** — computes units to inject from total carbs, your insulin-to-carb ratio, and any extra correction units
-- ⚠️ **Guardrails** — warns when adding a food already in the cart, and when calculating with an invalid dosage
-- ✨ **Animated totals** — smooth number-counting animation whenever the carb total or result changes
-- 🌗 **Light / Dark theme** — theme preference is saved and persisted across visits via `localStorage`
+- 🧩 **9 component categories** — processors, motherboards, graphics cards, RAM, storage (SSD & HDD), power supplies, cooling, cases, and sound cards
+- 🔍 **Search** — filter any category by product name, with a live product count
+- ↕️ **Sort** — order products by key specs (cores, frequency, capacity, power…) or by price, ascending or descending
+- 📄 **Pagination** — 20 products per page, with a card showing the key specs of each part
+- ⚠️ **Compatibility checks** — flags a mismatch between processor and motherboard socket, RAM type and motherboard memory type, cooler and processor socket, and case and motherboard format
+- 🧾 **Live build summary** — one line per category with the chosen part, its price, and a link to the product page on Ultrapc.ma, plus the running total in MAD
+- 💾 **Recap and export** — review the full configuration in a dialog and save it as a `.txt` file
+- 📱 **Responsive layout** — a floating total bar keeps the price in view on mobile
+- 🕷️ **Own data scraper** — a Python script collects in-stock products from Ultrapc.ma into JSON files
+
+The interface is in French and all prices are in MAD.
 
 ## Tech Stack
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-No framework
+Scraper: `requests` and `BeautifulSoup`. Product data is stored as static JSON files, so the site needs no database.
 
 ## Project Structure
 
 ```
-TeeOne/
-├── html/
-│   └── index.html          # App markup (search, cart, dosage inputs, results)
-├── script/
-│   ├── main.js              # App logic (cart, progress bar, insulin calc, theming)
-│   └── food.js               # Food database (name + carbs per 100g)
-├── style/
-│   └── style.css
-└── images/
-    ├── logo.svg
-    ├── theme_icon.svg
-    └── theme_icon_light_button.svg
+pc-config-maroc/
+├── backend/
+│   └── scrapper_ultra-pc.py      # Scrapes ultrapc.ma and writes the JSON files
+└── Frontend/
+    └── pc-config-maroc/
+        ├── index.html
+        ├── package.json
+        └── src/
+            ├── main.jsx
+            ├── App.jsx            # UI, compatibility checks, build summary
+            ├── App.css
+            └── Data/              # Scraped products, one JSON file per category
+                ├── Processor_data.json
+                ├── Motherboard_data.json
+                ├── GPU_data.json
+                ├── RAM_data.json
+                ├── SSD_&_HDD_data.json
+                ├── PSU_data.json
+                ├── Watercooling_data.json
+                ├── Case_data.json
+                └── Sound_Card_data.json
 ```
 
 ## Getting Started
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/your-username/TeeOne.git
+   git clone https://github.com/Sacapuntas96/PC-config-maroc.git
+   cd PC-config-maroc
    ```
-2. Open `html/index.html` in your browser (or serve the folder with a local server, e.g. `npx serve`)
-3. Search for foods, add them to your list, set your goal and dosage, and calculate
+2. Install and run the website
+   ```bash
+   cd Frontend/pc-config-maroc
+   npm install
+   npm run dev
+   ```
+3. Open the local address printed in the terminal, pick a part in each category, and check the summary on the right
+
+### Updating the product data (optional)
+
+The `Data/` folder already holds the scraped products. To refresh it:
+
+```bash
+pip install requests beautifulsoup4
+python backend/scrapper_ultra-pc.py
+```
+
+Run it from the repository root, because the script writes to `Frontend/pc-config-maroc/src/Data/`. It skips any category whose JSON file already exists, so delete a file first to scrape that category again. Only in-stock products with a price are kept.
 
 ## Disclaimer
 
-TeeOne is a personal tracking tool, not a medical device. It is not a substitute for professional medical advice — always confirm insulin dosing with your healthcare provider.
+PC-config-maroc is an independent personal project and is not affiliated with Ultrapc.ma. Prices and stock come from a snapshot of the website and may be out of date, so always confirm them on the product page before buying. The compatibility checks cover sockets, memory type, and case format only. They don't check things like power supply wattage or graphics card length, so double-check your build before ordering.
