@@ -41,6 +41,7 @@
         "Nombre de slots RAM": "4",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR4",
+        "Dimensions": "244 x 244 mm",
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -75,6 +76,7 @@
         "Nombre de slots RAM": "4",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "243,84 x 243,84 mm",
         "Wi-Fi": "Non",
         "Marque": "MSI",
         "Garantie": "12 Mois",
@@ -102,23 +104,6 @@
         "ID": 45
     },
     {
-        "Name": "MSI B550M PRO-VDH WIFI",
-        "URL": "https://www.ultrapc.ma/socket-am4/5696-msi-b550m-pro-vdh-wifi.html",
-        "Socket": "AMD AM4",
-        "Chipset": "AMD B550",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Oui",
-        "Marque": "MSI",
-        "Garantie": "12 Mois",
-        "Emplacements M.2": "2 emplacements",
-        "PCIe 5.0": "Non",
-        "Connecteurs ARGB 5V": "2 connecteurs",
-        "Price": 1349.0,
-        "ID": 46
-    },
-    {
         "Name": "ASRock B550 Phantom Gaming 4",
         "URL": "https://www.ultrapc.ma/socket-am4/7208-asrock-b550-phantom-gaming-4.html",
         "Socket": "AMD AM4",
@@ -133,6 +118,23 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 1199.0,
+        "ID": 46
+    },
+    {
+        "Name": "MSI B550M PRO-VDH WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am4/5696-msi-b550m-pro-vdh-wifi.html",
+        "Socket": "AMD AM4",
+        "Chipset": "AMD B550",
+        "Nombre de slots RAM": "4",
+        "Format": "Micro ATX",
+        "Type de mémoire": "DDR4",
+        "Wi-Fi": "Oui",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "Emplacements M.2": "2 emplacements",
+        "PCIe 5.0": "Non",
+        "Connecteurs ARGB 5V": "2 connecteurs",
+        "Price": 1349.0,
         "ID": 47
     },
     {
@@ -153,23 +155,6 @@
         "ID": 48
     },
     {
-        "Name": "GIGABYTE A520M K V2",
-        "URL": "https://www.ultrapc.ma/socket-am4/7785-gigabyte-a520m-k-v2.html",
-        "Socket": "AMD AM4",
-        "Chipset": "AMD A520",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Non",
-        "Marque": "Gigabyte",
-        "Garantie": "12 Mois",
-        "Emplacements M.2": "1 emplacement",
-        "PCIe 5.0": "Non",
-        "Connecteurs ARGB 5V": "Aucun",
-        "Price": 649.0,
-        "ID": 49
-    },
-    {
         "Name": "MSI MAG B850 TOMAHAWK MAX WIFI II",
         "URL": "https://www.ultrapc.ma/socket-am5/12098-msi-mag-b850-tomahawk-max-wifi-ii.html",
         "Socket": "AMD AM5",
@@ -184,7 +169,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 3599.0,
-        "ID": 50
+        "ID": 49
     },
     {
         "Name": "MSI PRO H610M-E DDR5",
@@ -194,6 +179,7 @@
         "Nombre de slots RAM": "2",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "236,16 x 200 mm",
         "Wi-Fi": "Non",
         "Marque": "MSI",
         "Garantie": "12 Mois",
@@ -201,41 +187,25 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "Aucun",
         "Price": 999.0,
-        "ID": 51
+        "ID": 50
     },
     {
-        "Name": "ASUS PRIME B850M-K",
-        "URL": "https://www.ultrapc.ma/socket-am5/11969-asus-prime-b850m-k.html",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B850",
+        "Name": "GIGABYTE A520M K V2",
+        "URL": "https://www.ultrapc.ma/socket-am4/7785-gigabyte-a520m-k-v2.html",
+        "Socket": "AMD AM4",
+        "Chipset": "AMD A520",
         "Nombre de slots RAM": "2",
         "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
+        "Type de mémoire": "DDR4",
+        "Dimensions": "233 x 198 mm",
         "Wi-Fi": "Non",
-        "Marque": "ASUS",
+        "Marque": "Gigabyte",
         "Garantie": "12 Mois",
-        "Emplacements M.2": "2 emplacements",
-        "PCIe 5.0": "Carte graphique + M.2",
-        "Connecteurs ARGB 5V": "3 connecteurs et plus",
-        "Price": 1699.0,
-        "ID": 52
-    },
-    {
-        "Name": "MSI B850 GAMING PLUS WIFI",
-        "URL": "https://www.ultrapc.ma/socket-am5/9815-msi-b850-gaming-plus-wifi.html",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B850",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "MSI",
-        "Garantie": "12 Mois",
-        "Emplacements M.2": "3 emplacements",
-        "PCIe 5.0": "Carte graphique + M.2",
-        "Connecteurs ARGB 5V": "3 connecteurs et plus",
-        "Price": 2499.0,
-        "ID": 53
+        "Emplacements M.2": "1 emplacement",
+        "PCIe 5.0": "Non",
+        "Connecteurs ARGB 5V": "Aucun",
+        "Price": 649.0,
+        "ID": 51
     },
     {
         "Name": "ASRock B550M-HDV",
@@ -252,28 +222,29 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "Aucun",
         "Price": 949.0,
-        "ID": 54
+        "ID": 52
     },
     {
-        "Name": "ASUS PRIME A520M-R",
-        "URL": "https://www.ultrapc.ma/socket-am4/12117-asus-prime-a520m-r.html",
-        "Socket": "AMD AM4",
-        "Chipset": "AMD A520",
+        "Name": "ASUS PRIME B850M-K",
+        "URL": "https://www.ultrapc.ma/socket-am5/11969-asus-prime-b850m-k.html",
+        "Socket": "AMD AM5",
+        "Chipset": "AMD B850",
         "Nombre de slots RAM": "2",
         "Format": "Micro ATX",
-        "Type de mémoire": "DDR4",
+        "Type de mémoire": "DDR5",
+        "Dimensions": "244 x 221 mm",
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
-        "Emplacements M.2": "1 emplacement",
-        "PCIe 5.0": "Non",
-        "Connecteurs ARGB 5V": "Aucun",
-        "Price": 659.0,
-        "ID": 55
+        "Emplacements M.2": "2 emplacements",
+        "PCIe 5.0": "Carte graphique + M.2",
+        "Connecteurs ARGB 5V": "3 connecteurs et plus",
+        "Price": 1699.0,
+        "ID": 53
     },
     {
-        "Name": "MSI PRO B850-P WIFI",
-        "URL": "https://www.ultrapc.ma/socket-am5/10399-msi-pro-b850-p-wifi.html",
+        "Name": "MSI B850 GAMING PLUS WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/9815-msi-b850-gaming-plus-wifi.html",
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "4",
@@ -285,8 +256,8 @@
         "Emplacements M.2": "3 emplacements",
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
-        "Price": 2299.0,
-        "ID": 56
+        "Price": 2499.0,
+        "ID": 54
     },
     {
         "Name": "GIGABYTE B550M K",
@@ -296,6 +267,7 @@
         "Nombre de slots RAM": "4",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR4",
+        "Dimensions": "244 x 244 mm",
         "Wi-Fi": "Non",
         "Marque": "Gigabyte",
         "Garantie": "12 Mois",
@@ -303,7 +275,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "Aucun",
         "Price": 949.0,
-        "ID": 57
+        "ID": 55
     },
     {
         "Name": "ASUS PRIME B550-PLUS",
@@ -313,6 +285,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR4",
+        "Dimensions": "305 x 244 mm",
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -320,7 +293,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "1 connecteur",
         "Price": 1499.0,
-        "ID": 58
+        "ID": 56
     },
     {
         "Name": "ASRock B850M-X R2.0",
@@ -328,6 +301,7 @@
         "Socket": "AMD AM5",
         "Chipset": "AMD B850",
         "Nombre de slots RAM": "2",
+        "Format": "Micro ATX",
         "Type de mémoire": "DDR5",
         "Wi-Fi": "Non",
         "Marque": "ASRock",
@@ -336,7 +310,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 1599.0,
-        "ID": 59
+        "ID": 57
     },
     {
         "Name": "Gigabyte B550M DS3H R2",
@@ -346,6 +320,7 @@
         "Nombre de slots RAM": "4",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR4",
+        "Dimensions": "244 x 244 mm",
         "Wi-Fi": "Non",
         "Marque": "Gigabyte",
         "Garantie": "12 Mois",
@@ -353,7 +328,25 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 999.0,
-        "ID": 60
+        "ID": 58
+    },
+    {
+        "Name": "ASUS PRIME A520M-R",
+        "URL": "https://www.ultrapc.ma/socket-am4/12117-asus-prime-a520m-r.html",
+        "Socket": "AMD AM4",
+        "Chipset": "AMD A520",
+        "Nombre de slots RAM": "2",
+        "Format": "Micro ATX",
+        "Type de mémoire": "DDR4",
+        "Dimensions": "236 x 193 mm",
+        "Wi-Fi": "Non",
+        "Marque": "ASUS",
+        "Garantie": "12 Mois",
+        "Emplacements M.2": "1 emplacement",
+        "PCIe 5.0": "Non",
+        "Connecteurs ARGB 5V": "Aucun",
+        "Price": 659.0,
+        "ID": 59
     },
     {
         "Name": "MSI PRO H610M-G DDR5",
@@ -363,6 +356,7 @@
         "Nombre de slots RAM": "2",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "243,84 x 211 mm",
         "Wi-Fi": "Non",
         "Marque": "MSI",
         "Garantie": "12 Mois",
@@ -370,6 +364,24 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 1149.0,
+        "ID": 60
+    },
+    {
+        "Name": "MSI PRO B850-P WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am5/10399-msi-pro-b850-p-wifi.html",
+        "Socket": "AMD AM5",
+        "Chipset": "AMD B850",
+        "Nombre de slots RAM": "4",
+        "Format": "ATX",
+        "Type de mémoire": "DDR5",
+        "Dimensions": "243,84 x 304,8 mm",
+        "Wi-Fi": "Oui",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "Emplacements M.2": "3 emplacements",
+        "PCIe 5.0": "Carte graphique + M.2",
+        "Connecteurs ARGB 5V": "3 connecteurs et plus",
+        "Price": 2299.0,
         "ID": 61
     },
     {
@@ -424,40 +436,6 @@
         "ID": 64
     },
     {
-        "Name": "ASUS PRIME A620M-K",
-        "URL": "https://www.ultrapc.ma/socket-am5/12118-asus-prime-a620m-k.html",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD A620",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASUS",
-        "Garantie": "12 Mois",
-        "Emplacements M.2": "1 emplacement",
-        "PCIe 5.0": "Non",
-        "Connecteurs ARGB 5V": "2 connecteurs",
-        "Price": 1099.0,
-        "ID": 65
-    },
-    {
-        "Name": "MSI PRO B760M-E  DDR4",
-        "URL": "https://www.ultrapc.ma/socket-1700/11871-msi-pro-b760m-e-ddr4.html",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Non",
-        "Marque": "MSI",
-        "Garantie": "12 Mois",
-        "Emplacements M.2": "1 emplacement",
-        "PCIe 5.0": "Non",
-        "Connecteurs ARGB 5V": "Aucun",
-        "Price": 999.0,
-        "ID": 66
-    },
-    {
         "Name": "MSI PRO X870E-P WIFI",
         "URL": "https://www.ultrapc.ma/socket-am5/11775-msi-pro-x870e-p-wifi.html",
         "Socket": "AMD AM5",
@@ -465,6 +443,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "243,84 x 304,8 mm",
         "Wi-Fi": "Oui",
         "Marque": "MSI",
         "Garantie": "12 Mois",
@@ -472,7 +451,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 3399.0,
-        "ID": 67
+        "ID": 65
     },
     {
         "Name": "Gigabyte B850M AORUS ELITE WIFI6E",
@@ -489,7 +468,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 2899.0,
-        "ID": 68
+        "ID": 66
     },
     {
         "Name": "Gigabyte B650M AORUS ELITE",
@@ -506,7 +485,7 @@
         "PCIe 5.0": "M.2 uniquement",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 2049.0,
-        "ID": 69
+        "ID": 67
     },
     {
         "Name": "Gigabyte X870 GAMING WIFI6",
@@ -523,7 +502,25 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 2899.0,
-        "ID": 70
+        "ID": 68
+    },
+    {
+        "Name": "ASUS PRIME A620M-K",
+        "URL": "https://www.ultrapc.ma/socket-am5/12118-asus-prime-a620m-k.html",
+        "Socket": "AMD AM5",
+        "Chipset": "AMD A620",
+        "Nombre de slots RAM": "2",
+        "Format": "Micro ATX",
+        "Type de mémoire": "DDR5",
+        "Dimensions": "226 x 221 mm",
+        "Wi-Fi": "Non",
+        "Marque": "ASUS",
+        "Garantie": "12 Mois",
+        "Emplacements M.2": "1 emplacement",
+        "PCIe 5.0": "Non",
+        "Connecteurs ARGB 5V": "2 connecteurs",
+        "Price": 1099.0,
+        "ID": 69
     },
     {
         "Name": "ASRock B650M-H/M.2+",
@@ -540,7 +537,7 @@
         "PCIe 5.0": "M.2 uniquement",
         "Connecteurs ARGB 5V": "Aucun",
         "Price": 1249.0,
-        "ID": 71
+        "ID": 70
     },
     {
         "Name": "Gigabyte X870E AORUS PRO X3D",
@@ -557,41 +554,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 5399.0,
-        "ID": 72
-    },
-    {
-        "Name": "MSI B850 GAMING PLUS WIFI6E",
-        "URL": "https://www.ultrapc.ma/socket-am5/12097-msi-b850-gaming-plus-wifi6e.html",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B850",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "MSI",
-        "Garantie": "12 Mois",
-        "Emplacements M.2": "2 emplacements",
-        "PCIe 5.0": "M.2 uniquement",
-        "Connecteurs ARGB 5V": "3 connecteurs et plus",
-        "Price": 2199.0,
-        "ID": 73
-    },
-    {
-        "Name": "ASRock B650M PG Lightning",
-        "URL": "https://www.ultrapc.ma/socket-am5/11759--asrock-b650m-pg-lightning.html",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Non",
-        "Marque": "ASRock",
-        "Garantie": "12 Mois",
-        "Emplacements M.2": "3 emplacements",
-        "PCIe 5.0": "M.2 uniquement",
-        "Connecteurs ARGB 5V": "3 connecteurs et plus",
-        "Price": 1599.0,
-        "ID": 74
+        "ID": 71
     },
     {
         "Name": "MSI MPG X870E CARBON WIFI",
@@ -601,6 +564,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "243,84 x 304,8 mm",
         "Wi-Fi": "Oui",
         "Marque": "MSI",
         "Garantie": "12 Mois",
@@ -608,7 +572,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 6399.0,
-        "ID": 75
+        "ID": 72
     },
     {
         "Name": "MSI MPG B850 EDGE TI WIFI",
@@ -625,7 +589,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 3799.0,
-        "ID": 76
+        "ID": 73
     },
     {
         "Name": "MSI MPG X870E EDGE TI WIFI",
@@ -635,6 +599,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "243,84 x 304,8 mm",
         "Wi-Fi": "Oui",
         "Marque": "MSI",
         "Garantie": "12 Mois",
@@ -642,7 +607,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 3999.0,
-        "ID": 77
+        "ID": 74
     },
     {
         "Name": "Gigabyte H610M H V2",
@@ -659,7 +624,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "Aucun",
         "Price": 949.0,
-        "ID": 78
+        "ID": 75
     },
     {
         "Name": "Gigabyte X870 EAGLE WIFI7",
@@ -676,7 +641,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 3049.0,
-        "ID": 79
+        "ID": 76
     },
     {
         "Name": "MSI B760 GAMING PLUS WIFI",
@@ -693,7 +658,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 2049.0,
-        "ID": 80
+        "ID": 77
     },
     {
         "Name": "Gigabyte X870E AORUS ELITE WIFI7 ICE",
@@ -710,24 +675,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 4199.0,
-        "ID": 81
-    },
-    {
-        "Name": "MSI B550 GAMING WIFI",
-        "URL": "https://www.ultrapc.ma/socket-am4/12096-msi-b550-gaming-wifi.html",
-        "Socket": "AMD AM4",
-        "Chipset": "AMD B550",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Oui",
-        "Marque": "MSI",
-        "Garantie": "12 Mois",
-        "Emplacements M.2": "2 emplacements",
-        "PCIe 5.0": "Non",
-        "Connecteurs ARGB 5V": "2 connecteurs",
-        "Price": 1649.0,
-        "ID": 82
+        "ID": 78
     },
     {
         "Name": "ASUS PRIME X870-P WIFI",
@@ -737,6 +685,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "305 x 244 mm",
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -744,7 +693,42 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 3399.0,
-        "ID": 83
+        "ID": 79
+    },
+    {
+        "Name": "MSI PRO B760M-E  DDR4",
+        "URL": "https://www.ultrapc.ma/socket-1700/11871-msi-pro-b760m-e-ddr4.html",
+        "Socket": "Intel 1700",
+        "Chipset": "Intel B760 Express",
+        "Nombre de slots RAM": "2",
+        "Format": "Micro ATX",
+        "Type de mémoire": "DDR4",
+        "Dimensions": "236,16 x 200 mm",
+        "Wi-Fi": "Non",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "Emplacements M.2": "1 emplacement",
+        "PCIe 5.0": "Non",
+        "Connecteurs ARGB 5V": "Aucun",
+        "Price": 999.0,
+        "ID": 80
+    },
+    {
+        "Name": "ASRock B650M PG Lightning",
+        "URL": "https://www.ultrapc.ma/socket-am5/11759--asrock-b650m-pg-lightning.html",
+        "Socket": "AMD AM5",
+        "Chipset": "AMD B650",
+        "Nombre de slots RAM": "4",
+        "Format": "Micro ATX",
+        "Type de mémoire": "DDR5",
+        "Wi-Fi": "Non",
+        "Marque": "ASRock",
+        "Garantie": "12 Mois",
+        "Emplacements M.2": "3 emplacements",
+        "PCIe 5.0": "M.2 uniquement",
+        "Connecteurs ARGB 5V": "3 connecteurs et plus",
+        "Price": 1599.0,
+        "ID": 81
     },
     {
         "Name": "Gigabyte Z790 D",
@@ -760,7 +744,7 @@
         "PCIe 5.0": "Carte graphique uniquement",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 2199.0,
-        "ID": 84
+        "ID": 82
     },
     {
         "Name": "Gigabyte Z790 EAGLE",
@@ -778,7 +762,7 @@
         "PCIe 5.0": "Carte graphique uniquement",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 2349.0,
-        "ID": 85
+        "ID": 83
     },
     {
         "Name": "ASUS PRIME Z890-P",
@@ -788,6 +772,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "305 x 244 mm",
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -795,7 +780,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 2899.0,
-        "ID": 86
+        "ID": 84
     },
     {
         "Name": "Gigabyte X870 GAMING X WIFI7",
@@ -812,7 +797,24 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 3249.0,
-        "ID": 87
+        "ID": 85
+    },
+    {
+        "Name": "MSI B550 GAMING WIFI",
+        "URL": "https://www.ultrapc.ma/socket-am4/12096-msi-b550-gaming-wifi.html",
+        "Socket": "AMD AM4",
+        "Chipset": "AMD B550",
+        "Nombre de slots RAM": "4",
+        "Format": "ATX",
+        "Type de mémoire": "DDR4",
+        "Wi-Fi": "Oui",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "Emplacements M.2": "2 emplacements",
+        "PCIe 5.0": "Non",
+        "Connecteurs ARGB 5V": "2 connecteurs",
+        "Price": 1649.0,
+        "ID": 86
     },
     {
         "Name": "ASUS TUF GAMING B850M-PLUS II",
@@ -822,6 +824,7 @@
         "Nombre de slots RAM": "4",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "244 x 244 mm",
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -829,7 +832,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 2799.0,
-        "ID": 88
+        "ID": 87
     },
     {
         "Name": "Gigabyte B650M D3HP 1.0",
@@ -839,6 +842,7 @@
         "Nombre de slots RAM": "4",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "244 x 244 mm",
         "Wi-Fi": "Non",
         "Marque": "Gigabyte",
         "Garantie": "12 Mois",
@@ -846,7 +850,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 1659.0,
-        "ID": 89
+        "ID": 88
     },
     {
         "Name": "ASUS X870 MAX GAMING WIFI7",
@@ -856,6 +860,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "305 x 244 mm",
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -863,7 +868,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 3199.0,
-        "ID": 90
+        "ID": 89
     },
     {
         "Name": "ASUS PRIME B840-PLUS WIFI",
@@ -873,6 +878,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "305 x 244 mm",
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -880,24 +886,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 2199.0,
-        "ID": 91
-    },
-    {
-        "Name": "ASUS PRIME B760M-R D4",
-        "URL": "https://www.ultrapc.ma/socket-1700/11946-asus-prime-b760m-r-d4.html",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Non",
-        "Marque": "ASUS",
-        "Garantie": "12 Mois",
-        "Emplacements M.2": "2 emplacements",
-        "PCIe 5.0": "Non",
-        "Connecteurs ARGB 5V": "3 connecteurs et plus",
-        "Price": 999.0,
-        "ID": 92
+        "ID": 90
     },
     {
         "Name": "ASUS ROG STRIX B650-A GAMING WIFI",
@@ -907,6 +896,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "305 x 244 mm",
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -914,7 +904,7 @@
         "PCIe 5.0": "M.2 uniquement",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 3499.0,
-        "ID": 93
+        "ID": 91
     },
     {
         "Name": "ASUS TUF GAMING B850M-PLUS WIFI7",
@@ -924,6 +914,7 @@
         "Nombre de slots RAM": "4",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "244 x 244 mm",
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -931,7 +922,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 3149.0,
-        "ID": 94
+        "ID": 92
     },
     {
         "Name": "MSI PRO B840M-B",
@@ -941,6 +932,7 @@
         "Nombre de slots RAM": "2",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "226 x 243,84 mm",
         "Wi-Fi": "Non",
         "Marque": "MSI",
         "Garantie": "12 Mois",
@@ -948,7 +940,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 1149.0,
-        "ID": 95
+        "ID": 93
     },
     {
         "Name": "ASUS PRIME X870-P",
@@ -958,6 +950,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "305 x 244 mm",
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -965,7 +958,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 2899.0,
-        "ID": 96
+        "ID": 94
     },
     {
         "Name": "MSI MAG X870E TOMAHAWK WIFI",
@@ -982,7 +975,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 3799.0,
-        "ID": 97
+        "ID": 95
     },
     {
         "Name": "Gigabyte X870 AORUS ELITE WIFI7 ICE",
@@ -999,7 +992,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 3899.0,
-        "ID": 98
+        "ID": 96
     },
     {
         "Name": "Gigabyte X870E AORUS ELITE WIFI7",
@@ -1016,7 +1009,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 4049.0,
-        "ID": 99
+        "ID": 97
     },
     {
         "Name": "MSI B760M PROJECT ZERO",
@@ -1031,10 +1024,10 @@
         "Marque": "MSI",
         "Garantie": "12 Mois",
         "Emplacements M.2": "2 emplacements",
-        "PCIe 5.0": "Non",
+        "PCIe 5.0": "Carte graphique uniquement",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 2199.0,
-        "ID": 100
+        "ID": 98
     },
     {
         "Name": "ASUS PRIME B760-PLUS",
@@ -1044,6 +1037,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "305 x 244 mm",
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -1051,7 +1045,7 @@
         "PCIe 5.0": "Carte graphique uniquement",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 1849.0,
-        "ID": 101
+        "ID": 99
     },
     {
         "Name": "ASUS ROG STRIX B550-F GAMING (WI-FI) II",
@@ -1061,6 +1055,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR4",
+        "Dimensions": "305 x 244 mm",
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -1068,7 +1063,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "1 connecteur",
         "Price": 2199.0,
-        "ID": 102
+        "ID": 100
     },
     {
         "Name": "MSI PRO H610M-G DDR5 (Utilisé)",
@@ -1078,6 +1073,7 @@
         "Nombre de slots RAM": "2",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "243,84 x 211 mm",
         "Wi-Fi": "Non",
         "Marque": "MSI",
         "Garantie": "12 Mois",
@@ -1085,7 +1081,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 799.0,
-        "ID": 103
+        "ID": 101
     },
     {
         "Name": "Gigabyte X870E AORUS PRO X3D ICE",
@@ -1102,7 +1098,24 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 5149.0,
-        "ID": 104
+        "ID": 102
+    },
+    {
+        "Name": "MSI B850 GAMING PLUS WIFI6E",
+        "URL": "https://www.ultrapc.ma/socket-am5/12097-msi-b850-gaming-plus-wifi6e.html",
+        "Socket": "AMD AM5",
+        "Chipset": "AMD B850",
+        "Nombre de slots RAM": "4",
+        "Format": "ATX",
+        "Type de mémoire": "DDR5",
+        "Wi-Fi": "Oui",
+        "Marque": "MSI",
+        "Garantie": "12 Mois",
+        "Emplacements M.2": "2 emplacements",
+        "PCIe 5.0": "M.2 uniquement",
+        "Connecteurs ARGB 5V": "3 connecteurs et plus",
+        "Price": 2199.0,
+        "ID": 103
     },
     {
         "Name": "ASUS PRIME B850M-F WIFI",
@@ -1119,7 +1132,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 1799.0,
-        "ID": 105
+        "ID": 104
     },
     {
         "Name": "ASUS ROG STRIX X870E-H GAMING WIFI7",
@@ -1129,6 +1142,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "305 x 244 mm",
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -1136,7 +1150,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 4899.0,
-        "ID": 106
+        "ID": 105
     },
     {
         "Name": "ASUS ROG CROSSHAIR X870E APEX",
@@ -1146,6 +1160,7 @@
         "Nombre de slots RAM": "2",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "305 x 244 mm",
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -1153,6 +1168,24 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 8799.0,
+        "ID": 106
+    },
+    {
+        "Name": "ASUS PRIME B760M-R D4",
+        "URL": "https://www.ultrapc.ma/socket-1700/11946-asus-prime-b760m-r-d4.html",
+        "Socket": "Intel 1700",
+        "Chipset": "Intel B760 Express",
+        "Nombre de slots RAM": "2",
+        "Format": "Micro ATX",
+        "Type de mémoire": "DDR4",
+        "Dimensions": "244 x 211 mm",
+        "Wi-Fi": "Non",
+        "Marque": "ASUS",
+        "Garantie": "12 Mois",
+        "Emplacements M.2": "2 emplacements",
+        "PCIe 5.0": "Non",
+        "Connecteurs ARGB 5V": "3 connecteurs et plus",
+        "Price": 999.0,
         "ID": 107
     },
     {
@@ -1163,6 +1196,7 @@
         "Nombre de slots RAM": "4",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "244 x 244 mm",
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -1190,23 +1224,6 @@
         "ID": 109
     },
     {
-        "Name": "GIGABYTE B650M D3HP AX",
-        "URL": "https://www.ultrapc.ma/socket-am5/10695-gigabyte-b650m-d3hp-ax.html",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B650",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "Gigabyte",
-        "Garantie": "12 Mois",
-        "Emplacements M.2": "2 emplacements",
-        "PCIe 5.0": "Non",
-        "Connecteurs ARGB 5V": "2 connecteurs",
-        "Price": 1649.0,
-        "ID": 110
-    },
-    {
         "Name": "Gigabyte H810M H",
         "URL": "https://www.ultrapc.ma/socket-1700/10387-gigabyte-h610m-s2h-ddr4.html",
         "Socket": "Intel 1851",
@@ -1222,7 +1239,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 1299.0,
-        "ID": 111
+        "ID": 110
     },
     {
         "Name": "Gigabyte H610M S2H V2",
@@ -1241,7 +1258,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "Aucun",
         "Price": 949.0,
-        "ID": 112
+        "ID": 111
     },
     {
         "Name": "Gigabyte B850M GAMING X WIFI6E",
@@ -1258,10 +1275,10 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 2449.0,
-        "ID": 113
+        "ID": 112
     },
     {
-        "Name": "Gigabyte Z790 EAGLE DDR5",
+        "Name": "Gigabyte Z790 EAGLE AX",
         "URL": "https://www.ultrapc.ma/socket-1700/7694-gigabyte-z790-eagle-ddr5.html",
         "Socket": "Intel 1700",
         "Chipset": "Intel Z790 Express",
@@ -1275,24 +1292,7 @@
         "PCIe 5.0": "Carte graphique uniquement",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 2599.0,
-        "ID": 114
-    },
-    {
-        "Name": "ASUS PRIME B760M-K D4",
-        "URL": "https://www.ultrapc.ma/socket-1700/5869-asus-prime-b760m-k-d4.html",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Non",
-        "Marque": "ASUS",
-        "Garantie": "12 Mois",
-        "Emplacements M.2": "2 emplacements",
-        "PCIe 5.0": "Non",
-        "Connecteurs ARGB 5V": "2 connecteurs",
-        "Price": 1099.0,
-        "ID": 115
+        "ID": 113
     },
     {
         "Name": "ASUS X870 MAX GAMING WIFI7 WHITE",
@@ -1302,6 +1302,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "305 x 244 mm",
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -1309,41 +1310,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 3199.0,
-        "ID": 116
-    },
-    {
-        "Name": "ASUS PRIME B840M-A WIFI",
-        "URL": "https://www.ultrapc.ma/socket-am5/11961-asus-prime-b840m-a-wifi.html",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B840",
-        "Nombre de slots RAM": "4",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Garantie": "12 Mois",
-        "Emplacements M.2": "3 emplacements",
-        "PCIe 5.0": "Non",
-        "Connecteurs ARGB 5V": "3 connecteurs et plus",
-        "Price": 1999.0,
-        "ID": 117
-    },
-    {
-        "Name": "ASUS ROG STRIX B850-E GAMING WIFI",
-        "URL": "https://www.ultrapc.ma/socket-am5/11958-asus-rog-strix-b850-e-gaming-wifi.html",
-        "Socket": "AMD AM5",
-        "Chipset": "AMD B850",
-        "Nombre de slots RAM": "4",
-        "Format": "ATX",
-        "Type de mémoire": "DDR5",
-        "Wi-Fi": "Oui",
-        "Marque": "ASUS",
-        "Garantie": "12 Mois",
-        "Emplacements M.2": "5 emplacements et plus",
-        "PCIe 5.0": "Carte graphique + M.2",
-        "Connecteurs ARGB 5V": "3 connecteurs et plus",
-        "Price": 4349.0,
-        "ID": 118
+        "ID": 114
     },
     {
         "Name": "ASUS TUF GAMING B650-PLUS",
@@ -1353,6 +1320,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "305 x 244 mm",
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -1360,7 +1328,7 @@
         "PCIe 5.0": "M.2 uniquement",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 2199.0,
-        "ID": 119
+        "ID": 115
     },
     {
         "Name": "MSI X870E GAMING PLUS WIFI",
@@ -1370,6 +1338,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "243,84 x 304,8 mm",
         "Wi-Fi": "Oui",
         "Marque": "MSI",
         "Garantie": "12 Mois",
@@ -1377,7 +1346,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 3199.0,
-        "ID": 120
+        "ID": 116
     },
     {
         "Name": "ASRock B550M Phantom Gaming 4",
@@ -1394,7 +1363,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 1099.0,
-        "ID": 121
+        "ID": 117
     },
     {
         "Name": "Gigabyte B850M AORUS ELITE WIFI6E ICE",
@@ -1411,7 +1380,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 2699.0,
-        "ID": 122
+        "ID": 118
     },
     {
         "Name": "ASUS ROG STRIX X870-F GAMING WIFI",
@@ -1421,6 +1390,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "305 x 244 mm",
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -1428,7 +1398,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 4899.0,
-        "ID": 123
+        "ID": 119
     },
     {
         "Name": "MSI PRO B860M-A WIFI",
@@ -1438,6 +1408,7 @@
         "Nombre de slots RAM": "4",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "243,84 x 243,84 mm",
         "Wi-Fi": "Oui",
         "Marque": "MSI",
         "Garantie": "12 Mois",
@@ -1445,7 +1416,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 2649.0,
-        "ID": 124
+        "ID": 120
     },
     {
         "Name": "MSI PRO B860-P",
@@ -1455,6 +1426,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "243,84 x 304,8 mm",
         "Wi-Fi": "Non",
         "Marque": "MSI",
         "Garantie": "12 Mois",
@@ -1462,7 +1434,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 2299.0,
-        "ID": 125
+        "ID": 121
     },
     {
         "Name": "MSI B860M GAMING PLUS WIFI",
@@ -1479,16 +1451,17 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 2749.0,
-        "ID": 126
+        "ID": 122
     },
     {
-        "Name": "MSI PRO B860 GAMING PLUS WIFI",
+        "Name": "MSI B860 GAMING PLUS WIFI",
         "URL": "https://www.ultrapc.ma/socket-1851/9807-msi-pro-b860-gaming-plus-wifi.html",
         "Socket": "Intel 1851",
         "Chipset": "Intel B860",
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "243,84 x 304,8 mm",
         "Wi-Fi": "Oui",
         "Marque": "MSI",
         "Garantie": "12 Mois",
@@ -1496,7 +1469,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 2999.0,
-        "ID": 127
+        "ID": 123
     },
     {
         "Name": "Gigabyte B860M DS3H",
@@ -1513,24 +1486,7 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 2149.0,
-        "ID": 128
-    },
-    {
-        "Name": "Gigabyte B760M H DDR4",
-        "URL": "https://www.ultrapc.ma/socket-1700/8781-gigabyte-b760m-h-ddr4.html",
-        "Socket": "Intel 1700",
-        "Chipset": "Intel B760 Express",
-        "Nombre de slots RAM": "2",
-        "Format": "Micro ATX",
-        "Type de mémoire": "DDR4",
-        "Wi-Fi": "Non",
-        "Marque": "Gigabyte",
-        "Garantie": "12 Mois",
-        "Emplacements M.2": "2 emplacements",
-        "PCIe 5.0": "Non",
-        "Connecteurs ARGB 5V": "Aucun",
-        "Price": 1189.0,
-        "ID": 129
+        "ID": 124
     },
     {
         "Name": "ASUS ROG STRIX B760-A GAMING WIFI",
@@ -1540,6 +1496,7 @@
         "Nombre de slots RAM": "4",
         "Format": "ATX",
         "Type de mémoire": "DDR5",
+        "Dimensions": "305 x 244 mm",
         "Wi-Fi": "Oui",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -1547,7 +1504,7 @@
         "PCIe 5.0": "Carte graphique uniquement",
         "Connecteurs ARGB 5V": "3 connecteurs et plus",
         "Price": 2399.0,
-        "ID": 130
+        "ID": 125
     },
     {
         "Name": "MSI MAG B760 TOMAHAWK WIFI",
@@ -1564,24 +1521,25 @@
         "PCIe 5.0": "Carte graphique uniquement",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 2799.0,
-        "ID": 131
+        "ID": 126
     },
     {
-        "Name": "MSI PRO H610M-E DDR4",
-        "URL": "https://www.ultrapc.ma/socket-1700/5698-msi-pro-h610m-e-ddr4.html",
+        "Name": "ASUS PRIME B760M-K D4",
+        "URL": "https://www.ultrapc.ma/socket-1700/5869-asus-prime-b760m-k-d4.html",
         "Socket": "Intel 1700",
-        "Chipset": "Intel H610 Express",
+        "Chipset": "Intel B760 Express",
         "Nombre de slots RAM": "2",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR4",
+        "Dimensions": "244 x 211 mm",
         "Wi-Fi": "Non",
-        "Marque": "MSI",
+        "Marque": "ASUS",
         "Garantie": "12 Mois",
-        "Emplacements M.2": "1 emplacement",
+        "Emplacements M.2": "2 emplacements",
         "PCIe 5.0": "Non",
-        "Connecteurs ARGB 5V": "Aucun",
-        "Price": 729.0,
-        "ID": 132
+        "Connecteurs ARGB 5V": "2 connecteurs",
+        "Price": 1099.0,
+        "ID": 127
     },
     {
         "Name": "ASUS PRIME B550M-A",
@@ -1591,6 +1549,7 @@
         "Nombre de slots RAM": "4",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR4",
+        "Dimensions": "244 x 244 mm",
         "Wi-Fi": "Non",
         "Marque": "ASUS",
         "Garantie": "12 Mois",
@@ -1598,7 +1557,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "1 connecteur",
         "Price": 1099.0,
-        "ID": 133
+        "ID": 128
     },
     {
         "Name": "Gigabyte B550M DS3H",
@@ -1608,6 +1567,7 @@
         "Nombre de slots RAM": "4",
         "Format": "Micro ATX",
         "Type de mémoire": "DDR4",
+        "Dimensions": "244 x 244 mm",
         "Wi-Fi": "Non",
         "Marque": "Gigabyte",
         "Garantie": "12 Mois",
@@ -1615,7 +1575,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 969.0,
-        "ID": 134
+        "ID": 129
     },
     {
         "Name": "Gigabyte X399 DESIGNARE EX",
@@ -1632,7 +1592,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "1 connecteur",
         "Price": 4290.0,
-        "ID": 135
+        "ID": 130
     },
     {
         "Name": "MSI PRO B760-P II DDR5",
@@ -1649,7 +1609,7 @@
         "PCIe 5.0": "Non",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 1749.0,
-        "ID": 136
+        "ID": 131
     },
     {
         "Name": "MSI PRO B860-P WIFI",
@@ -1666,6 +1626,6 @@
         "PCIe 5.0": "Carte graphique + M.2",
         "Connecteurs ARGB 5V": "2 connecteurs",
         "Price": 2549.0,
-        "ID": 137
+        "ID": 132
     }
 ]
