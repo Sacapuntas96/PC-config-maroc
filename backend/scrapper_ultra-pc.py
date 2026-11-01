@@ -38,9 +38,17 @@ categories = {"Processor" : "https://www.ultrapc.ma/21-processeurs?content_only=
 "Case" : "https://www.ultrapc.ma/48-boitier-pc?content_only=1&infinitescroll=1&page=",
 "Sound_Card" : "https://www.ultrapc.ma/53-cartes-son?content_only=1&infinitescroll=1&page="}
 
+for category in categories.keys():
+    temp_file = open("Frontend/pc-config-maroc/src/Data/" + category + "_data.json", "r").close()
+    if os.stat("Frontend/pc-config-maroc/src/Data/" + category + "_data.json").st_size == 0:
+        temp_file = open("Frontend/pc-config-maroc/src/Data/" + category + "_data.json", "w")
+        json.dump([], temp_file, indent=4, ensure_ascii=False)
+
+
+
 # Scraps the items off the website
 for category_name, category_url in categories.items():
-    if not os.path.exists("Frontend/pc-config-maroc/src/Data/" + category_name + "_data.json"):  
+    if os.stat("Frontend/pc-config-maroc/src/Data/" + category_name + "_data.json").st_size == 2:  
         products = []
 
         # Displays the number of items in total
