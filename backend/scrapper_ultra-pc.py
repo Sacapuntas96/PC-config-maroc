@@ -38,13 +38,21 @@ categories = {"Processor" : "https://www.ultrapc.ma/21-processeurs?content_only=
 "Case" : "https://www.ultrapc.ma/48-boitier-pc?content_only=1&infinitescroll=1&page=",
 "Sound_Card" : "https://www.ultrapc.ma/53-cartes-son?content_only=1&infinitescroll=1&page="}
 
-for category in categories.keys():
-    temp_file = open("Frontend/pc-config-maroc/src/Data/" + category + "_data.json", "r").close()
-    if os.stat("Frontend/pc-config-maroc/src/Data/" + category + "_data.json").st_size == 0:
+
+
+choix = str(input("Do you wish to empty all data files ? y/n : "))
+
+if choix == 'n':
+    for category in categories.keys():
+        temp_file = open("Frontend/pc-config-maroc/src/Data/" + category + "_data.json", "r").close()
+        if os.stat("Frontend/pc-config-maroc/src/Data/" + category + "_data.json").st_size == 0:
+            temp_file = open("Frontend/pc-config-maroc/src/Data/" + category + "_data.json", "w")
+            json.dump([], temp_file, indent=4, ensure_ascii=False)
+elif choix == 'y':
+    for category in categories.keys():
+        temp_file = open("Frontend/pc-config-maroc/src/Data/" + category + "_data.json", "r").close()
         temp_file = open("Frontend/pc-config-maroc/src/Data/" + category + "_data.json", "w")
         json.dump([], temp_file, indent=4, ensure_ascii=False)
-
-
 
 # Scraps the items off the website
 for category_name, category_url in categories.items():
@@ -52,22 +60,24 @@ for category_name, category_url in categories.items():
         products = []
 
         # Displays the number of items in total
-        print(time.strftime("%H:%M:%S"),"- Searching ", category_name)
-        print(time.strftime("%H:%M:%S"),"- Searching throuht URL : ", custom_url)
+        print("\n", time.strftime("%H:%M:%S"),"- Searching ", category_name)
+        print(time.strftime("%H:%M:%S"),"- Searching throuht URL : ", custom_url, "")
         if(number_of_result > 1):
-            print(time.strftime("%H:%M:%S"),"- There are ", number_of_result, "items in total.")
+            print(time.strftime("%H:%M:%S"),"- There are ", number_of_result, "items in total.\n")
         else:
-            print(time.strftime("%H:%M:%S"),"- There is ", number_of_result, "item in total.")
+            print(time.strftime("%H:%M:%S"),"- There is ", number_of_result, "item in total.\n")
 
+
+        i = 0
         for k in range(number_of_result // 32):
             
-            print(time.strftime("%H:%M:%S"),"- Searching page number ", k + 1," ", category_url + str(k + 1))
+            print("\n" * (k != 0), time.strftime("%H:%M:%S"),"- Searching page number ", k + 1,":", category_url + str(k + 1), "\n")
 
             request = requests.get(category_url + "&page=" + str(k + 1), headers)
 
             soup = BeautifulSoup(request.text, 'html.parser')
 
-            l = 0
+            
             for product_card in soup.find_all('div', class_="product-block clearfix"):
                 availability = product_card.find('div', class_="product-availability unavailable font-weight-bold hidden-lg-up")
                 if(not availability):
@@ -80,7 +90,7 @@ for category_name, category_url in categories.items():
 
                     complementary_soup = BeautifulSoup(complementary_request.text, 'html.parser')
                     complete_title = complementary_soup.find('h1', class_="product-title").text
-                    print(time.strftime("%H:%M:%S"),"- Full title : ", complete_title)
+                    print(time.strftime("%H:%M:%S"),"- (",category_name, i + 1,") Full title : ", complete_title)
                     
                     alt = 0
                     fields = 0
@@ -113,7 +123,7 @@ for category_name, category_url in categories.items():
                     if fields >= 8 and float(price) > 0:
                         products.append(stats)
                 else:
-                    print(time.strftime("%H:%M:%S"),"- Produit en rupture de stock")
+                    print(time.strftime("%H:%M:%S"),"- Product is not available in stocks.")
         json_file = open("Frontend/pc-config-maroc/src/Data/" + category_name + "_data.json", "w", encoding="utf-8")
         json.dump(products, json_file, indent=4, ensure_ascii=False)
         json_file.close()
