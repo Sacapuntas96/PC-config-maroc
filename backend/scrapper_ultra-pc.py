@@ -48,11 +48,12 @@ if choix == 'n':
         if os.stat("Frontend/pc-config-maroc/src/Data/" + category + "_data.json").st_size == 0:
             temp_file = open("Frontend/pc-config-maroc/src/Data/" + category + "_data.json", "w")
             json.dump([], temp_file, indent=4, ensure_ascii=False)
+            temp_file.close()
 elif choix == 'y':
     for category in categories.keys():
-        temp_file = open("Frontend/pc-config-maroc/src/Data/" + category + "_data.json", "r").close()
         temp_file = open("Frontend/pc-config-maroc/src/Data/" + category + "_data.json", "w")
         json.dump([], temp_file, indent=4, ensure_ascii=False)
+        temp_file.close()
 
 # Scraps the items off the website
 for category_name, category_url in categories.items():
