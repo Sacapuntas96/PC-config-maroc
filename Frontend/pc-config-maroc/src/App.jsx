@@ -225,10 +225,16 @@ function App() {
 
         {pageItems.length === 0 ? (
           <div className="empty">
-            <p>Aucun produit ne correspond à « {query} ».</p>
-            <button className="btn-ghost" onClick={() => handleQuery("")}>
-              Effacer la recherche
-            </button>
+            {query.length != 0 ? (
+              <>
+                <p>Aucun produit ne correspond à « {query} ».</p>
+                <button className="btn-ghost" onClick={() => handleQuery("")}>
+                  Effacer la recherche
+                </button>
+              </>
+            ) : (
+              <p>Aucun produit disponible.</p>
+            )}
           </div>
         ) : (
           <div className="card-grid">

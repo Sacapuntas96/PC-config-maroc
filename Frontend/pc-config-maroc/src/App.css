@@ -179,6 +179,10 @@ button:disabled { cursor: not-allowed; opacity: .4; }
   padding: 26px 28px 96px;
 }
 
+.catalog::-webkit-scrollbar-track{
+  color: red;
+}
+
 .catalog-head {
   display: flex;
   align-items: baseline;
