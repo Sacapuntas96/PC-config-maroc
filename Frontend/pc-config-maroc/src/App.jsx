@@ -171,7 +171,7 @@ function App() {
         </ul>
       </nav>
 
-      <main className="catalog">
+      <div className="catalog">
         <header className="catalog-head">
           <h1>{activeCategory}</h1>
           <p className="count">
@@ -273,7 +273,7 @@ function App() {
             </button>
           </nav>
         )}
-      </main>
+      </div>
 
       <aside className="build" id="configuration" aria-label="Configuration">
         <header className="build-head">
@@ -348,7 +348,7 @@ function App() {
                 </button>
                 {part && (
                   <div className="line-side">
-                    <span className="line-price">{formatMAD(part.Price)}</span>
+                    <span className="line-price">{formatMAD(part.Price)}MAD</span>
                     <button
                       className="line-remove"
                       aria-label={"Retirer " + category}
