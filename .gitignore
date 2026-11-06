@@ -1,1 +1,23 @@
-database
+# Dependencies (matches at any depth)
+node_modules/
+
+# Wrangler local state: the local D1 copy lives here
+.wrangler/
+
+# Secrets and local env
+.env
+.env.*
+.dev.vars
+
+# Build output
+dist/
+
+# Python (your scrapers)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs and OS junk
+*.log
+.DS_Store
