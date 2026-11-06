@@ -9,5 +9,5 @@ run_worker_first = ["/api/*"]
 [[d1_databases]]
 binding = "DB"
 database_name = "pc-config-maroc-data"
-database_id = "63762c2d-70a8-4b97-b112-faf67bece359"
+database_id = "dc3b6c3c-50ef-48c6-b66d-94da864ffd96"
 migrations_dir = "migrations"

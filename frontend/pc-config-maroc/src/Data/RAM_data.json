@@ -57,19 +57,6 @@
         "ID": 3
     },
     {
-        "Name": "Innovation IT 8Go (1x8Go) DDR4 3200 MHz CL16",
-        "URL": "https://www.ultrapc.ma/memoire-vive-ddr4/11624-innovation-it-8go-1x8go-ddr4-3200-mhz-cl16.html",
-        "Type de mémoire": "DDR4",
-        "Capacité totale": "8 Go",
-        "Fréquence(s) Mémoire": "3200 Mhz",
-        "Nombre de barrette(s)": "1",
-        "CAS Latency": "CL16",
-        "Utilisation": "Ordinateur de bureau",
-        "Garantie": "12 Mois",
-        "Price": 899.0,
-        "ID": 4
-    },
-    {
         "Name": "G.Skill Flare X5 Neo Series 32Go (2x 16Go) DDR5 6000 MHz CL36",
         "URL": "https://www.ultrapc.ma/memoire-vive-ddr5/6243-gskill-flare-x5-neo-series-32go-2x-16go-ddr5-6000-mhz-cl36.html",
         "Type de mémoire": "DDR5",
@@ -82,6 +69,19 @@
         "Marque": "G.Skill",
         "Garantie": "12 Mois",
         "Price": 7499.0,
+        "ID": 4
+    },
+    {
+        "Name": "Innovation IT 8Go (1x8Go) DDR4 3200 MHz CL16",
+        "URL": "https://www.ultrapc.ma/memoire-vive-ddr4/11624-innovation-it-8go-1x8go-ddr4-3200-mhz-cl16.html",
+        "Type de mémoire": "DDR4",
+        "Capacité totale": "8 Go",
+        "Fréquence(s) Mémoire": "3200 Mhz",
+        "Nombre de barrette(s)": "1",
+        "CAS Latency": "CL16",
+        "Utilisation": "Ordinateur de bureau",
+        "Garantie": "12 Mois",
+        "Price": 899.0,
         "ID": 5
     },
     {

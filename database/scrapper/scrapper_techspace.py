@@ -44,20 +44,20 @@ choix = str(input("Do you wish to empty all data files ? y/n : "))
 
 if choix == 'n':
     for category in categories.keys():
-        temp_file = open("Frontend/pc-config-maroc/src/Data/" + category + "_data.json", "r").close()
-        if os.stat("Frontend/pc-config-maroc/src/Data/" + category + "_data.json").st_size == 0:
-            temp_file = open("Frontend/pc-config-maroc/src/Data/" + category + "_data.json", "w")
+        temp_file = open("frontend/pc-config-maroc/src/Data/" + category + "_data.json", "r").close()
+        if os.stat("frontend/pc-config-maroc/src/Data/" + category + "_data.json").st_size == 0:
+            temp_file = open("frontend/pc-config-maroc/src/Data/" + category + "_data.json", "w")
             json.dump([], temp_file, indent=4, ensure_ascii=False)
             temp_file.close()
 elif choix == 'y':
     for category in categories.keys():
-        temp_file = open("Frontend/pc-config-maroc/src/Data/" + category + "_data.json", "w")
+        temp_file = open("frontend/pc-config-maroc/src/Data/" + category + "_data.json", "w")
         json.dump([], temp_file, indent=4, ensure_ascii=False)
         temp_file.close()
 
 # Scraps the items off the website
 for category_name, category_url in categories.items():
-    if os.stat("Frontend/pc-config-maroc/src/Data/" + category_name + "_data.json").st_size == 2:  
+    if os.stat("frontend/pc-config-maroc/src/Data/" + category_name + "_data.json").st_size == 2:  
         products = []
 
         # Displays the number of items in total
@@ -125,7 +125,7 @@ for category_name, category_url in categories.items():
                         products.append(stats)
                 else:
                     print(time.strftime("%H:%M:%S"),"- Product is not available in stocks.")
-        json_file = open("Frontend/pc-config-maroc/src/Data/" + category_name + "_data.json", "w", encoding="utf-8")
+        json_file = open("frontend/pc-config-maroc/src/Data/" + category_name + "_data.json", "w", encoding="utf-8")
         json.dump(products, json_file, indent=4, ensure_ascii=False)
         json_file.close()
     else:
