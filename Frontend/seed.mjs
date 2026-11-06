@@ -1,0 +1,11 @@
+DELETE FROM products
+
+INSERT INTO products
+VALUES ("GPU", "")
+
+
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+    category TEXT NON NULL,
+    name TEXT NON NULL,
+    price REAL NON NULL,
+    specs TEXT NON NULL

@@ -1,8 +1,13 @@
 name = "pc-config-maroc"
-pages_build_output_dir = "./dist"
-compatibility_date = "2026-10-23"
+main = "worker/index.js"
+compatibility_date = "2026-11-01"
+
+[assets]
+not_found_handling = "single-page-application"
+run_worker_first = ["/api/*"]
 
 [[d1_databases]]
 binding = "DB"
 database_name = "pc-config-maroc-data"
 database_id = "63762c2d-70a8-4b97-b112-faf67bece359"
+migrations_dir = "migrations"
