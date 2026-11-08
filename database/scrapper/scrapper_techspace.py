@@ -28,15 +28,15 @@ for i in range(len(result_paragraph)):
         number_of_result = int(result_count)
         break
 
-categories = {"Processor" : "https://www.ultrapc.ma/21-processeurs?content_only=1&infinitescroll=1&page=",
-"Motherboard" : "https://www.ultrapc.ma/28-cartes-meres?content_only=1&infinitescroll=1&page=",
-"Watercooling" : "https://www.ultrapc.ma/44-refroidissement?content_only=1&infinitescroll=1&page=",
-"GPU" : "https://www.ultrapc.ma/39-cartes-graphiques?content_only=1&infinitescroll=1&page=",
-"RAM" : "https://www.ultrapc.ma/35-memoire-vive-pc?content_only=1&infinitescroll=1&page=",
-"SSD_&_HDD" : "https://www.ultrapc.ma/34-disques-durs-et-ssd?content_only=1&infinitescroll=1&page=",
-"PSU" : "https://www.ultrapc.ma/43-alimentations-pc?content_only=1&infinitescroll=1&page=",
-"Case" : "https://www.ultrapc.ma/48-boitier-pc?content_only=1&infinitescroll=1&page=",
-"Sound_Card" : "https://www.ultrapc.ma/53-cartes-son?content_only=1&infinitescroll=1&page="}
+categories = {"Processor" : "https://techspace.ma/collections/processeurs?",
+"Motherboard" : "https://techspace.ma/collections/carte-mere?",
+"Watercooling" : "https://techspace.ma/collections/refroidissement?",
+"GPU" : "https://techspace.ma/collections/carte-graphique?",
+"RAM" : "https://techspace.ma/collections/memoire-vive?",
+"SSD_&_HDD" : "https://techspace.ma/collections/disques-dur?",
+"PSU" : "https://techspace.ma/collections/alimentation?",
+"Case" : "https://techspace.ma/collections/boitier-pc?",
+"Sound_Card" : "https://techspace.ma/collections/carte-son?"}
 
 
 
@@ -44,20 +44,20 @@ choix = str(input("Do you wish to empty all data files ? y/n : "))
 
 if choix == 'n':
     for category in categories.keys():
-        temp_file = open("frontend/pc-config-maroc/src/Data/" + category + "_data.json", "r").close()
-        if os.stat("frontend/pc-config-maroc/src/Data/" + category + "_data.json").st_size == 0:
-            temp_file = open("frontend/pc-config-maroc/src/Data/" + category + "_data.json", "w")
+        temp_file = open("frontend/pc-config-maroc/src/Data/techspace" + category + "_data.json", "r").close()
+        if os.stat("frontend/pc-config-maroc/src/Data/techspace" + category + "_data.json").st_size == 0:
+            temp_file = open("frontend/pc-config-maroc/src/Data/techspace" + category + "_data.json", "w")
             json.dump([], temp_file, indent=4, ensure_ascii=False)
             temp_file.close()
 elif choix == 'y':
     for category in categories.keys():
-        temp_file = open("frontend/pc-config-maroc/src/Data/" + category + "_data.json", "w")
+        temp_file = open("frontend/pc-config-maroc/src/Data/techspace" + category + "_data.json", "w")
         json.dump([], temp_file, indent=4, ensure_ascii=False)
         temp_file.close()
 
 # Scraps the items off the website
 for category_name, category_url in categories.items():
-    if os.stat("frontend/pc-config-maroc/src/Data/" + category_name + "_data.json").st_size == 2:  
+    if os.stat("frontend/pc-config-maroc/src/Data/techspace" + category_name + "_data.json").st_size == 2:  
         products = []
 
         # Displays the number of items in total
@@ -70,7 +70,7 @@ for category_name, category_url in categories.items():
 
 
         i = 0
-        for k in range(number_of_result // 32):
+        for k in range(number_of_result // 24):
             
             print("\n" * (k != 0), time.strftime("%H:%M:%S"),"- Searching page number ", k + 1,":", category_url + str(k + 1), "\n")
 
@@ -125,7 +125,7 @@ for category_name, category_url in categories.items():
                         products.append(stats)
                 else:
                     print(time.strftime("%H:%M:%S"),"- Product is not available in stocks.")
-        json_file = open("frontend/pc-config-maroc/src/Data/" + category_name + "_data.json", "w", encoding="utf-8")
+        json_file = open("frontend/pc-config-maroc/src/Data/techspace" + category_name + "_data.json", "w", encoding="utf-8")
         json.dump(products, json_file, indent=4, ensure_ascii=False)
         json_file.close()
     else:
