@@ -71,24 +71,6 @@
         "ID": 3
     },
     {
-        "Name": "Gigabyte GeForce RTX 5060 WINDFORCE OC 8Go GDDR7",
-        "URL": "https://www.ultrapc.ma/nvidia/10191-gigabyte-geforce-rtx-5060-windforce-oc-8go-gddr7.html",
-        "Marque du chipset": "Nvidia",
-        "Puce graphique": "GeForce RTX 5060",
-        "Fréquence du chipset": "2512 MHz",
-        "Unités de calcul": "3840 CUDA Cores",
-        "Quantité mémoire": "8 Go",
-        "Fréquence mémoire": "28000 MHz",
-        "Consommation TDP": "145 W",
-        "Sorties vidéo": "1 X HDMI Femelle / 3 X DisplayPort Femelle",
-        "Marque": "Gigabyte",
-        "Garantie": "12 Mois",
-        "Série graphique": "GeForce RTX 5000",
-        "Type de mémoire vidéo": "GDDR7",
-        "Price": 6499.0,
-        "ID": 4
-    },
-    {
         "Name": "MSI GeForce RTX 5070 VENTUS 2X OC 12Go GDDR7",
         "URL": "https://www.ultrapc.ma/nvidia/10008-msi-geforce-rtx-5070-ventus-2x-oc-12go-gddr7.html",
         "Marque du chipset": "Nvidia",
@@ -104,6 +86,24 @@
         "Série graphique": "GeForce RTX 5000",
         "Type de mémoire vidéo": "GDDR7",
         "Price": 12099.0,
+        "ID": 4
+    },
+    {
+        "Name": "Gigabyte GeForce RTX 5060 WINDFORCE OC 8Go GDDR7",
+        "URL": "https://www.ultrapc.ma/nvidia/10191-gigabyte-geforce-rtx-5060-windforce-oc-8go-gddr7.html",
+        "Marque du chipset": "Nvidia",
+        "Puce graphique": "GeForce RTX 5060",
+        "Fréquence du chipset": "2512 MHz",
+        "Unités de calcul": "3840 CUDA Cores",
+        "Quantité mémoire": "8 Go",
+        "Fréquence mémoire": "28000 MHz",
+        "Consommation TDP": "145 W",
+        "Sorties vidéo": "1 X HDMI Femelle / 3 X DisplayPort Femelle",
+        "Marque": "Gigabyte",
+        "Garantie": "12 Mois",
+        "Série graphique": "GeForce RTX 5000",
+        "Type de mémoire vidéo": "GDDR7",
+        "Price": 6499.0,
         "ID": 5
     },
     {

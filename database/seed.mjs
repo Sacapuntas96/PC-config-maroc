@@ -1,137 +1,96 @@
 import fs from "node:fs";
-import Database from "better-sqlite3";
 
-const CATEGORIES = {
-  "Processor": "src/Data/Processor_data.json",
-  "Motherboard": "src/Data/Motherboard_data.json",
-  "Watercooling": "src/Data/Watercooling_data.json",
-  "GPU": "src/Data/GPU_data.json",
-  "RAM": "src/Data/RAM_data.json",
-  "SSD_&_HDD": "src/Data/SSD_&_HDD_data.json",
-  "PSU": "src/Data/PSU_data.json",
-  "Case": "src/Data/Case_data.json",
-  "Sound_Card": "src/Data/Sound_Card_data.json"
+const DATA_DIR = "../frontend/pc-config-maroc/src/Data";
+
+const FILES = {
+  Processor: "Processor_data.json",
+  Motherboard: "Motherboard_data.json",
+  Watercooling: "Watercooling_data.json",
+  GPU: "GPU_data.json",
+  RAM: "RAM_data.json",
+  "SSD_&_HDD": "SSD_&_HDD_data.json",
+  PSU: "PSU_data.json",
+  Case: "Case_data.json",
+  Sound_Card: "Sound_Card_data.json",
 };
 
-const CATEGORY_TO_FR = {
-  "Processor":   "Processeur",
-  "Motherboard": "Carte mère",
-  "Watercooling":"Refroidissement",
-  "GPU":         "Carte graphique",
-  "RAM":         "Mémoire RAM",
-  "SSD_&_HDD":   "Stockage (SSD & HDD)",
-  "PSU":         "Alimentation",
-  "Case":        "Boîtier",
-  "Sound_Card":  null
+const SPEC_SOURCES = {
+  Processor: {
+    Coeurs: "Nombre de coeurs ",
+    Threads: "Nombre de threads",
+    "Fréquence": "Fréquence CPU",
+    Socket: "Socket",
+  },
+  Motherboard: {
+    Socket: "Socket",
+    Slots: "Nombre de slots RAM",
+    Format: "Format",
+    "Mémoire": "Type de mémoire",
+  },
+  GPU: {
+    Marque: "Marque",
+    VRAM: "Quantité mémoire",
+    "Fréq. mém.": "Fréquence mémoire",
+    "Cœurs": "Unités de calcul",
+  },
+  RAM: {
+    Type: "Type de mémoire",
+    "Capacité": "Capacité totale",
+    "Fréquence": "Fréquence(s) Mémoire",
+    Latence: "CAS Latency",
+  },
+  "SSD_&_HDD": {
+    "Capacité": "Capacité de disque",
+    Format: "Format de Disque",
+    Interface: "Interface",
+    Lecture: "Vitesse en lecture",
+  },
+  PSU: {
+    Puissance: "Puissance",
+    Certification: "Certification",
+    Modulaire: "Modulaire",
+    Marque: "Marque",
+  },
+  Watercooling: {
+    Socket: "Support du processeur",
+    Ventilateurs: "Ventilateur(s)",
+    "Matériau": "Matériau",
+    "Éclairage RGB ": "Éclairage RGB",
+  },
+  Case: {
+    Format: "Format du boitier",
+    "Carte mère": "Format de carte mère",
+    Dimensions: "Dimensions (L x H x P)",
+    Ventilateurs: "Nombre de ventilateurs fournis",
+  },
+  Sound_Card: {},
 };
 
-function reformat(text){
-    text.replace(/'/g, "''");
-    return text;
+const esc = (value) => String(value ?? "").replace(/'/g, "''");
+
+const lines = [
+  "DROP TABLE IF EXISTS product;",
+  "CREATE TABLE product (id INTEGER PRIMARY KEY AUTOINCREMENT, category TEXT NOT NULL, name TEXT NOT NULL, price REAL, specs TEXT NOT NULL, url TEXT NOT NULL);",
+  "CREATE INDEX idx_product_category ON product(category);",
+];
+
+for (const [category, file] of Object.entries(FILES)) {
+  const items = JSON.parse(fs.readFileSync(`${DATA_DIR}/${file}`, "utf8"));
+  const sources = SPEC_SOURCES[category];
+
+  for (const item of items) {
+    const specs = {};
+    for (const [specName, jsonKey] of Object.entries(sources)) {
+      specs[specName] = item[jsonKey];
+    }
+
+    const price = Number(item.Price) || "NULL";
+
+    lines.push(
+      `INSERT INTO product (category, name, price, url, specs) VALUES ('${esc(category)}', '${esc(item.Name)}', ${price}, '${esc(item.URL)}', '${esc(JSON.stringify(specs))}');`
+    );
+  }
 }
 
-
-
-const db = new Database("products.db")
-
-
-
-db.exec(`
-  CREATE TABLE IF NOT EXISTS product (
-    id       INTEGER PRIMARY KEY AUTOINCREMENT,
-    category TEXT NOT NULL,
-    name     TEXT NOT NULL,
-    price    REAL,
-    specs    TEXT NOT NULL
-  );
-  CREATE INDEX IF NOT EXISTS idx_proiduct_category ON product(category);
-`);
-
-const insertion = db.prepare(
-    "INSERT INTO product (category, name, price, specs) VALUES (@category, @name, @price, @specs)"
-);
-
-const insertAll = db.transaction(() => {
-    for(const category of Object.keys(CATEGORIES)){
-        for(const item of JSON.parse(fs.readFileSync(CATEGORIES[category], "utf8"))){
-            const name = item.Name;
-            const price = item.Price;
-            const specs = (() => {
-            switch (CATEGORY_TO_FR[category]) {
-                case "Processeur":
-                return {
-                    "Coeurs": item["Nombre de coeurs "],
-                    "Threads": item["Nombre de threads"],
-                    "Fréquence": item["Fréquence CPU"],
-                    "Socket": item["Socket"],
-                };
-
-                case "Carte mère":
-                return {
-                    "Socket": item["Socket"],
-                    "Slots": item["Nombre de slots RAM"],
-                    "Format": item["Format"],
-                    "Mémoire": item["Type de mémoire"],
-                };
-
-                case "Carte graphique":
-                return {
-                    "Marque": item["Marque"],
-                    "VRAM": item["Quantité mémoire"],
-                    "Fréq. mém.": item["Fréquence mémoire"],
-                    "Cœurs": item["Unités de calcul"],
-                };
-
-                case "Mémoire RAM":
-                return {
-                    "Type": item["Type de mémoire"],
-                    "Capacité": item["Capacité totale"],
-                    "Fréquence": item["Fréquence(s) Mémoire"],
-                    "Latence": item["CAS Latency"],
-                };
-
-                case "Stockage (SSD & HDD)":
-                return {
-                    "Capacité": item["Capacité de disque"],
-                    "Format": item["Format de Disque"],
-                    "Interface": item["Interface"],
-                    "Lecture": item["Vitesse en lecture"],
-                };
-
-                case "Alimentation":
-                return {
-                    "Puissance": item["Puissance"],
-                    "Certification": item["Certification"],
-                    "Modulaire": item["Modulaire"],
-                    "Marque": item["Marque"],
-                };
-
-                case "Refroidissement":
-                return {
-                    "Socket": item["Support du processeur"],
-                    "Ventilateurs": item["Ventilateur(s)"],
-                    "Matériau": item["Matériau"],
-                    "Marque": item["Marque"],
-                };
-
-                case "Boîtier":
-                return {
-                    "Format": item["Format du boitier"],
-                    "Carte mère": item["Format de carte mère"],
-                    "Dimensions": item["Dimensions (L x H x P)"],
-                    "Ventilateurs": item["Nombre de ventilateurs fournis"],
-                };
-
-                default:
-                return {};
-            }
-            })();
-
-            insertion.run({category, name, price, specs : JSON.stringify(specs)});   
-        }
-    }
-})
-
-insertAll.immediate()
-
-db.close()
+fs.writeFileSync("products.sql", lines.join("\n"));
+console.log("products.sql written:", lines.length - 3, "products");

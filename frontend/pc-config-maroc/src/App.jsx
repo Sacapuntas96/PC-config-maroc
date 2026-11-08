@@ -1,85 +1,322 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./App.css";
 
-import caseData from "./Data/Case_data.json";
-import gpuData from "./Data/GPU_data.json";
-import motherboardData from "./Data/Motherboard_data.json";
-import processorData from "./Data/Processor_data.json";
-import psuData from "./Data/PSU_data.json";
-import ramData from "./Data/RAM_data.json";
-import soundCardData from "./Data/Sound_Card_data.json";
-import ssdHddData from "./Data/SSD_&_HDD_data.json";
-import watercoolingData from "./Data/Watercooling_data.json";
-
 const dataByCategory = {
-  Processeur: processorData,
-  "Carte mère": motherboardData,
-  "Carte graphique": gpuData,
-  "Mémoire RAM": ramData,
-  "Stockage (SSD & HDD)": ssdHddData,
-  Alimentation: psuData,
-  Refroidissement: watercoolingData,
-  Boîtier: caseData,
-  "Carte son": soundCardData,
+  Processeur: "Processor",
+  "Carte mère": "Motherboard",
+  "Carte graphique": "GPU",
+  "Mémoire RAM": "RAM",
+  "Stockage (SSD & HDD)": "SSD_&_HDD",
+  Alimentation: "PSU",
+  Refroidissement: "Watercooling",
+  Boîtier: "Case",
+  "Carte son": "",
+};
+
+const category_to_fr = {
+  Processeur: "Processor",
+  "Carte mère": "Motherboard",
+  "Carte graphique": "GPU",
+  "Mémoire RAM": "RAM",
+  "Stockage (SSD & HDD)": "SSD_&_HDD",
+  Alimentation: "PSU",
+  Refroidissement: "Watercooling",
+  Boîtier: "Case",
+  "Carte son": "Sound_Card",
+}
+
+const FIELDS_BY_CATEGORY = {
+  Processeur: [
+    { label: "Coeurs", key: "Nombre de coeurs " },
+    { label: "Threads", key: "Nombre de threads" },
+    { label: "Fréquence", key: "Fréquence CPU" },
+    { label: "Socket", key: "Socket" },
+  ],
+  "Carte mère": [
+    { label: "Socket", key: "Socket" },
+    { label: "Slots", key: "Nombre de slots RAM" },
+    { label: "Format", key: "Format" },
+    { label: "Mémoire", key: "Type de mémoire" },
+  ],
+  "Carte graphique": [
+    { label: "Marque", key: "Marque" },
+    { label: "VRAM", key: "Quantité mémoire" },
+    { label: "Fréq. mém.", key: "Fréquence mémoire" },
+    { label: "Cœurs", key: "Unités de calcul" },
+  ],
+  "Mémoire RAM": [
+    { label: "Type", key: "Type de mémoire" },
+    { label: "Capacité", key: "Capacité totale" },
+    { label: "Fréquence", key: "Fréquence(s) Mémoire" },
+    { label: "Latence", key: "CAS Latency" },
+  ],
+  "Stockage (SSD & HDD)": [
+    { label: "Capacité", key: "Capacité de disque" },
+    { label: "Format", key: "Format de Disque" },
+    { label: "Interface", key: "Interface" },
+    { label: "Lecture", key: "Vitesse en lecture" },
+  ],
+  Alimentation: [
+    { label: "Puissance", key: "Puissance" },
+    { label: "Certification", key: "Certification" },
+    { label: "Modulaire", key: "Modulaire" },
+    { label: "Marque", key: "Marque" },
+  ],
+  Refroidissement: [
+    { label: "Socket", key: "Support du processeur" },
+    { label: "Ventilateurs", key: "Ventilateur(s)" },
+    { label: "Matériau", key: "Matériau" },
+    { label: "Marque", key: "Marque" },
+  ],
+  Boîtier: [
+    { label: "Format", key: "Format du boitier" },
+    { label: "Carte mère", key: "Format de carte mère" },
+    { label: "Dimensions", key: "Dimensions (L x H x P)" },
+    { label: "Ventilateurs", key: "Nombre de ventilateurs fournis" },
+  ],
+  "Carte son": [],
 };
 
 const CATEGORY_NAMES = Object.keys(dataByCategory);
 
-const INITIAL_SELECTION = CATEGORY_NAMES.reduce((acc, name) => {
-  acc[name] = null;
-  return acc;
-}, {});
+const INITIAL_SELECTION = {};
+for (const name of CATEGORY_NAMES) {
+  INITIAL_SELECTION[name] = null;
+}
 
 const PAGE_SIZE = 20;
 
 const formatMAD = (n) => Math.round(n).toLocaleString("fr-FR");
 
+const formatPlain = (n) => formatMAD(n).replace(/[\u202f\u00a0]/g, " ");
+
+const formatDate = (date) =>
+  date.toLocaleDateString("fr-FR", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+
+function getTotal(selection) {
+  let total = 0;
+  for (const category of CATEGORY_NAMES) {
+    const part = selection[category];
+    if (part) {
+      total += Number(part.price) || 0;
+    }
+  }
+  return total;
+}
+
+function countSelected(selection) {
+  let count = 0;
+  for (const category of CATEGORY_NAMES) {
+    if (selection[category]) {
+      count += 1;
+    }
+  }
+  return count;
+}
+
+function hasConflict(issues, category) {
+  return issues.some((issue) => issue.categories.includes(category));
+}
+
+function getSortValue(value) {
+  if (!value) return null;
+  const number = parseFloat(value);
+  if (isNaN(number)) {
+    return String(value).toLowerCase();
+  }
+  return number;
+}
+
+function sortItems(items, key, order) {
+  const direction = order === "ASC" ? 1 : -1;
+
+  return [...items].sort((a, b) => {
+    const valueA = getSortValue(a[key]);
+    const valueB = getSortValue(b[key]);
+
+    if (valueA === null && valueB === null) return 0;
+    if (valueA === null) return 1;
+    if (valueB === null) return -1;
+
+    if (typeof valueA === "number" && typeof valueB === "number") {
+      return (valueA - valueB) * direction;
+    }
+    return String(valueA).localeCompare(String(valueB)) * direction;
+  });
+}
+
+function coolerSupportsSocket(coolerText, cpuSocket) {
+  const words = cpuSocket.trim().split(" ");
+  const socketName = words[words.length - 1].toUpperCase();
+  const cleanCoolerText = coolerText.replace(/\s/g, "").toUpperCase();
+  return cleanCoolerText.includes(socketName);
+}
+
+function cleanFormat(text) {
+  const clean = text.toUpperCase().replace(/[^A-Z]/g, "");
+  if (clean === "MATX") return "MICROATX";
+  if (clean === "ITX") return "MINIITX";
+  return clean;
+}
+
+function caseSupportsFormat(caseFormats, motherboardFormat) {
+  const supportedFormats = caseFormats.split(/[,/]| et /i).map(cleanFormat);
+  return supportedFormats.includes(cleanFormat(motherboardFormat));
+}
+
+function getIncompatibilities(selection) {
+  const issues = [];
+
+  const cpu = selection["Processeur"];
+  const motherboard = selection["Carte mère"];
+  const ram = selection["Mémoire RAM"];
+  const cooler = selection["Refroidissement"];
+  const pcCase = selection["Boîtier"];
+
+  if (cpu && motherboard && cpu.Socket !== motherboard.Socket) {
+    issues.push({
+      categories: ["Processeur", "Carte mère"],
+      message: `Le socket du processeur (${cpu.Socket}) ne correspond pas à celui de la carte mère (${motherboard.Socket})`,
+    });
+  }
+
+  if (
+    ram &&
+    motherboard &&
+    ram["Type de mémoire"] !== motherboard["Type de mémoire"]
+  ) {
+    issues.push({
+      categories: ["Mémoire RAM", "Carte mère"],
+      message: `Le type de mémoire RAM (${ram["Type de mémoire"]}) n'est pas compatible avec la carte mère (${motherboard["Type de mémoire"]})`,
+    });
+  }
+
+  if (
+    cooler &&
+    cpu &&
+    cooler["Support du processeur"] &&
+    !coolerSupportsSocket(cooler["Support du processeur"], cpu.Socket)
+  ) {
+    issues.push({
+      categories: ["Refroidissement", "Processeur"],
+      message: `Le refroidisseur ne supporte pas le socket du processeur (${cpu.Socket})`,
+    });
+  }
+
+  if (
+    pcCase &&
+    motherboard &&
+    pcCase["Format de carte mère"] &&
+    motherboard.Format &&
+    !caseSupportsFormat(pcCase["Format de carte mère"], motherboard.Format)
+  ) {
+    issues.push({
+      categories: ["Boîtier", "Carte mère"],
+      message: `Le format de la carte mère (${motherboard.Format}) n'est pas compatible avec le boîtier`,
+    });
+  }
+
+  return issues;
+}
+
+function buildRecapText(selection, issues, total, date) {
+  const rule = "-".repeat(48);
+  const lines = [
+    "CONFIGURATION PC",
+    rule,
+    `Date : ${formatDate(date)}`,
+    `Composants choisis : ${countSelected(selection)} sur ${CATEGORY_NAMES.length}`,
+    "",
+  ];
+
+  for (const category of CATEGORY_NAMES) {
+    const part = selection[category];
+    lines.push(category);
+    if (part) {
+      lines.push(`  ${part.name}`);
+      lines.push(`  Prix : ${formatPlain(part.price)} MAD`);
+      if (part.URL) lines.push(`  Lien : ${part.URL}`);
+    } else {
+      lines.push("  Non choisi");
+    }
+    lines.push("");
+  }
+
+  lines.push(rule, `TOTAL : ${formatPlain(total)} MAD`);
+
+  if (issues.length > 0) {
+    lines.push("", "Incompatibilités détectées :");
+    for (const issue of issues) {
+      lines.push(`- ${issue.message}`);
+    }
+  }
+
+  return lines.join("\r\n") + "\r\n";
+}
+
+function downloadTextFile(text, filename) {
+  const blob = new Blob(["\uFEFF" + text], {
+    type: "text/plain;charset=utf-8",
+  });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
 function App() {
   const [activeCategory, setActiveCategory] = useState("Processeur");
   const [selectedByCategory, setSelectedByCategory] =
     useState(INITIAL_SELECTION);
-
-  const [sortField, setSortField] = useState(null);
+  const [sortKey, setSortKey] = useState(null);
   const [order, setOrder] = useState("ASC");
   const [query, setQuery] = useState("");
   const [page, setPage] = useState(0);
   const [showIssues, setShowIssues] = useState(false);
   const [showRecap, setShowRecap] = useState(false);
 
-  const fields = useMemo(() => getFields(activeCategory), [activeCategory]);
-  const sortOptions = useMemo(
-    () => [...fields, { label: "Prix", key: "Price" }],
-    [fields],
-  );
+  const fields = FIELDS_BY_CATEGORY[activeCategory];
+  const sortOptions = [...fields, { label: "Prix", key: "Price" }];
+  const incompatibilities = getIncompatibilities(selectedByCategory);
+  const total = getTotal(selectedByCategory);
+  const selectedCount = countSelected(selectedByCategory);
+  const activeSelection = selectedByCategory[activeCategory];
 
-  const incompatibilities = useMemo(
-    () => getIncompatibilities(selectedByCategory),
-    [selectedByCategory],
-  );
+  const [products, setProducts] = useState([]);
 
-  const total = useMemo(
-    () =>
-      Object.values(selectedByCategory).reduce(
-        (sum, item) => sum + (item ? Number(item.Price) || 0 : 0),
-        0,
-      ),
-    [selectedByCategory],
-  );
-  const selectedCount =
-    Object.values(selectedByCategory).filter(Boolean).length;
+  useEffect(() => {
+    fetch(`/api/products?category=${encodeURIComponent(category_to_fr[activeCategory])}`)
+      .then(res => res.json())
+      .then(data => setProducts(data));
+  }, [activeCategory]);
 
-  const results = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    let list = dataByCategory[activeCategory];
-    if (q)
-      list = list.filter((item) => String(item.Name).toLowerCase().includes(q));
-    const sortKey = sortOptions.find((o) => o.label === sortField)?.key;
-    return sortKey ? sortItems(list, sortKey, order) : list;
-  }, [activeCategory, query, sortField, order, sortOptions]);
+  let results = products;
+  products.map(item => {
+    Object.keys(JSON.parse(item.specs)).map(element =>{
+    })
+  })
+
+  const search = query.trim().toLowerCase();
+  if (search) {
+    results = results.filter((item) =>
+      String(item.name).toLowerCase().includes(search),
+    );
+  }
+
+  if (sortKey) {
+    results = sortItems(results, sortKey, order);
+  }
 
   const pageCount = Math.max(1, Math.ceil(results.length / PAGE_SIZE));
   const pageItems = results.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
-  const activeSelection = selectedByCategory[activeCategory];
 
   useEffect(() => {
     window.scrollTo({ top: 0 });
@@ -87,17 +324,17 @@ function App() {
 
   function handleSelectCategory(name) {
     setActiveCategory(name);
-    setSortField(null);
+    setSortKey(null);
     setOrder("ASC");
     setQuery("");
     setPage(0);
   }
 
-  function handleSortClick(label) {
-    if (sortField === label) {
+  function handleSortClick(key) {
+    if (sortKey === key) {
       setOrder(order === "ASC" ? "DESC" : "ASC");
     } else {
-      setSortField(label);
+      setSortKey(key);
       setOrder("ASC");
     }
     setPage(0);
@@ -109,17 +346,17 @@ function App() {
   }
 
   function handleSelectItem(item) {
-    setSelectedByCategory((prev) => {
-      const current = prev[activeCategory];
-      return {
-        ...prev,
-        [activeCategory]: current && current.ID === item.ID ? null : item,
-      };
+    const current = selectedByCategory[activeCategory];
+    const isAlreadySelected = current !== null && current.id === item.id;
+
+    setSelectedByCategory({
+      ...selectedByCategory,
+      [activeCategory]: isAlreadySelected ? null : item,
     });
   }
 
   function removeItem(category) {
-    setSelectedByCategory((prev) => ({ ...prev, [category]: null }));
+    setSelectedByCategory({ ...selectedByCategory, [category]: null });
   }
 
   function resetBuild() {
@@ -137,9 +374,7 @@ function App() {
         <ul className="rail-list">
           {CATEGORY_NAMES.map((name) => {
             const chosen = selectedByCategory[name];
-            const conflict = incompatibilities.some((i) =>
-              i.categories.includes(name),
-            );
+            const conflict = hasConflict(incompatibilities, name);
             return (
               <li key={name}>
                 <button
@@ -192,16 +427,16 @@ function App() {
 
           <div className="sort" role="group" aria-label="Trier par">
             <span className="sort-label">Trier par</span>
-            {sortOptions.map((opt) => {
-              const on = sortField === opt.label;
+            {sortOptions.map((option) => {
+              const on = sortKey === option.key;
               return (
                 <button
-                  key={opt.label}
+                  key={option.key}
                   className={"chip" + (on ? " is-on" : "")}
                   aria-pressed={on}
-                  onClick={() => handleSortClick(opt.label)}
+                  onClick={() => handleSortClick(option.key)}
                 >
-                  {opt.label}
+                  {option.label}
                   {on && (
                     <span
                       className="chip-dir"
@@ -213,11 +448,7 @@ function App() {
                 </button>
               );
             })}
-            <button
-              key={"clear"}
-              className="chip"
-              onClick={() => setSortField(null)}
-            >
+            <button className="chip" onClick={() => setSortKey(null)}>
               Clear
             </button>
           </div>
@@ -225,7 +456,7 @@ function App() {
 
         {pageItems.length === 0 ? (
           <div className="empty">
-            {query.length != 0 ? (
+            {query !== "" ? (
               <>
                 <p>Aucun produit ne correspond à « {query} ».</p>
                 <button className="btn-ghost" onClick={() => handleQuery("")}>
@@ -239,12 +470,12 @@ function App() {
         ) : (
           <div className="card-grid">
             {pageItems.map((item, i) => (
-              <ItemCard
-                key={(item.ID ?? item.Name) + "-" + i}
+              <ItemCard 
+                key={(item.id ?? item.name) + "-" + i}
                 item={item}
-                fields={fields}
+                fields={JSON.parse(item.specs)}
                 isSelected={
-                  activeSelection != null && activeSelection.ID === item.ID
+                  activeSelection !== null && activeSelection.id === item.id
                 }
                 onClick={() => handleSelectItem(item)}
               />
@@ -320,9 +551,7 @@ function App() {
         <ul className="build-list">
           {CATEGORY_NAMES.map((category) => {
             const part = selectedByCategory[category];
-            const conflict = incompatibilities.some((i) =>
-              i.categories.includes(category),
-            );
+            const conflict = hasConflict(incompatibilities, category);
             return (
               <li
                 key={category}
@@ -338,17 +567,19 @@ function App() {
                 >
                   <span className="line-slot">{category}</span>
                   <span className="line-part">
-                    {part ? part.Name : "Aucun(e)"}
+                    {part ? part.name : "Aucun(e)"}
                   </span>
                   {part && (
-                    <a target="_blank" href={part.URL}>
+                    <a target="_blank" href={part.url}>
                       <button className="link-redirect">Lien</button>
                     </a>
                   )}
                 </button>
                 {part && (
                   <div className="line-side">
-                    <span className="line-price">{formatMAD(part.Price)}MAD</span>
+                    <span className="line-price">
+                      {formatMAD(part.price)}MAD
+                    </span>
                     <button
                       className="line-remove"
                       aria-label={"Retirer " + category}
@@ -414,45 +645,39 @@ function RecapDialog({
   total,
   selectedCount,
 }) {
-  const ref = useRef(null);
+  const dialogRef = useRef(null);
 
   useEffect(() => {
-    const dialog = ref.current;
-    if (!dialog) return;
+    const dialog = dialogRef.current;
     if (open && !dialog.open) dialog.showModal();
     if (!open && dialog.open) dialog.close();
   }, [open]);
 
   const today = new Date();
-  const dateLabel = today.toLocaleDateString("fr-FR", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
 
   function handleSave() {
     const text = buildRecapText(selection, incompatibilities, total, today);
-    downloadTextFile(
-      text,
-      "configuration-pc-" + today.toLocaleDateString("sv-SE") + ".txt",
-    );
+    const filename =
+      "configuration-pc-" + today.toLocaleDateString("sv-SE") + ".txt";
+    downloadTextFile(text, filename);
   }
 
   return (
     <dialog
-      ref={ref}
+      ref={dialogRef}
       className="recap"
       aria-labelledby="recap-title"
       onClose={onClose}
       onClick={(e) => {
-        if (e.target === ref.current) onClose();
+        if (e.target === dialogRef.current) onClose();
       }}
     >
       <header className="recap-head">
         <div>
           <h2 id="recap-title">Récapitulatif de ma configuration</h2>
           <p>
-            {dateLabel} · {selectedCount} sur {CATEGORY_NAMES.length} composants
+            {formatDate(today)} · {selectedCount} sur {CATEGORY_NAMES.length}{" "}
+            composants
           </p>
         </div>
         <button className="recap-close" aria-label="Fermer" onClick={onClose}>
@@ -478,9 +703,7 @@ function RecapDialog({
         <ul className="recap-list">
           {CATEGORY_NAMES.map((category) => {
             const part = selection[category];
-            const conflict = incompatibilities.some((i) =>
-              i.categories.includes(category),
-            );
+            const conflict = hasConflict(incompatibilities, category);
             return (
               <li
                 key={category}
@@ -492,10 +715,10 @@ function RecapDialog({
               >
                 <span className="recap-slot">{category}</span>
                 <span className="recap-part">
-                  {part ? part.Name : "Non choisi"}
+                  {part ? part.name : "Non choisi"}
                 </span>
                 <span className="recap-price">
-                  {part ? formatMAD(part.Price) + " MAD" : ""}
+                  {part ? formatMAD(part.price) + " MAD" : ""}
                 </span>
               </li>
             );
@@ -522,61 +745,6 @@ function RecapDialog({
   );
 }
 
-function buildRecapText(selection, issues, total, date) {
-  const rule = "-".repeat(48);
-  const count = Object.values(selection).filter(Boolean).length;
-  const lines = [
-    "CONFIGURATION PC",
-    rule,
-    "Date : " +
-      date.toLocaleDateString("fr-FR", {
-        day: "numeric",
-        month: "long",
-        year: "numeric",
-      }),
-    "Composants choisis : " + count + " sur " + CATEGORY_NAMES.length,
-    "",
-  ];
-
-  CATEGORY_NAMES.forEach((category) => {
-    const part = selection[category];
-    lines.push(category);
-    if (part) {
-      lines.push("  " + part.Name);
-      lines.push("  Prix : " + formatPlain(part.Price) + " MAD");
-      if (part.URL) lines.push("  Lien : " + part.URL);
-    } else {
-      lines.push("  Non choisi");
-    }
-    lines.push("");
-  });
-
-  lines.push(rule, "TOTAL : " + formatPlain(total) + " MAD");
-
-  if (issues.length > 0) {
-    lines.push("", "Incompatibilités détectées :");
-    issues.forEach((issue) => lines.push("- " + issue.message));
-  }
-
-  return lines.join("\r\n") + "\r\n";
-}
-
-const formatPlain = (n) => formatMAD(n).replace(/[\u202f\u00a0]/g, " ");
-
-function downloadTextFile(text, filename) {
-  const blob = new Blob(["\uFEFF" + text], {
-    type: "text/plain;charset=utf-8",
-  });
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement("a");
-  link.href = url;
-  link.download = filename;
-  document.body.appendChild(link);
-  link.click();
-  link.remove();
-  URL.revokeObjectURL(url);
-}
-
 function ItemCard({ item, fields, isSelected, onClick }) {
   return (
     <button
@@ -584,16 +752,15 @@ function ItemCard({ item, fields, isSelected, onClick }) {
       aria-pressed={isSelected}
       onClick={onClick}
     >
-      <h2 className="card-name">{item.Name}</h2>
+      <h2 className="card-name">{item.name}</h2>
 
       <dl className="card-specs">
-        {fields.map((f) => {
-          const value = item[f.key];
+        {Object.entries(fields).map((element) => {
           return (
-            <div className="spec" key={f.key}>
-              <dt>{f.label}</dt>
-              <dd className={value ? "" : "is-missing"}>
-                {value || "Non spécifié"}
+            <div className="spec" key={element[0]}>
+              <dt>{element[0]}</dt>
+              <dd className={element[1] ? "" : "is-missing"}>
+                {element[1] || "Non spécifié"}
               </dd>
             </div>
           );
@@ -602,7 +769,7 @@ function ItemCard({ item, fields, isSelected, onClick }) {
 
       <div className="card-foot">
         <span className="card-price">
-          {formatMAD(item.Price)} <span className="card-cur">MAD</span>
+          {formatMAD(item.price)} <span className="card-cur">MAD</span>
         </span>
         <span className="card-action">
           {isSelected ? (
@@ -695,191 +862,6 @@ function SearchIcon() {
       />
     </svg>
   );
-}
-
-function socketToken(socket) {
-  const parts = socket.trim().split(" ");
-  return parts[parts.length - 1].toUpperCase();
-}
-
-function coolerSupportsSocket(coolerText, cpuSocket) {
-  const token = socketToken(cpuSocket);
-  return coolerText.replace(/\s/g, "").toUpperCase().includes(token);
-}
-
-function normFormat(str) {
-  const n = str.toUpperCase().replace(/[^A-Z]/g, "");
-  if (n === "MATX") return "MICROATX";
-  if (n === "ITX") return "MINIITX";
-  return n;
-}
-
-function caseSupportsFormat(caseFormatText, moboFormat) {
-  const list = caseFormatText
-    .split(/[,/]| et /i)
-    .map((s) => normFormat(s.trim()))
-    .filter(Boolean);
-  return list.includes(normFormat(moboFormat));
-}
-
-function getIncompatibilities(sel) {
-  const issues = [];
-
-  if (
-    sel["Processeur"] &&
-    sel["Carte mère"] &&
-    sel["Processeur"].Socket !== sel["Carte mère"].Socket
-  ) {
-    issues.push({
-      categories: ["Processeur", "Carte mère"],
-      message:
-        "Le socket du processeur (" +
-        sel["Processeur"].Socket +
-        ") ne correspond pas à celui de la carte mère (" +
-        sel["Carte mère"].Socket +
-        ")",
-    });
-  }
-
-  if (
-    sel["Mémoire RAM"] &&
-    sel["Carte mère"] &&
-    sel["Mémoire RAM"]["Type de mémoire"] !==
-      sel["Carte mère"]["Type de mémoire"]
-  ) {
-    issues.push({
-      categories: ["Mémoire RAM", "Carte mère"],
-      message:
-        "Le type de mémoire RAM (" +
-        sel["Mémoire RAM"]["Type de mémoire"] +
-        ") n'est pas compatible avec la carte mère (" +
-        sel["Carte mère"]["Type de mémoire"] +
-        ")",
-    });
-  }
-
-  if (
-    sel["Refroidissement"] &&
-    sel["Processeur"] &&
-    sel["Refroidissement"]["Support du processeur"] &&
-    !coolerSupportsSocket(
-      sel["Refroidissement"]["Support du processeur"],
-      sel["Processeur"].Socket,
-    )
-  ) {
-    issues.push({
-      categories: ["Refroidissement", "Processeur"],
-      message:
-        "Le refroidisseur ne supporte pas le socket du processeur (" +
-        sel["Processeur"].Socket +
-        ")",
-    });
-  }
-
-  if (
-    sel["Boîtier"] &&
-    sel["Carte mère"] &&
-    sel["Boîtier"]["Format de carte mère"] &&
-    sel["Carte mère"].Format &&
-    !caseSupportsFormat(
-      sel["Boîtier"]["Format de carte mère"],
-      sel["Carte mère"].Format,
-    )
-  ) {
-    issues.push({
-      categories: ["Boîtier", "Carte mère"],
-      message:
-        "Le format de la carte mère (" +
-        sel["Carte mère"].Format +
-        ") n'est pas compatible avec le boîtier",
-    });
-  }
-
-  return issues;
-}
-
-function getFields(category) {
-  switch (category) {
-    case "Processeur":
-      return [
-        { label: "Coeurs", key: "Nombre de coeurs " },
-        { label: "Threads", key: "Nombre de threads" },
-        { label: "Fréquence", key: "Fréquence CPU" },
-        { label: "Socket", key: "Socket" },
-      ];
-    case "Carte mère":
-      return [
-        { label: "Socket", key: "Socket" },
-        { label: "Slots", key: "Nombre de slots RAM" },
-        { label: "Format", key: "Format" },
-        { label: "Mémoire", key: "Type de mémoire" },
-      ];
-    case "Carte graphique":
-      return [
-        { label: "Marque", key: "Marque" },
-        { label: "VRAM", key: "Quantité mémoire" },
-        { label: "Fréq. mém.", key: "Fréquence mémoire" },
-        { label: "Cœurs", key: "Unités de calcul" },
-      ];
-    case "Mémoire RAM":
-      return [
-        { label: "Type", key: "Type de mémoire" },
-        { label: "Capacité", key: "Capacité totale" },
-        { label: "Fréquence", key: "Fréquence(s) Mémoire" },
-        { label: "Latence", key: "CAS Latency" },
-      ];
-    case "Stockage (SSD & HDD)":
-      return [
-        { label: "Capacité", key: "Capacité de disque" },
-        { label: "Format", key: "Format de Disque" },
-        { label: "Interface", key: "Interface" },
-        { label: "Lecture", key: "Vitesse en lecture" },
-      ];
-    case "Alimentation":
-      return [
-        { label: "Puissance", key: "Puissance" },
-        { label: "Certification", key: "Certification" },
-        { label: "Modulaire", key: "Modulaire" },
-        { label: "Marque", key: "Marque" },
-      ];
-    case "Refroidissement":
-      return [
-        { label: "Socket", key: "Support du processeur" },
-        { label: "Ventilateurs", key: "Ventilateur(s)" },
-        { label: "Matériau", key: "Matériau" },
-        { label: "Marque", key: "Marque" },
-      ];
-    case "Boîtier":
-      return [
-        { label: "Format", key: "Format du boitier" },
-        { label: "Carte mère", key: "Format de carte mère" },
-        { label: "Dimensions", key: "Dimensions (L x H x P)" },
-        { label: "Ventilateurs", key: "Nombre de ventilateurs fournis" },
-      ];
-    default:
-      return [];
-  }
-}
-
-function sortItems(items, key, sortingOrder) {
-  const dir = sortingOrder === "DESC" ? -1 : 1;
-
-  const toComparable = (val) => {
-    if (val == null || val === "") return null;
-    const match = String(val).match(/-?\d+(\.\d+)?/);
-    return match ? parseFloat(match[0]) : String(val).toLowerCase();
-  };
-
-  return [...items].sort((a, b) => {
-    const va = toComparable(a[key]);
-    const vb = toComparable(b[key]);
-    if (va == null && vb == null) return 0;
-    if (va == null) return 1;
-    if (vb == null) return -1;
-    if (typeof va === "number" && typeof vb === "number")
-      return (va - vb) * dir;
-    return String(va).localeCompare(String(vb)) * dir;
-  });
 }
 
 export default App;

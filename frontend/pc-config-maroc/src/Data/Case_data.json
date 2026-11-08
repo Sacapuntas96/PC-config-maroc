@@ -181,6 +181,22 @@
         "ID": 10
     },
     {
+        "Name": "XTRMLAB ONYX",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/11787-xtrmlab-onyx.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "Plastique ABS, Verre Trempé, acier",
+        "Format de carte mère": "ATX, Micro ATX, Mini ITX",
+        "Nombre de ventilateurs fournis": "4 x 120 mm ARGB",
+        "Dimensions (L x H x P)": "443 x 277 x 435 mm",
+        "Couleur": "Noir",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Carte mère max.": "ATX",
+        "Type de vitre": "Panoramique (aquarium)",
+        "Price": 699.0,
+        "ID": 11
+    },
+    {
         "Name": "XTRMLAB SPIDER + XTRMLAB XP-650B 80+ BRONZE 650W ( 2 ANS GARANTIE )",
         "URL": "https://www.ultrapc.ma/les-moyennes-tours/11611-xtrmlab-spider-xtrmlab-xp-650b-80-bronze-650w-2-ans-garantie.html",
         "Puissance": "650 Watts",
@@ -191,7 +207,7 @@
         "Fenêtre": "Oui",
         "Nombre de ventilateurs fournis": "1 x 120 mm",
         "Price": 698.0,
-        "ID": 11
+        "ID": 12
     },
     {
         "Name": "XTRMLAB SPIDER + XTRMLAB XP-550B 80+ BRONZE 550W ( 2 ANS GARANTIE )",
@@ -206,7 +222,7 @@
         "Hauteur Max. Ventilateur CPU": "160 mm",
         "Longueur Max. Carte Graphique": "345 mm",
         "Price": 598.0,
-        "ID": 12
+        "ID": 13
     },
     {
         "Name": "XTRMLAB Spider",
@@ -224,22 +240,6 @@
         "Carte mère max.": "ATX",
         "Type de vitre": "Vitre latérale",
         "Price": 299.0,
-        "ID": 13
-    },
-    {
-        "Name": "XTRMLAB ONYX",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/11787-xtrmlab-onyx.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "Plastique ABS, Verre Trempé, acier",
-        "Format de carte mère": "ATX, Micro ATX, Mini ITX",
-        "Nombre de ventilateurs fournis": "4 x 120 mm ARGB",
-        "Dimensions (L x H x P)": "443 x 277 x 435 mm",
-        "Couleur": "Noir",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Carte mère max.": "ATX",
-        "Type de vitre": "Panoramique (aquarium)",
-        "Price": 699.0,
         "ID": 14
     },
     {
@@ -318,6 +318,23 @@
         "ID": 18
     },
     {
+        "Name": "XTRMLAB MATRIX",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/7171-xtrmlab-matrix.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "Plastique ABS, acier SPCC",
+        "Format de carte mère": "ATX, Micro ATX",
+        "Dimensions (L x H x P)": "210 x 440 x 410 mm",
+        "Couleur": "Noir",
+        "Hauteur Max. Ventilateur CPU": "160 mm",
+        "Longueur Max. Carte Graphique": "330 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Carte mère max.": "ATX",
+        "Type de vitre": "Vitre latérale",
+        "Price": 599.0,
+        "ID": 19
+    },
+    {
         "Name": "DeepCool CG530 4F Black",
         "URL": "https://www.ultrapc.ma/les-moyennes-tours/10150-deepcool-cg530-4f-black.html",
         "Format du boitier": "Moyen Tour",
@@ -335,23 +352,6 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "4 et plus",
         "Price": 749.0,
-        "ID": 19
-    },
-    {
-        "Name": "XTRMLAB MATRIX",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/7171-xtrmlab-matrix.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "Plastique ABS, acier SPCC",
-        "Format de carte mère": "ATX, Micro ATX",
-        "Dimensions (L x H x P)": "210 x 440 x 410 mm",
-        "Couleur": "Noir",
-        "Hauteur Max. Ventilateur CPU": "160 mm",
-        "Longueur Max. Carte Graphique": "330 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Carte mère max.": "ATX",
-        "Type de vitre": "Vitre latérale",
-        "Price": 599.0,
         "ID": 20
     },
     {
@@ -451,26 +451,6 @@
         "ID": 25
     },
     {
-        "Name": "DeepCool CG590U 5F Black",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/12081-deepcool-cg590u-5f-black.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "ABS, acier SPCC, verre trempé",
-        "Format de carte mère": "Mini-ITX / Micro-ATX / ATX",
-        "Nombre de ventilateurs fournis": "5 x 120 mm ARGB",
-        "Dimensions (L x H x P)": "285 x 460 x 460 mm",
-        "Couleur": "Noir",
-        "Poids net": "8,2 kg",
-        "Hauteur Max. Ventilateur CPU": "160 mm",
-        "Longueur Max. Carte Graphique": "410 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Carte mère max.": "ATX",
-        "Type de vitre": "Panoramique (aquarium)",
-        "Ventilateurs inclus": "4 et plus",
-        "Price": 1199.0,
-        "ID": 27
-    },
-    {
         "Name": "XTRMLAB LYNX V2 + XTRMLAB XP-650B 80+ BRONZE 650W ( 2 ANS GARANTIE )",
         "URL": "https://www.ultrapc.ma/les-moyennes-tours/11609-xtrmlab-lynx-v2-xtrmlab-xp-650b-80-bronze-650w-2-ans-garantie.html",
         "Puissance": "650 Watts",
@@ -481,7 +461,7 @@
         "Fenêtre": "Oui",
         "Nombre de ventilateurs fournis": "4 x 120 mm FRGB",
         "Price": 698.0,
-        "ID": 28
+        "ID": 26
     },
     {
         "Name": "XTRMLAB LYNX V2 + XTRMLAB XP-550B 80+ BRONZE 550W ( 2 ANS GARANTIE )",
@@ -494,7 +474,7 @@
         "Fenêtre": "Oui",
         "Nombre de ventilateurs fournis": "4 x 120 mm FRGB",
         "Price": 598.0,
-        "ID": 29
+        "ID": 27
     },
     {
         "Name": "XTRMLAB LYNX V2",
@@ -512,7 +492,46 @@
         "Carte mère max.": "Micro-ATX",
         "Type de vitre": "Vitre latérale",
         "Price": 299.0,
+        "ID": 28
+    },
+    {
+        "Name": "DeepCool CG590U 5F Black",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/12081-deepcool-cg590u-5f-black.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "ABS, acier SPCC, verre trempé",
+        "Format de carte mère": "Mini-ITX / Micro-ATX / ATX",
+        "Nombre de ventilateurs fournis": "5 x 120 mm ARGB",
+        "Dimensions (L x H x P)": "285 x 460 x 460 mm",
+        "Couleur": "Noir",
+        "Poids net": "8,2 kg",
+        "Hauteur Max. Ventilateur CPU": "160 mm",
+        "Longueur Max. Carte Graphique": "410 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Carte mère max.": "ATX",
+        "Type de vitre": "Panoramique (aquarium)",
+        "Ventilateurs inclus": "4 et plus",
+        "Price": 1199.0,
         "ID": 30
+    },
+    {
+        "Name": "MSI MAG Shield M301",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/10401-msi-mag-shield-m301.html",
+        "Format du boitier": "Mini Tour",
+        "Format de carte mère": "Micro ATX, Mini ITX",
+        "Nombre de ventilateurs fournis": "1 x 120 mm (arrière, sans LED)",
+        "Dimensions (L x H x P)": "206 x 352 x 345 mm",
+        "Couleur": "Noir",
+        "Poids net": "2,28 kg",
+        "Hauteur Max. Ventilateur CPU": "160 mm",
+        "Longueur Max. Carte Graphique": "250 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Non",
+        "Carte mère max.": "Micro-ATX",
+        "Type de vitre": "Sans vitre",
+        "Ventilateurs inclus": "1 à 2",
+        "Price": 349.0,
+        "ID": 31
     },
     {
         "Name": "DeepCool CH690 DIGITAL Black",
@@ -532,7 +551,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "0 (aucun)",
         "Price": 999.0,
-        "ID": 31
+        "ID": 32
     },
     {
         "Name": "Lian Li O11 Vision-M (Noir)",
@@ -551,25 +570,6 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "1 à 2",
         "Price": 799.0,
-        "ID": 32
-    },
-    {
-        "Name": "MSI MAG Shield M301",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/10401-msi-mag-shield-m301.html",
-        "Format du boitier": "Mini Tour",
-        "Format de carte mère": "Micro ATX, Mini ITX",
-        "Nombre de ventilateurs fournis": "1 x 120 mm (arrière, sans LED)",
-        "Dimensions (L x H x P)": "206 x 352 x 345 mm",
-        "Couleur": "Noir",
-        "Poids net": "2,28 kg",
-        "Hauteur Max. Ventilateur CPU": "160 mm",
-        "Longueur Max. Carte Graphique": "250 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Non",
-        "Carte mère max.": "Micro-ATX",
-        "Type de vitre": "Sans vitre",
-        "Ventilateurs inclus": "1 à 2",
-        "Price": 349.0,
         "ID": 33
     },
     {
@@ -593,6 +593,24 @@
         "ID": 34
     },
     {
+        "Name": "HYBROK RS6 ARGB",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/4905-hybrok-rs6-argb.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "Plastique ABS, verre trempé, acier",
+        "Format de carte mère": "ITX, MicroATX, ATX",
+        "Nombre de ventilateurs fournis": "4 x 120 mm",
+        "Dimensions (L x H x P)": "215 x 482 x 458 mm",
+        "Couleur": "Noir",
+        "Hauteur Max. Ventilateur CPU": "165 mm",
+        "Longueur Max. Carte Graphique": "380 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Carte mère max.": "ATX",
+        "Type de vitre": "Vitre latérale",
+        "Price": 599.0,
+        "ID": 35
+    },
+    {
         "Name": "Cooler Master Elite 681 White",
         "URL": "https://www.ultrapc.ma/les-moyennes-tours/11819-cooler-master-elite-681-white.html",
         "Format du boitier": "Moyen Tour",
@@ -610,24 +628,6 @@
         "Ventilateurs inclus": "4 et plus",
         "Price": 749.0,
         "ID": 36
-    },
-    {
-        "Name": "HYBROK RS6 ARGB",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/4905-hybrok-rs6-argb.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "Plastique ABS, verre trempé, acier",
-        "Format de carte mère": "ITX, MicroATX, ATX",
-        "Nombre de ventilateurs fournis": "4 x 120 mm",
-        "Dimensions (L x H x P)": "215 x 482 x 458 mm",
-        "Couleur": "Noir",
-        "Hauteur Max. Ventilateur CPU": "165 mm",
-        "Longueur Max. Carte Graphique": "380 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Carte mère max.": "ATX",
-        "Type de vitre": "Vitre latérale",
-        "Price": 599.0,
-        "ID": 37
     },
     {
         "Name": "Lian Li Lancool 217 Infinity (Black)",
@@ -1098,26 +1098,6 @@
         "ID": 63
     },
     {
-        "Name": "ANTEC CX300 ARGB Noir",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/10101-antec-cx300-argb-noir.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "Acier, Verre Trempé",
-        "Format de carte mère": "ATX, Micro ATX, ITX",
-        "Nombre de ventilateurs fournis": "4 x 120 mm",
-        "Dimensions (L x H x P)": "219 x 456 x 450mm",
-        "Couleur": "Noir",
-        "Poids net": "6,55 kg",
-        "Hauteur Max. Ventilateur CPU": "170 mm",
-        "Longueur Max. Carte Graphique": "420 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Carte mère max.": "ATX",
-        "Type de vitre": "Panoramique (aquarium)",
-        "Ventilateurs inclus": "4 et plus",
-        "Price": 599.0,
-        "ID": 64
-    },
-    {
         "Name": "Lian Li O11 Vision-M Digital (Black)",
         "URL": "https://www.ultrapc.ma/les-minis-boitiers/12456-lian-li-o11-vision-m-digital-black.html",
         "Format du boitier": "Mini Tour",
@@ -1134,47 +1114,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "1 à 2",
         "Price": 1299.0,
-        "ID": 66
-    },
-    {
-        "Name": "NZXT H7 Flow White (2024)",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/8749-nzxt-h7-flow-white-2024.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "Acier, Verre Trempé",
-        "Format de carte mère": "E-ATX, ATX, Micro ATX, Mini ITX",
-        "Nombre de ventilateurs fournis": "3  X 120 mm",
-        "Dimensions (L x H x P)": "244 x 544 x 468 mm",
-        "Couleur": "Blanc",
-        "Poids net": "10,97 kg",
-        "Hauteur Max. Ventilateur CPU": "185 mm",
-        "Longueur Max. Carte Graphique": "410 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Non",
-        "Carte mère max.": "E-ATX",
-        "Type de vitre": "Vitre latérale",
-        "Ventilateurs inclus": "3",
-        "Price": 1099.0,
-        "ID": 67
-    },
-    {
-        "Name": "MSI MAG FORGE 320R AIRFLOW",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/7619-msi-mag-forge-320r-airflow.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "Acier, Verre Trempé",
-        "Format de carte mère": "ATX, Micro ATX, Mini ITX",
-        "Nombre de ventilateurs fournis": "4 x 120 mm",
-        "Dimensions (L x H x P)": "210 x 498 x 472.5 mm",
-        "Couleur": "Noir",
-        "Poids net": "7,05 kg",
-        "Hauteur Max. Ventilateur CPU": "160 mm",
-        "Longueur Max. Carte Graphique": "390 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Carte mère max.": "ATX",
-        "Type de vitre": "Vitre latérale",
-        "Ventilateurs inclus": "4 et plus",
-        "Price": 799.0,
-        "ID": 68
+        "ID": 64
     },
     {
         "Name": "MSI PANO 130R PZ Blanc",
@@ -1193,7 +1133,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "4 et plus",
         "Price": 1149.0,
-        "ID": 69
+        "ID": 66
     },
     {
         "Name": "DeepCool CG330 3F Black",
@@ -1213,7 +1153,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "3",
         "Price": 749.0,
-        "ID": 70
+        "ID": 67
     },
     {
         "Name": "DeepCool CG580 4F V2 White",
@@ -1233,7 +1173,47 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "4 et plus",
         "Price": 999.0,
-        "ID": 71
+        "ID": 68
+    },
+    {
+        "Name": "NZXT H7 Flow White (2024)",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/8749-nzxt-h7-flow-white-2024.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "Acier, Verre Trempé",
+        "Format de carte mère": "E-ATX, ATX, Micro ATX, Mini ITX",
+        "Nombre de ventilateurs fournis": "3  X 120 mm",
+        "Dimensions (L x H x P)": "244 x 544 x 468 mm",
+        "Couleur": "Blanc",
+        "Poids net": "10,97 kg",
+        "Hauteur Max. Ventilateur CPU": "185 mm",
+        "Longueur Max. Carte Graphique": "410 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Non",
+        "Carte mère max.": "E-ATX",
+        "Type de vitre": "Vitre latérale",
+        "Ventilateurs inclus": "3",
+        "Price": 1099.0,
+        "ID": 69
+    },
+    {
+        "Name": "MSI MAG FORGE 320R AIRFLOW",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/7619-msi-mag-forge-320r-airflow.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "Acier, Verre Trempé",
+        "Format de carte mère": "ATX, Micro ATX, Mini ITX",
+        "Nombre de ventilateurs fournis": "4 x 120 mm",
+        "Dimensions (L x H x P)": "210 x 498 x 472.5 mm",
+        "Couleur": "Noir",
+        "Poids net": "7,05 kg",
+        "Hauteur Max. Ventilateur CPU": "160 mm",
+        "Longueur Max. Carte Graphique": "390 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Carte mère max.": "ATX",
+        "Type de vitre": "Vitre latérale",
+        "Ventilateurs inclus": "4 et plus",
+        "Price": 799.0,
+        "ID": 70
     },
     {
         "Name": "Lian Li Lancool 207 (White)",
@@ -1252,6 +1232,26 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "4 et plus",
         "Price": 899.0,
+        "ID": 71
+    },
+    {
+        "Name": "ANTEC CX300 ARGB Noir",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/10101-antec-cx300-argb-noir.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "Acier, Verre Trempé",
+        "Format de carte mère": "ATX, Micro ATX, ITX",
+        "Nombre de ventilateurs fournis": "4 x 120 mm",
+        "Dimensions (L x H x P)": "219 x 456 x 450mm",
+        "Couleur": "Noir",
+        "Poids net": "6,55 kg",
+        "Hauteur Max. Ventilateur CPU": "170 mm",
+        "Longueur Max. Carte Graphique": "420 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Carte mère max.": "ATX",
+        "Type de vitre": "Panoramique (aquarium)",
+        "Ventilateurs inclus": "4 et plus",
+        "Price": 599.0,
         "ID": 72
     },
     {
@@ -1312,46 +1312,6 @@
         "ID": 75
     },
     {
-        "Name": "Antec VX310 ARGB Noir",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/11317-antec-vx310-argb-noir.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "Acier, Plastique et Verre Trempé",
-        "Format de carte mère": "ATX, Micro ATX, ITX",
-        "Nombre de ventilateurs fournis": "4 x 120 mm",
-        "Dimensions (L x H x P)": "205 x 450 x 370mm",
-        "Couleur": "Noir",
-        "Poids net": "3,62 kg",
-        "Hauteur Max. Ventilateur CPU": "165 mm",
-        "Longueur Max. Carte Graphique": "320 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Carte mère max.": "ATX",
-        "Type de vitre": "Vitre latérale",
-        "Ventilateurs inclus": "4 et plus",
-        "Price": 349.0,
-        "ID": 76
-    },
-    {
-        "Name": "DeepCool CG530U 4F White",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/12071-deepcool-cg530u-4f-white.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "ABS, acier SPCC, verre trempé",
-        "Format de carte mère": "ATX, Micro ATX, ITX",
-        "Nombre de ventilateurs fournis": "4 x 120 mm ARGB",
-        "Dimensions (L x H x P)": "285 x 380 x 475 mm",
-        "Couleur": "Blanc",
-        "Poids net": "7,3 kg",
-        "Hauteur Max. Ventilateur CPU": "160 mm",
-        "Longueur Max. Carte Graphique": "410 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Carte mère max.": "ATX",
-        "Type de vitre": "Panoramique (aquarium)",
-        "Ventilateurs inclus": "4 et plus",
-        "Price": 799.0,
-        "ID": 77
-    },
-    {
         "Name": "Lian Li O11 Dynamic Mini V2 (White)",
         "URL": "https://www.ultrapc.ma/les-moyennes-tours/11538-lian-li-o11-dynamic-mini-v2-white.html",
         "Format du boitier": "Moyen Tour",
@@ -1368,7 +1328,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "0 (aucun)",
         "Price": 899.0,
-        "ID": 78
+        "ID": 76
     },
     {
         "Name": "DeepCool CH260 (White)",
@@ -1388,7 +1348,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "0 (aucun)",
         "Price": 729.0,
-        "ID": 79
+        "ID": 77
     },
     {
         "Name": "NZXT H9 Flow RGB (2025) White",
@@ -1408,7 +1368,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "4 et plus",
         "Price": 1699.0,
-        "ID": 80
+        "ID": 78
     },
     {
         "Name": "Lian Li A3 (White/Wooden Panel/Tempered Glass)",
@@ -1427,7 +1387,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "0 (aucun)",
         "Price": 899.0,
-        "ID": 81
+        "ID": 79
     },
     {
         "Name": "Lian Li A3 (Black/Wooden Panel/Tempered Glass)",
@@ -1446,7 +1406,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "0 (aucun)",
         "Price": 899.0,
-        "ID": 82
+        "ID": 80
     },
     {
         "Name": "Lian Li A3 (White/Wooden Panel)",
@@ -1465,7 +1425,7 @@
         "Type de vitre": "Sans vitre",
         "Ventilateurs inclus": "0 (aucun)",
         "Price": 899.0,
-        "ID": 83
+        "ID": 81
     },
     {
         "Name": "MSI MAG PANO 130R PZ Noir",
@@ -1484,7 +1444,27 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "4 et plus",
         "Price": 1099.0,
-        "ID": 84
+        "ID": 82
+    },
+    {
+        "Name": "DeepCool CG530U 4F White",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/12071-deepcool-cg530u-4f-white.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "ABS, acier SPCC, verre trempé",
+        "Format de carte mère": "ATX, Micro ATX, ITX",
+        "Nombre de ventilateurs fournis": "4 x 120 mm ARGB",
+        "Dimensions (L x H x P)": "285 x 380 x 475 mm",
+        "Couleur": "Blanc",
+        "Poids net": "7,3 kg",
+        "Hauteur Max. Ventilateur CPU": "160 mm",
+        "Longueur Max. Carte Graphique": "410 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Carte mère max.": "ATX",
+        "Type de vitre": "Panoramique (aquarium)",
+        "Ventilateurs inclus": "4 et plus",
+        "Price": 799.0,
+        "ID": 83
     },
     {
         "Name": "Lian Li A3 (White)",
@@ -1503,7 +1483,79 @@
         "Type de vitre": "Sans vitre",
         "Ventilateurs inclus": "0 (aucun)",
         "Price": 899.0,
+        "ID": 84
+    },
+    {
+        "Name": "HAVN HS420 VGPU Edition (White)",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/10708-havn-hs420-vgpu-edition-white.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "ABS (Plastique), Verre Trempé, Acier",
+        "Format de carte mère": "E-ATX, ATX, Micro ATX, Mini ITX",
+        "Nombre de ventilateurs fournis": "Sans",
+        "Dimensions (L x H x P)": "259.5 x 547 x 541 mm",
+        "Couleur": "Blanc",
+        "Poids net": "17,84 kg",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Non",
+        "Carte mère max.": "E-ATX",
+        "Type de vitre": "Panoramique (aquarium)",
+        "Ventilateurs inclus": "0 (aucun)",
+        "Price": 1999.0,
         "ID": 85
+    },
+    {
+        "Name": "XTRMLAB DELTA (White)",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/8479-xtrmlab-delta-white.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "Plastique ABS, Verre Trempé, acier",
+        "Format de carte mère": "ATX, Micro ATX, Mini ITX",
+        "Nombre de ventilateurs fournis": "3 x 120 mm ARGB",
+        "Dimensions (L x H x P)": "215 x 488 x 448 mm",
+        "Couleur": "Blanc",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Carte mère max.": "ATX",
+        "Type de vitre": "Panoramique (aquarium)",
+        "Price": 699.0,
+        "ID": 86
+    },
+    {
+        "Name": "Lian Li O11 Dynamic EVO RGB (White)",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/7254-lian-li-o11-dynamic-evo-rgb-white.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "Aluminium, Verre Trempé, Acier",
+        "Format de carte mère": "E-ATX, ATX, Micro ATX, Mini ITX",
+        "Nombre de ventilateurs fournis": "Aucun",
+        "Dimensions (L x H x P)": "290 x 471x 478 mm",
+        "Couleur": "Blanc",
+        "Hauteur Max. Ventilateur CPU": "167 mm",
+        "Longueur Max. Carte Graphique": "455.7 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Carte mère max.": "E-ATX",
+        "Type de vitre": "Panoramique (aquarium)",
+        "Ventilateurs inclus": "0 (aucun)",
+        "Price": 1999.0,
+        "ID": 87
+    },
+    {
+        "Name": "Lian Li Lancool 207 (Black)",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/11543-lian-li-lancool-207-black.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "Acier, Verre Trempé",
+        "Format de carte mère": "ATX, Micro ATX, Mini ITX",
+        "Nombre de ventilateurs fournis": "2 x 120 mm PWM et 2 × 140 mm ARGB",
+        "Dimensions (L x H x P)": "219 x 456 x  455.6 mm",
+        "Couleur": "Noir",
+        "Hauteur Max. Ventilateur CPU": "180 mm",
+        "Longueur Max. Carte Graphique": "375 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Carte mère max.": "ATX",
+        "Type de vitre": "Vitre latérale",
+        "Ventilateurs inclus": "4 et plus",
+        "Price": 899.0,
+        "ID": 88
     },
     {
         "Name": "Antec VCX300 ARGB Noir",
@@ -1523,79 +1575,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "4 et plus",
         "Price": 499.0,
-        "ID": 86
-    },
-    {
-        "Name": "HAVN HS420 VGPU Edition (White)",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/10708-havn-hs420-vgpu-edition-white.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "ABS (Plastique), Verre Trempé, Acier",
-        "Format de carte mère": "E-ATX, ATX, Micro ATX, Mini ITX",
-        "Nombre de ventilateurs fournis": "Sans",
-        "Dimensions (L x H x P)": "259.5 x 547 x 541 mm",
-        "Couleur": "Blanc",
-        "Poids net": "17,84 kg",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Non",
-        "Carte mère max.": "E-ATX",
-        "Type de vitre": "Panoramique (aquarium)",
-        "Ventilateurs inclus": "0 (aucun)",
-        "Price": 1999.0,
-        "ID": 87
-    },
-    {
-        "Name": "XTRMLAB DELTA (White)",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/8479-xtrmlab-delta-white.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "Plastique ABS, Verre Trempé, acier",
-        "Format de carte mère": "ATX, Micro ATX, Mini ITX",
-        "Nombre de ventilateurs fournis": "3 x 120 mm ARGB",
-        "Dimensions (L x H x P)": "215 x 488 x 448 mm",
-        "Couleur": "Blanc",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Carte mère max.": "ATX",
-        "Type de vitre": "Panoramique (aquarium)",
-        "Price": 699.0,
-        "ID": 88
-    },
-    {
-        "Name": "Lian Li O11 Dynamic EVO RGB (White)",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/7254-lian-li-o11-dynamic-evo-rgb-white.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "Aluminium, Verre Trempé, Acier",
-        "Format de carte mère": "E-ATX, ATX, Micro ATX, Mini ITX",
-        "Nombre de ventilateurs fournis": "Aucun",
-        "Dimensions (L x H x P)": "290 x 471x 478 mm",
-        "Couleur": "Blanc",
-        "Hauteur Max. Ventilateur CPU": "167 mm",
-        "Longueur Max. Carte Graphique": "455.7 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Carte mère max.": "E-ATX",
-        "Type de vitre": "Panoramique (aquarium)",
-        "Ventilateurs inclus": "0 (aucun)",
-        "Price": 1999.0,
         "ID": 89
-    },
-    {
-        "Name": "Lian Li Lancool 207 (Black)",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/11543-lian-li-lancool-207-black.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "Acier, Verre Trempé",
-        "Format de carte mère": "ATX, Micro ATX, Mini ITX",
-        "Nombre de ventilateurs fournis": "2 x 120 mm PWM et 2 × 140 mm ARGB",
-        "Dimensions (L x H x P)": "219 x 456 x  455.6 mm",
-        "Couleur": "Noir",
-        "Hauteur Max. Ventilateur CPU": "180 mm",
-        "Longueur Max. Carte Graphique": "375 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Carte mère max.": "ATX",
-        "Type de vitre": "Vitre latérale",
-        "Ventilateurs inclus": "4 et plus",
-        "Price": 899.0,
-        "ID": 90
     },
     {
         "Name": "NZXT H5 Flow (2024) Black",
@@ -1615,7 +1595,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "1 à 2",
         "Price": 949.0,
-        "ID": 91
+        "ID": 90
     },
     {
         "Name": "Cooler Master MasterBox 520 Mesh ARGB White",
@@ -1634,7 +1614,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 699.0,
-        "ID": 92
+        "ID": 91
     },
     {
         "Name": "XTRMLAB VISION (White)",
@@ -1650,7 +1630,7 @@
         "Carte mère max.": "ATX",
         "Type de vitre": "Panoramique (aquarium)",
         "Price": 699.0,
-        "ID": 93
+        "ID": 92
     },
     {
         "Name": "Cooler Master MasterBox TD300 Mesh Black",
@@ -1669,7 +1649,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "1 à 2",
         "Price": 699.0,
-        "ID": 94
+        "ID": 93
     },
     {
         "Name": "Cooler Master MasterBox 520 Mesh ARGB Black",
@@ -1688,7 +1668,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 899.0,
-        "ID": 95
+        "ID": 94
     },
     {
         "Name": "Lian Li O11 Vision-M Digital (White)",
@@ -1707,7 +1687,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "1 à 2",
         "Price": 1299.0,
-        "ID": 96
+        "ID": 95
     },
     {
         "Name": "DeepCool CL660 Black",
@@ -1727,7 +1707,46 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "1 à 2",
         "Price": 1199.0,
+        "ID": 96
+    },
+    {
+        "Name": "Lian Li Lancool 217 (White)",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/11547-lian-li-lancool-217-white.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "Acier, Verre Trempé, Bois",
+        "Format de carte mère": "E-ATX, ATX, Micro ATX, Mini ITX",
+        "Nombre de ventilateurs fournis": "2 x 170 mm, 2 x 120 mm, 1 x 140 mm",
+        "Dimensions (L x H x P)": "238 x 503 x  482 mm",
+        "Couleur": "Blanc",
+        "Hauteur Max. Ventilateur CPU": "180 mm",
+        "Longueur Max. Carte Graphique": "380 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Non",
+        "Carte mère max.": "E-ATX",
+        "Type de vitre": "Vitre latérale",
+        "Ventilateurs inclus": "4 et plus",
+        "Price": 1290.0,
         "ID": 97
+    },
+    {
+        "Name": "Antec VX310 ARGB Noir",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/11317-antec-vx310-argb-noir.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "Acier, Plastique et Verre Trempé",
+        "Format de carte mère": "ATX, Micro ATX, ITX",
+        "Nombre de ventilateurs fournis": "4 x 120 mm",
+        "Dimensions (L x H x P)": "205 x 450 x 370mm",
+        "Couleur": "Noir",
+        "Poids net": "3,62 kg",
+        "Hauteur Max. Ventilateur CPU": "165 mm",
+        "Longueur Max. Carte Graphique": "320 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Carte mère max.": "ATX",
+        "Type de vitre": "Vitre latérale",
+        "Ventilateurs inclus": "4 et plus",
+        "Price": 349.0,
+        "ID": 98
     },
     {
         "Name": "Corsair Frame 4000D RS ARGB Noir",
@@ -1747,45 +1766,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 1249.0,
-        "ID": 98
-    },
-    {
-        "Name": "Lian Li Lancool 217 (White)",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/11547-lian-li-lancool-217-white.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "Acier, Verre Trempé, Bois",
-        "Format de carte mère": "E-ATX, ATX, Micro ATX, Mini ITX",
-        "Nombre de ventilateurs fournis": "2 x 170 mm, 2 x 120 mm, 1 x 140 mm",
-        "Dimensions (L x H x P)": "238 x 503 x  482 mm",
-        "Couleur": "Blanc",
-        "Hauteur Max. Ventilateur CPU": "180 mm",
-        "Longueur Max. Carte Graphique": "380 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Non",
-        "Carte mère max.": "E-ATX",
-        "Type de vitre": "Vitre latérale",
-        "Ventilateurs inclus": "4 et plus",
-        "Price": 1290.0,
         "ID": 99
-    },
-    {
-        "Name": "APNX Creator C1-R (White)",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/10713-apnx-creator-c1-r-white.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "ABS (Plastique), Verre Trempé, Acier",
-        "Format de carte mère": "ATX, Micro ATX, Mini ITX",
-        "Nombre de ventilateurs fournis": "4 x 120 mm PWM",
-        "Dimensions (L x H x P)": "230 x 502 x 464 mm",
-        "Couleur": "Blanc",
-        "Hauteur Max. Ventilateur CPU": "166 mm",
-        "Longueur Max. Carte Graphique": "395 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Non",
-        "Carte mère max.": "ATX",
-        "Type de vitre": "Vitre latérale",
-        "Ventilateurs inclus": "4 et plus",
-        "Price": 799.0,
-        "ID": 100
     },
     {
         "Name": "APNX Creator C1-R ARGB (ChromaFlair)",
@@ -1803,6 +1784,26 @@
         "Carte mère max.": "ATX",
         "Type de vitre": "Vitre latérale",
         "Price": 1199.0,
+        "ID": 100
+    },
+    {
+        "Name": "HAVN HS420 (Black)",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/10705-havn-hs420-black.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "ABS (Plastique), Verre Trempé, Acier",
+        "Format de carte mère": "E-ATX, ATX, Micro ATX, Mini ITX",
+        "Nombre de ventilateurs fournis": "Sans",
+        "Dimensions (L x H x P)": "259.5 x 547 x 541 mm",
+        "Couleur": "Noir",
+        "Poids net": "17,84 kg",
+        "Hauteur Max. Ventilateur CPU": "185 mm",
+        "Longueur Max. Carte Graphique": "480 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Non",
+        "Carte mère max.": "E-ATX",
+        "Type de vitre": "Panoramique (aquarium)",
+        "Ventilateurs inclus": "0 (aucun)",
+        "Price": 1599.0,
         "ID": 101
     },
     {
@@ -1884,6 +1885,25 @@
         "ID": 105
     },
     {
+        "Name": "APNX Creator C1-R (White)",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/10713-apnx-creator-c1-r-white.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "ABS (Plastique), Verre Trempé, Acier",
+        "Format de carte mère": "ATX, Micro ATX, Mini ITX",
+        "Nombre de ventilateurs fournis": "4 x 120 mm PWM",
+        "Dimensions (L x H x P)": "230 x 502 x 464 mm",
+        "Couleur": "Blanc",
+        "Hauteur Max. Ventilateur CPU": "166 mm",
+        "Longueur Max. Carte Graphique": "395 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Non",
+        "Carte mère max.": "ATX",
+        "Type de vitre": "Vitre latérale",
+        "Ventilateurs inclus": "4 et plus",
+        "Price": 799.0,
+        "ID": 106
+    },
+    {
         "Name": "HAVN HS420 VGPU Edition (Black)",
         "URL": "https://www.ultrapc.ma/les-moyennes-tours/10707-havn-hs420-vgpu-edition-black.html",
         "Format du boitier": "Moyen Tour",
@@ -1899,26 +1919,6 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "0 (aucun)",
         "Price": 1999.0,
-        "ID": 106
-    },
-    {
-        "Name": "HAVN HS420 (Black)",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/10705-havn-hs420-black.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "ABS (Plastique), Verre Trempé, Acier",
-        "Format de carte mère": "E-ATX, ATX, Micro ATX, Mini ITX",
-        "Nombre de ventilateurs fournis": "Sans",
-        "Dimensions (L x H x P)": "259.5 x 547 x 541 mm",
-        "Couleur": "Noir",
-        "Poids net": "17,84 kg",
-        "Hauteur Max. Ventilateur CPU": "185 mm",
-        "Longueur Max. Carte Graphique": "480 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Non",
-        "Carte mère max.": "E-ATX",
-        "Type de vitre": "Panoramique (aquarium)",
-        "Ventilateurs inclus": "0 (aucun)",
-        "Price": 1599.0,
         "ID": 107
     },
     {
@@ -2055,6 +2055,24 @@
         "ID": 114
     },
     {
+        "Name": "ASUS A21 Plus TG ARGB NOIR",
+        "URL": "https://www.ultrapc.ma/les-minis-boitiers/12019-asus-a21-plus-tg-argb-noir.html",
+        "Format du boitier": "Mini Tour",
+        "Format de carte mère": "Micro ATX, Mini ITX",
+        "Nombre de ventilateurs fournis": "4 x 120 mm",
+        "Dimensions (L x H x P)": "220 x 430 x 465 mm",
+        "Couleur": "Noir",
+        "Poids net": "8,1 kg",
+        "Hauteur Max. Ventilateur CPU": "165 mm",
+        "Longueur Max. Carte Graphique": "380 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Carte mère max.": "Micro-ATX",
+        "Type de vitre": "Vitre latérale",
+        "Price": 999.0,
+        "ID": 115
+    },
+    {
         "Name": "Cooler Master MasterFrame 360 Panorama",
         "URL": "https://www.ultrapc.ma/les-moyennes-tours/11823-cooler-master-masterframe-360-panorama.html",
         "Format du boitier": "Moyen Tour",
@@ -2069,7 +2087,7 @@
         "Carte mère max.": "ATX",
         "Type de vitre": "Panoramique (aquarium)",
         "Price": 1999.0,
-        "ID": 115
+        "ID": 116
     },
     {
         "Name": "Cooler Master MasterFrame 360 Stage LCD",
@@ -2086,7 +2104,7 @@
         "Carte mère max.": "ATX",
         "Type de vitre": "Vitre latérale",
         "Price": 2899.0,
-        "ID": 116
+        "ID": 117
     },
     {
         "Name": "Lian Li Lancool 217 Infinity (White)",
@@ -2105,7 +2123,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 1399.0,
-        "ID": 117
+        "ID": 118
     },
     {
         "Name": "Lian Li A3 (Black/Wooden Panel)",
@@ -2124,26 +2142,6 @@
         "Type de vitre": "Sans vitre",
         "Ventilateurs inclus": "0 (aucun)",
         "Price": 899.0,
-        "ID": 118
-    },
-    {
-        "Name": "NZXT H9 Flow RGB (2025) Black",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/11277-nzxt-h9-flow-rgb-2025-black.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "Acier, Verre Trempé",
-        "Format de carte mère": "E-ATX, ATX, Micro ATX, Mini ITX",
-        "Nombre de ventilateurs fournis": "3x RGB 140 mm en façade + 1x 120 mm à l'arrière",
-        "Dimensions (L x H x P)": "315 x 506 x 481 mm",
-        "Couleur": "Noir",
-        "Poids net": "12,49 kg",
-        "Hauteur Max. Ventilateur CPU": "165 mm",
-        "Longueur Max. Carte Graphique": "459 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Carte mère max.": "E-ATX",
-        "Type de vitre": "Panoramique (aquarium)",
-        "Ventilateurs inclus": "4 et plus",
-        "Price": 2199.0,
         "ID": 119
     },
     {
@@ -2317,21 +2315,22 @@
         "ID": 129
     },
     {
-        "Name": "ASUS A21 Plus TG ARGB NOIR",
-        "URL": "https://www.ultrapc.ma/les-minis-boitiers/12019-asus-a21-plus-tg-argb-noir.html",
-        "Format du boitier": "Mini Tour",
-        "Format de carte mère": "Micro ATX, Mini ITX",
+        "Name": "ASUS A31 PLUS TG ARGB BLACK",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/11963-asus-a31-plus-tg-argb-black.html",
+        "Format du boitier": "Moyen Tour",
+        "Format de carte mère": "ATX, Micro ATX, Mini ITX",
         "Nombre de ventilateurs fournis": "4 x 120 mm",
-        "Dimensions (L x H x P)": "220 x 430 x 465 mm",
+        "Dimensions (L x H x P)": "238 x 511 x 435 mm",
         "Couleur": "Noir",
-        "Poids net": "8,1 kg",
+        "Poids net": "9,1 kg",
         "Hauteur Max. Ventilateur CPU": "165 mm",
         "Longueur Max. Carte Graphique": "380 mm",
         "Garantie": "12 Mois",
         "Éclairage RGB": "Oui",
-        "Carte mère max.": "Micro-ATX",
-        "Type de vitre": "Vitre latérale",
-        "Price": 999.0,
+        "Carte mère max.": "ATX",
+        "Type de vitre": "Panoramique (aquarium)",
+        "Ventilateurs inclus": "4 et plus",
+        "Price": 1149.0,
         "ID": 130
     },
     {
@@ -2355,6 +2354,26 @@
         "ID": 131
     },
     {
+        "Name": "NZXT H9 Flow RGB (2025) Black",
+        "URL": "https://www.ultrapc.ma/les-moyennes-tours/11277-nzxt-h9-flow-rgb-2025-black.html",
+        "Format du boitier": "Moyen Tour",
+        "Matériau boitier": "Acier, Verre Trempé",
+        "Format de carte mère": "E-ATX, ATX, Micro ATX, Mini ITX",
+        "Nombre de ventilateurs fournis": "3x RGB 140 mm en façade + 1x 120 mm à l'arrière",
+        "Dimensions (L x H x P)": "315 x 506 x 481 mm",
+        "Couleur": "Noir",
+        "Poids net": "12,49 kg",
+        "Hauteur Max. Ventilateur CPU": "165 mm",
+        "Longueur Max. Carte Graphique": "459 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Carte mère max.": "E-ATX",
+        "Type de vitre": "Panoramique (aquarium)",
+        "Ventilateurs inclus": "4 et plus",
+        "Price": 2199.0,
+        "ID": 132
+    },
+    {
         "Name": "Thermaltake View 170 TG ARGB (Black)",
         "URL": "https://www.ultrapc.ma/les-minis-boitiers/10902-thermaltake-view-170-tg-argb-black.html",
         "Format": "Micro ATX et Mini ITX",
@@ -2372,7 +2391,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "3",
         "Price": 699.0,
-        "ID": 132
+        "ID": 133
     },
     {
         "Name": "APNX Creator C1-R (Chromaflair)",
@@ -2391,7 +2410,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "4 et plus",
         "Price": 1099.0,
-        "ID": 133
+        "ID": 134
     },
     {
         "Name": "Corsair 3500X ARGB Black",
@@ -2411,7 +2430,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "3",
         "Price": 1149.0,
-        "ID": 134
+        "ID": 135
     },
     {
         "Name": "XTRMLAB GHOST (White)",
@@ -2427,7 +2446,7 @@
         "Carte mère max.": "ATX",
         "Type de vitre": "Vitre latérale",
         "Price": 599.0,
-        "ID": 135
+        "ID": 136
     },
     {
         "Name": "XTRMLAB GALAX",
@@ -2443,7 +2462,7 @@
         "Carte mère max.": "ATX",
         "Type de vitre": "Vitre latérale",
         "Price": 399.0,
-        "ID": 136
+        "ID": 137
     },
     {
         "Name": "ASUS Prime AP201 TG Black",
@@ -2462,7 +2481,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "1 à 2",
         "Price": 999.0,
-        "ID": 137
+        "ID": 138
     },
     {
         "Name": "Corsair 3200D RS ARGB (Blanc)",
@@ -2482,7 +2501,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 899.0,
-        "ID": 138
+        "ID": 139
     },
     {
         "Name": "Corsair 3200D RS (Noir)",
@@ -2502,7 +2521,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 799.0,
-        "ID": 139
+        "ID": 140
     },
     {
         "Name": "DeepCool CL6600 White",
@@ -2522,7 +2541,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "1 à 2",
         "Price": 1999.0,
-        "ID": 140
+        "ID": 141
     },
     {
         "Name": "Deepcool CG380 3F Black",
@@ -2542,7 +2561,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "3",
         "Price": 699.0,
-        "ID": 141
+        "ID": 142
     },
     {
         "Name": "ASUS PRIME AP303 TG BLACK",
@@ -2560,25 +2579,6 @@
         "Carte mère max.": "ATX",
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "1 à 2",
-        "Price": 1149.0,
-        "ID": 142
-    },
-    {
-        "Name": "ASUS A31 PLUS TG ARGB BLACK",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/11963-asus-a31-plus-tg-argb-black.html",
-        "Format du boitier": "Moyen Tour",
-        "Format de carte mère": "ATX, Micro ATX, Mini ITX",
-        "Nombre de ventilateurs fournis": "4 x 120 mm",
-        "Dimensions (L x H x P)": "238 x 511 x 435 mm",
-        "Couleur": "Noir",
-        "Poids net": "9,1 kg",
-        "Hauteur Max. Ventilateur CPU": "165 mm",
-        "Longueur Max. Carte Graphique": "380 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Carte mère max.": "ATX",
-        "Type de vitre": "Panoramique (aquarium)",
-        "Ventilateurs inclus": "4 et plus",
         "Price": 1149.0,
         "ID": 143
     },
@@ -3227,26 +3227,6 @@
         "ID": 177
     },
     {
-        "Name": "NZXT H9 Flow (2025) Black",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/11275-nzxt-h9-flow-2025-black.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "Acier, Verre Trempé",
-        "Format de carte mère": "E-ATX, ATX, Micro ATX, Mini ITX",
-        "Nombre de ventilateurs fournis": "3x 140 mm en façade + 1x 120 mm à l'arrière",
-        "Dimensions (L x H x P)": "315 x 506 x 481 mm",
-        "Couleur": "Noir",
-        "Poids net": "12,49 kg",
-        "Hauteur Max. Ventilateur CPU": "165 mm",
-        "Longueur Max. Carte Graphique": "459 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Non",
-        "Carte mère max.": "E-ATX",
-        "Type de vitre": "Panoramique (aquarium)",
-        "Ventilateurs inclus": "4 et plus",
-        "Price": 1299.0,
-        "ID": 178
-    },
-    {
         "Name": "Corsair AIR 5400 RS-R ARGB Noir",
         "URL": "https://www.ultrapc.ma/les-moyennes-tours/11239-corsair-air-5400-rs-r-argb-noir.html",
         "Format du boitier": "Moyen Tour",
@@ -3264,7 +3244,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "3",
         "Price": 2999.0,
-        "ID": 179
+        "ID": 178
     },
     {
         "Name": "Corsair FRAME 4500X RS-R ARGB Blanc",
@@ -3283,7 +3263,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "3",
         "Price": 1799.0,
-        "ID": 180
+        "ID": 179
     },
     {
         "Name": "Corsair FRAME 4500X RS-R ARGB Noir",
@@ -3303,7 +3283,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "3",
         "Price": 1799.0,
-        "ID": 181
+        "ID": 180
     },
     {
         "Name": "be quiet! Pure Base 501 LX (White)",
@@ -3322,7 +3302,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "4 et plus",
         "Price": 1599.0,
-        "ID": 182
+        "ID": 181
     },
     {
         "Name": "APNX V1 Black (Wood Edition)",
@@ -3341,7 +3321,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "0 (aucun)",
         "Price": 1199.0,
-        "ID": 183
+        "ID": 182
     },
     {
         "Name": "Corsair iCUE LINK 3500X RGB (Noir)",
@@ -3361,7 +3341,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "3",
         "Price": 1549.0,
-        "ID": 184
+        "ID": 183
     },
     {
         "Name": "Corsair Frame 4000D RS ARGB (Blanc)",
@@ -3380,7 +3360,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 1199.0,
-        "ID": 185
+        "ID": 184
     },
     {
         "Name": "APNX Creator C1-R (Black)",
@@ -3399,7 +3379,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "4 et plus",
         "Price": 1099.0,
-        "ID": 186
+        "ID": 185
     },
     {
         "Name": "APNX Creator C1-R ARGB (White)",
@@ -3418,27 +3398,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "4 et plus",
         "Price": 899.0,
-        "ID": 187
-    },
-    {
-        "Name": "DeepCool CG530 4F White",
-        "URL": "https://www.ultrapc.ma/les-moyennes-tours/10156-deepcool-cg530-4f-white.html",
-        "Format du boitier": "Moyen Tour",
-        "Matériau boitier": "ABS, acier SPCC, verre trempé",
-        "Format de carte mère": "ATX, Micro ATX, ITX",
-        "Nombre de ventilateurs fournis": "4 x 120mm ARGB PWM",
-        "Dimensions (L x H x P)": "285 x 399 x 440 mm",
-        "Couleur": "Blanc",
-        "Poids net": "7,1 kg",
-        "Hauteur Max. Ventilateur CPU": "160 mm",
-        "Longueur Max. Carte Graphique": "410 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Carte mère max.": "ATX",
-        "Type de vitre": "Panoramique (aquarium)",
-        "Ventilateurs inclus": "4 et plus",
-        "Price": 749.0,
-        "ID": 188
+        "ID": 186
     },
     {
         "Name": "ASUS GT601 ROG Strix Helios",
@@ -3458,7 +3418,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "4 et plus",
         "Price": 3199.0,
-        "ID": 189
+        "ID": 187
     },
     {
         "Name": "ASUS ProArt PA602 WOOD EDITION METAL PANEL",
@@ -3478,7 +3438,7 @@
         "Type de vitre": "Sans vitre",
         "Ventilateurs inclus": "3",
         "Price": 2849.0,
-        "ID": 190
+        "ID": 188
     },
     {
         "Name": "Cooler Master MasterBox 600 White",
@@ -3497,7 +3457,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "4 et plus",
         "Price": 899.0,
-        "ID": 191
+        "ID": 189
     },
     {
         "Name": "Thermaltake The Tower 300 Snow White",
@@ -3517,7 +3477,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "1 à 2",
         "Price": 1949.0,
-        "ID": 192
+        "ID": 190
     },
     {
         "Name": "DeepCool Morpheus (White)",
@@ -3537,7 +3497,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 1799.0,
-        "ID": 193
+        "ID": 191
     },
     {
         "Name": "TooQ TQGCC102-B BIOHAZARD Black",
@@ -3557,7 +3517,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "1 à 2",
         "Price": 499.0,
-        "ID": 194
+        "ID": 192
     },
     {
         "Name": "Corsair iCUE 5000T RGB (Blanc)",
@@ -3577,7 +3537,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 3499.0,
-        "ID": 195
+        "ID": 193
     },
     {
         "Name": "DeepCool CH780 White",
@@ -3597,7 +3557,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "3",
         "Price": 1999.0,
-        "ID": 196
+        "ID": 194
     },
     {
         "Name": "Cooler Master MasterBox TD500 V2 SF6 Ryu Edition",
@@ -3616,7 +3576,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "4 et plus",
         "Price": 1999.0,
-        "ID": 197
+        "ID": 195
     },
     {
         "Name": "MSI MPG GUNGNIR 110R Blanc",
@@ -3636,7 +3596,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "4 et plus",
         "Price": 1299.0,
-        "ID": 198
+        "ID": 196
     },
     {
         "Name": "Corsair 3000D RGB Airflow (Noir)",
@@ -3656,7 +3616,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 1049.0,
-        "ID": 199
+        "ID": 197
     },
     {
         "Name": "Corsair Obsidian 500D RGB SE PREMIUM",
@@ -3676,7 +3636,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 2590.0,
-        "ID": 200
+        "ID": 198
     },
     {
         "Name": "MSI MAG VAMPIRIC 300R (Noir)",
@@ -3696,7 +3656,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "1 à 2",
         "Price": 1199.0,
-        "ID": 201
+        "ID": 199
     },
     {
         "Name": "Lian Li PC-O11DW Dynamic Tempered glass (Blanc)",
@@ -3715,7 +3675,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "0 (aucun)",
         "Price": 1699.0,
-        "ID": 202
+        "ID": 200
     },
     {
         "Name": "Corsair iCUE 5000X RGB Tempered Glass (Blanc)",
@@ -3735,7 +3695,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 2499.0,
-        "ID": 203
+        "ID": 201
     },
     {
         "Name": "Corsair 5000D Airflow (Blanc)",
@@ -3755,7 +3715,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "1 à 2",
         "Price": 1899.0,
-        "ID": 204
+        "ID": 202
     },
     {
         "Name": "Corsair Carbide SPEC-OMEGA RGB Noir",
@@ -3774,7 +3734,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "1 à 2",
         "Price": 799.0,
-        "ID": 205
+        "ID": 203
     },
     {
         "Name": "MSI MAG FORGE 100R ARGB",
@@ -3794,7 +3754,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 799.0,
-        "ID": 206
+        "ID": 204
     },
     {
         "Name": "Cooler Master MasterBox K500 ARGB",
@@ -3814,7 +3774,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 999.0,
-        "ID": 207
+        "ID": 205
     },
     {
         "Name": "Corsair iCUE 465X RGB (Blanc)",
@@ -3834,7 +3794,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 1899.0,
-        "ID": 208
+        "ID": 206
     },
     {
         "Name": "Razer Core X V2",
@@ -3854,7 +3814,7 @@
         "Type de vitre": "Sans vitre",
         "Ventilateurs inclus": "1",
         "Price": 4699.0,
-        "ID": 209
+        "ID": 207
     },
     {
         "Name": "ASUS ROG STRIX HELIOS II GX601S Noir",
@@ -3873,7 +3833,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "4 et plus",
         "Price": 4099.0,
-        "ID": 210
+        "ID": 208
     },
     {
         "Name": "ASUS ROG STRIX HELIOS II GX601S Blanc",
@@ -3892,7 +3852,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "4 et plus",
         "Price": 4099.0,
-        "ID": 211
+        "ID": 209
     },
     {
         "Name": "Corsair AIR 5400 RS-R ARGB Blanc",
@@ -3911,7 +3871,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "3",
         "Price": 2999.0,
-        "ID": 212
+        "ID": 210
     },
     {
         "Name": "Hyte Y70 Noir/Blanc",
@@ -3929,7 +3889,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "0 (aucun)",
         "Price": 2989.0,
-        "ID": 213
+        "ID": 211
     },
     {
         "Name": "MSI MAG FORGE 320R AIRFLOW (Blanc)",
@@ -3948,7 +3908,7 @@
         "Type de vitre": "Vitre latérale",
         "Ventilateurs inclus": "3",
         "Price": 799.0,
-        "ID": 214
+        "ID": 212
     },
     {
         "Name": "Hyte Y70 (Noir)",
@@ -3966,7 +3926,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "0 (aucun)",
         "Price": 2989.0,
-        "ID": 215
+        "ID": 213
     },
     {
         "Name": "Hyte Y70 (Rouge/Noir)",
@@ -3984,7 +3944,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "0 (aucun)",
         "Price": 2989.0,
-        "ID": 216
+        "ID": 214
     },
     {
         "Name": "Hyte Y60 (Red)",
@@ -4003,7 +3963,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "3",
         "Price": 2199.0,
-        "ID": 217
+        "ID": 215
     },
     {
         "Name": "Hyte Y60 Noir / Blanc",
@@ -4023,7 +3983,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "3",
         "Price": 1999.0,
-        "ID": 218
+        "ID": 216
     },
     {
         "Name": "Hyte Y40 Red",
@@ -4042,7 +4002,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "1 à 2",
         "Price": 1599.0,
-        "ID": 219
+        "ID": 217
     },
     {
         "Name": "Hyte Y40 Blanc/Noir",
@@ -4061,7 +4021,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "1 à 2",
         "Price": 1599.0,
-        "ID": 220
+        "ID": 218
     },
     {
         "Name": "Hyte Y40 Black",
@@ -4080,7 +4040,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "1 à 2",
         "Price": 1699.0,
-        "ID": 221
+        "ID": 219
     },
     {
         "Name": "Hyte Y60 (Black)",
@@ -4099,7 +4059,7 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "3",
         "Price": 2199.0,
-        "ID": 222
+        "ID": 220
     },
     {
         "Name": "Hyte Y60 (Snow Edition)",
@@ -4118,6 +4078,6 @@
         "Type de vitre": "Panoramique (aquarium)",
         "Ventilateurs inclus": "3",
         "Price": 1999.0,
-        "ID": 223
+        "ID": 221
     }
 ]

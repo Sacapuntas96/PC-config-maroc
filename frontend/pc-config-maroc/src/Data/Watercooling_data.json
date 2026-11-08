@@ -288,7 +288,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1099.0,
-        "ID": 24
+        "ID": 23
     },
     {
         "Name": "DeepCool LE240 V2 White",
@@ -306,7 +306,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 649.0,
-        "ID": 25
+        "ID": 24
     },
     {
         "Name": "DeepCool FL12 SE 3IN1Black",
@@ -454,20 +454,18 @@
         "ID": 35
     },
     {
-        "Name": "Cooler Master Hyper 212 Spectrum V3",
-        "URL": "https://www.ultrapc.ma/ventirads-processeur/11803-cooler-master-hyper-212-spectrum-v3.html",
-        "Matériau": "Aluminium",
-        "Ventilateur(s)": "120 mm",
-        "Support du processeur": "Intel 1156, Intel 1155, Intel 1150, Intel 1151, AMD AM4, AMD AM5, Intel 1200, Intel 1700, Intel 1851",
-        "Vitesse max.": "1750 RPM",
-        "Débit max.": "71.93 CFM",
-        "Dimensions": "124 x 73 x 152 mm",
-        "Couleur": "Noir",
+        "Name": "DeepCool FL12R SE 3IN1 White",
+        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/12191-deepcool-fl12r-se-3in1-white.html",
+        "Vitesse max.": "1500 RPM",
+        "Débit max.": "41,14 CFM",
+        "Bruit max.": "25,79 dB(A)",
+        "Diamètre": "120 mm",
+        "Dimensions": "120 x 120 x 25 mm",
+        "Couleur": "Blanc",
         "Garantie": "12 Mois",
         "Éclairage RGB": "Oui",
-        "Compatibilité socket": "Intel LGA1851",
-        "Type de ventirad": "Tour simple",
-        "Price": 249.0,
+        "Taille du ventilateur": "120 mm",
+        "Price": 349.0,
         "ID": 36
     },
     {
@@ -486,21 +484,6 @@
         "ID": 37
     },
     {
-        "Name": "DeepCool FL12R SE 3IN1 White",
-        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/12191-deepcool-fl12r-se-3in1-white.html",
-        "Vitesse max.": "1500 RPM",
-        "Débit max.": "41,14 CFM",
-        "Bruit max.": "25,79 dB(A)",
-        "Diamètre": "120 mm",
-        "Dimensions": "120 x 120 x 25 mm",
-        "Couleur": "Blanc",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Taille du ventilateur": "120 mm",
-        "Price": 349.0,
-        "ID": 38
-    },
-    {
         "Name": "DeepCool FL12R 3IN1 (Black)",
         "URL": "https://www.ultrapc.ma/ventilateurs-boitier/11348-deepcool-fl12r-3in1-black.html",
         "Vitesse max.": "2150 RPM",
@@ -513,7 +496,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 849.0,
-        "ID": 39
+        "ID": 38
     },
     {
         "Name": "Lian Li UNI FAN SL-INF FLEX Reverse 120 Black (3 Pack)",
@@ -528,6 +511,23 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 1099.0,
+        "ID": 39
+    },
+    {
+        "Name": "Cooler Master Hyper 212 Spectrum V3",
+        "URL": "https://www.ultrapc.ma/ventirads-processeur/11803-cooler-master-hyper-212-spectrum-v3.html",
+        "Matériau": "Aluminium",
+        "Ventilateur(s)": "120 mm",
+        "Support du processeur": "Intel 1156, Intel 1155, Intel 1150, Intel 1151, AMD AM4, AMD AM5, Intel 1200, Intel 1700, Intel 1851",
+        "Vitesse max.": "1750 RPM",
+        "Débit max.": "71.93 CFM",
+        "Dimensions": "124 x 73 x 152 mm",
+        "Couleur": "Noir",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Compatibilité socket": "Intel LGA1851",
+        "Type de ventirad": "Tour simple",
+        "Price": 249.0,
         "ID": 40
     },
     {
@@ -550,6 +550,24 @@
         "ID": 41
     },
     {
+        "Name": "DeepCool LE360 V2 White",
+        "URL": "https://www.ultrapc.ma/kits-watercooling/11334-deepcool-le360-v2-white.html",
+        "Matériau": "Aluminium,Cuivre",
+        "Ventilateur(s)": "3 x 120 mm",
+        "Support du processeur": "AMD AM4, AMD AM5, Intel 1150, Intel 1151, Intel 1155, Intel 1200, Intel 1700, Intel 1851",
+        "Vitesse max.": "2100 RPM",
+        "Débit max.": "75,89 CFM",
+        "Dimensions (L x H x P)": "402×120×27 mm",
+        "Couleur": "Blanc",
+        "Ecran LCD": "Non",
+        "Taille du radiateur": "360 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Compatibilité socket": "Intel LGA1700",
+        "Price": 849.0,
+        "ID": 42
+    },
+    {
         "Name": "Cooler Master MasterFan MF120 Halo² 3in1 (Black)",
         "URL": "https://www.ultrapc.ma/ventilateurs-boitier/11318-cooler-master-masterfan-mf120-halo2-3in1-black.html",
         "Vitesse max.": "2050 tr/min",
@@ -563,7 +581,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 499.0,
-        "ID": 42
+        "ID": 43
     },
     {
         "Name": "Lian Li UNI FAN TL FLEX 120 Black (3 Pack)",
@@ -578,7 +596,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 999.0,
-        "ID": 44
+        "ID": 45
     },
     {
         "Name": "Cooler Master MasterLiquid Core Nex 240 ARGB",
@@ -596,24 +614,6 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 799.0,
-        "ID": 45
-    },
-    {
-        "Name": "DeepCool LE360 V2 White",
-        "URL": "https://www.ultrapc.ma/kits-watercooling/11334-deepcool-le360-v2-white.html",
-        "Matériau": "Aluminium,Cuivre",
-        "Ventilateur(s)": "3 x 120 mm",
-        "Support du processeur": "AMD AM4, AMD AM5, Intel 1150, Intel 1151, Intel 1155, Intel 1200, Intel 1700, Intel 1851",
-        "Vitesse max.": "2100 RPM",
-        "Débit max.": "75,89 CFM",
-        "Dimensions (L x H x P)": "402×120×27 mm",
-        "Couleur": "Blanc",
-        "Ecran LCD": "Non",
-        "Taille du radiateur": "360 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Compatibilité socket": "Intel LGA1700",
-        "Price": 849.0,
         "ID": 46
     },
     {
@@ -692,21 +692,6 @@
         "ID": 51
     },
     {
-        "Name": "Lian Li UNI FAN SL-INF LCD FLEX Reverse 120 White (3 Pack)",
-        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/12471-lian-li-uni-fan-sl-inf-lcd-flex-reverse-120-white-3-pack.html",
-        "Vitesse max.": "1950 RPM",
-        "Débit max.": "56,89 CFM",
-        "Bruit max.": "31 dBA",
-        "Diamètre": "120 mm",
-        "Dimensions": "120 x 124 x 28 mm",
-        "Couleur": "Blanc",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Taille du ventilateur": "120 mm",
-        "Price": 1399.0,
-        "ID": 52
-    },
-    {
         "Name": "Lian Li UNI FAN SL-INF LCD FLEX Reverse 120 Black (3 Pack)",
         "URL": "https://www.ultrapc.ma/ventilateurs-boitier/12470-lian-li-uni-fan-sl-inf-lcd-flex-reverse-120-black-3-pack.html",
         "Vitesse max.": "1950 RPM",
@@ -719,7 +704,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 1399.0,
-        "ID": 53
+        "ID": 52
     },
     {
         "Name": "Lian Li UNI FAN SL-INF LCD FLEX 120 White (3 Pack)",
@@ -734,7 +719,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 1399.0,
-        "ID": 54
+        "ID": 53
     },
     {
         "Name": "DeepCool FD12 V2 White",
@@ -749,7 +734,7 @@
         "Éclairage RGB": "Non",
         "Taille du ventilateur": "120 mm",
         "Price": 109.0,
-        "ID": 55
+        "ID": 54
     },
     {
         "Name": "Lian Li UNI FAN TL LCD FLEX 120 (White)",
@@ -764,6 +749,21 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 499.0,
+        "ID": 55
+    },
+    {
+        "Name": "Lian Li UNI FAN SL-INF LCD FLEX Reverse 120 White (3 Pack)",
+        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/12471-lian-li-uni-fan-sl-inf-lcd-flex-reverse-120-white-3-pack.html",
+        "Vitesse max.": "1950 RPM",
+        "Débit max.": "56,89 CFM",
+        "Bruit max.": "31 dBA",
+        "Diamètre": "120 mm",
+        "Dimensions": "120 x 124 x 28 mm",
+        "Couleur": "Blanc",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Taille du ventilateur": "120 mm",
+        "Price": 1399.0,
         "ID": 56
     },
     {
@@ -842,6 +842,21 @@
         "ID": 61
     },
     {
+        "Name": "NZXT F140 RGB Core Twin Pack (Black)",
+        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/7422-nzxt-f140-rgb-core-twin-pack-black.html",
+        "Vitesse max.": "1500 RPM",
+        "Débit max.": "90.79 CFM",
+        "Bruit max.": "34,48 dBA",
+        "Diamètre": "140 mm",
+        "Dimensions": "140 x 140 x 26 mm",
+        "Couleur": "Noir",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Taille du ventilateur": "140 mm",
+        "Price": 469.0,
+        "ID": 63
+    },
+    {
         "Name": "Lian Li UNI FAN SL-INF LCD FLEX 120 White",
         "URL": "https://www.ultrapc.ma/ventilateurs-boitier/12467-lian-li-uni-fan-sl-inf-lcd-flex-120-white.html",
         "Vitesse max.": "2000 RPM",
@@ -854,7 +869,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 499.0,
-        "ID": 63
+        "ID": 64
     },
     {
         "Name": "NZXT F240 RGB Core (White)",
@@ -869,21 +884,6 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 349.0,
-        "ID": 64
-    },
-    {
-        "Name": "NZXT F140 RGB Core Twin Pack (Black)",
-        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/7422-nzxt-f140-rgb-core-twin-pack-black.html",
-        "Vitesse max.": "1500 RPM",
-        "Débit max.": "90.79 CFM",
-        "Bruit max.": "34,48 dBA",
-        "Diamètre": "140 mm",
-        "Dimensions": "140 x 140 x 26 mm",
-        "Couleur": "Noir",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Taille du ventilateur": "140 mm",
-        "Price": 469.0,
         "ID": 65
     },
     {
@@ -917,21 +917,6 @@
         "ID": 67
     },
     {
-        "Name": "NZXT F120 RGB Core (White)",
-        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/8873-nzxt-f120-rgb-core-white.html",
-        "Vitesse max.": "1800 RPM",
-        "Débit max.": "78.86 CFM",
-        "Bruit max.": "33.88 dB",
-        "Diamètre": "120 mm",
-        "Dimensions": "120 x 120 x 26 mm",
-        "Couleur": "Blanc",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Taille du ventilateur": "120 mm",
-        "Price": 249.0,
-        "ID": 68
-    },
-    {
         "Name": "NZXT F120 RGB Core (Black)",
         "URL": "https://www.ultrapc.ma/ventilateurs-boitier/7420-nzxt-f120-rgb-core-black.html",
         "Vitesse max.": "1800 RPM",
@@ -944,7 +929,22 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 249.0,
-        "ID": 70
+        "ID": 69
+    },
+    {
+        "Name": "NZXT F120 RGB Core (White)",
+        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/8873-nzxt-f120-rgb-core-white.html",
+        "Vitesse max.": "1800 RPM",
+        "Débit max.": "78.86 CFM",
+        "Bruit max.": "33.88 dB",
+        "Diamètre": "120 mm",
+        "Dimensions": "120 x 120 x 26 mm",
+        "Couleur": "Blanc",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Taille du ventilateur": "120 mm",
+        "Price": 249.0,
+        "ID": 71
     },
     {
         "Name": "DeepCool FL12 SE 3IN1White",
@@ -1124,7 +1124,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 499.0,
-        "ID": 89
+        "ID": 87
     },
     {
         "Name": "DeepCool FL12R 3IN1 White",
@@ -1139,7 +1139,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 849.0,
-        "ID": 90
+        "ID": 89
     },
     {
         "Name": "DeepCool LE360 V2 Zero Dark",
@@ -1158,7 +1158,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 849.0,
-        "ID": 91
+        "ID": 90
     },
     {
         "Name": "Lian Li UNI Fan CL Wireless 120 White",
@@ -1222,7 +1222,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 2499.0,
-        "ID": 95
+        "ID": 96
     },
     {
         "Name": "Lian Li HydroShift II LCD-C 360TL (Black)",
@@ -1240,7 +1240,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 2499.0,
-        "ID": 96
+        "ID": 97
     },
     {
         "Name": "DeepCool LM240 White",
@@ -1258,7 +1258,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 899.0,
-        "ID": 97
+        "ID": 98
     },
     {
         "Name": "DeepCool AK400 Digital PRO White",
@@ -1276,7 +1276,7 @@
         "Compatibilité socket": "Intel LGA1851",
         "Type de ventirad": "Tour simple",
         "Price": 549.0,
-        "ID": 98
+        "ID": 99
     },
     {
         "Name": "NZXT F140 RGB Core Twin Pack (White)",
@@ -1312,22 +1312,6 @@
         "ID": 101
     },
     {
-        "Name": "MSI MAG COREFROZR AA13 Noir",
-        "URL": "https://www.ultrapc.ma/ventirads-processeur/10885-msi-mag-corefrozr-aa13-noir.html",
-        "Ventilateur(s)": "120 mm",
-        "Support du processeur": "AMD AM4 , AMD AM5, Intel 1700, Intel 1851",
-        "Vitesse max.": "2 070 RPM",
-        "Débit max.": "62,6 CFM",
-        "Dimensions": "121 x 94,5 x 152 mm",
-        "Couleur": "Noir",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Compatibilité socket": "Intel LGA1851",
-        "Type de ventirad": "Tour simple",
-        "Price": 329.0,
-        "ID": 102
-    },
-    {
         "Name": "NZXT F140 RGB Duo Twin Pack Black",
         "URL": "https://www.ultrapc.ma/ventilateurs-boitier/7418-nzxt-f140-rgb-duo-twin-pack-black.html",
         "Vitesse max.": "1800 RPM",
@@ -1340,7 +1324,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "140 mm",
         "Price": 599.0,
-        "ID": 104
+        "ID": 103
     },
     {
         "Name": "Lian Li UNI Fan SL-Infinity Wireless 120 White (Triple Pack)",
@@ -1355,7 +1339,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 1119.0,
-        "ID": 105
+        "ID": 104
     },
     {
         "Name": "Lian Li UNI Fan SL Wireless LCD Reverse 120 Black (Triple Pack)",
@@ -1370,7 +1354,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 1599.0,
-        "ID": 106
+        "ID": 105
     },
     {
         "Name": "NZXT F120 RGB Duo Triple Pack Black",
@@ -1385,7 +1369,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 799.0,
-        "ID": 108
+        "ID": 107
     },
     {
         "Name": "Lian Li UNI Fan SL Wireless LCD Reverse 120 White (Triple Pack)",
@@ -1400,7 +1384,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 1599.0,
-        "ID": 109
+        "ID": 108
     },
     {
         "Name": "DeepCool FD12 V2 3IN1 Black",
@@ -1416,7 +1400,7 @@
         "Éclairage RGB": "Non",
         "Taille du ventilateur": "120 mm",
         "Price": 299.0,
-        "ID": 110
+        "ID": 109
     },
     {
         "Name": "DeepCool LQ360 Ultra ARGB White",
@@ -1435,7 +1419,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1499.0,
-        "ID": 111
+        "ID": 110
     },
     {
         "Name": "DeepCool SPARTACUS 420 Black",
@@ -1454,7 +1438,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 2199.0,
-        "ID": 112
+        "ID": 111
     },
     {
         "Name": "Cooler Master MasterLiquid Core Nex 360 ARGB Black",
@@ -1472,7 +1456,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 899.0,
-        "ID": 113
+        "ID": 112
     },
     {
         "Name": "NZXT Kraken Plus 360 RGB Black",
@@ -1490,6 +1474,22 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 2299.0,
+        "ID": 113
+    },
+    {
+        "Name": "MSI MAG COREFROZR AA13 Noir",
+        "URL": "https://www.ultrapc.ma/ventirads-processeur/10885-msi-mag-corefrozr-aa13-noir.html",
+        "Ventilateur(s)": "120 mm",
+        "Support du processeur": "AMD AM4 , AMD AM5, Intel 1700, Intel 1851",
+        "Vitesse max.": "2 070 RPM",
+        "Débit max.": "62,6 CFM",
+        "Dimensions": "121 x 94,5 x 152 mm",
+        "Couleur": "Noir",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Compatibilité socket": "Intel LGA1851",
+        "Type de ventirad": "Tour simple",
+        "Price": 329.0,
         "ID": 114
     },
     {
@@ -1527,6 +1527,65 @@
         "ID": 116
     },
     {
+        "Name": "Lian Li UNI Fan TL-LCD Wireless Reverse 120 White (Triple Pack)",
+        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/11689-lian-li-uni-fan-tl-lcd-wireless-reverse-120-white-triple-pack.html",
+        "Vitesse max.": "1900 tr/min",
+        "Débit max.": "54.3 CFM",
+        "Bruit max.": "31 dB",
+        "Diamètre": "120 mm",
+        "Dimensions": "120 x 124 x 28 mm",
+        "Couleur": "Blanc",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Taille du ventilateur": "120 mm",
+        "Price": 1599.0,
+        "ID": 117
+    },
+    {
+        "Name": "Lian Li UNI Fan SL-Infinity Wireless 120 White",
+        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/11568-lian-li-uni-fan-sl-infinity-wireless-120-white.html",
+        "Vitesse max.": "2300 tr/min",
+        "Débit max.": "67 CFM",
+        "Bruit max.": "29.2 dB",
+        "Diamètre": "120 mm",
+        "Dimensions": "120 x 124 x 28 mm",
+        "Couleur": "Blanc",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Taille du ventilateur": "120 mm",
+        "Price": 399.0,
+        "ID": 118
+    },
+    {
+        "Name": "Lian Li UNI Fan CL Wireless 120 Black",
+        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/11555-lian-li-uni-fan-cl-wireless-120-black.html",
+        "Vitesse max.": "2150 tr/min",
+        "Débit max.": "77.34 CFM",
+        "Bruit max.": "29.8 dB",
+        "Diamètre": "120 mm",
+        "Dimensions": "124 x 120 x 28 mm",
+        "Couleur": "Noir",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Taille du ventilateur": "120 mm",
+        "Price": 199.0,
+        "ID": 119
+    },
+    {
+        "Name": "Connect Arctic Frost FRGB",
+        "URL": "https://www.ultrapc.ma/ventirads-processeur/8735-connect-arctic-frost-frgb.html",
+        "Matériau": "Cuivre",
+        "Ventilateur(s)": "120 mm",
+        "Support du processeur": "INTEL LGA 1700/1200/1156/1155/1151/1150/775 and AMD AM5/AM4/AM3+/AM3/AM2+/AM2/FM2/FM1",
+        "Couleur": "Noir",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Compatibilité socket": "Intel LGA1700",
+        "Type de ventirad": "Tour simple",
+        "Price": 99.0,
+        "ID": 120
+    },
+    {
         "Name": "Cooler Master MasterLiquid Core Nex 360 White",
         "URL": "https://www.ultrapc.ma/kits-watercooling/11796-cooler-master-masterliquid-core-nex-360-white.html",
         "Matériau": "Aluminium,Cuivre",
@@ -1542,101 +1601,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 899.0,
-        "ID": 117
-    },
-    {
-        "Name": "Lian Li UNI Fan TL-LCD Wireless Reverse 120 White (Triple Pack)",
-        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/11689-lian-li-uni-fan-tl-lcd-wireless-reverse-120-white-triple-pack.html",
-        "Vitesse max.": "1900 tr/min",
-        "Débit max.": "54.3 CFM",
-        "Bruit max.": "31 dB",
-        "Diamètre": "120 mm",
-        "Dimensions": "120 x 124 x 28 mm",
-        "Couleur": "Blanc",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Taille du ventilateur": "120 mm",
-        "Price": 1599.0,
-        "ID": 118
-    },
-    {
-        "Name": "Lian Li UNI Fan SL-Infinity Wireless 120 White",
-        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/11568-lian-li-uni-fan-sl-infinity-wireless-120-white.html",
-        "Vitesse max.": "2300 tr/min",
-        "Débit max.": "67 CFM",
-        "Bruit max.": "29.2 dB",
-        "Diamètre": "120 mm",
-        "Dimensions": "120 x 124 x 28 mm",
-        "Couleur": "Blanc",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Taille du ventilateur": "120 mm",
-        "Price": 399.0,
-        "ID": 119
-    },
-    {
-        "Name": "Lian Li UNI Fan CL Wireless 120 Black",
-        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/11555-lian-li-uni-fan-cl-wireless-120-black.html",
-        "Vitesse max.": "2150 tr/min",
-        "Débit max.": "77.34 CFM",
-        "Bruit max.": "29.8 dB",
-        "Diamètre": "120 mm",
-        "Dimensions": "124 x 120 x 28 mm",
-        "Couleur": "Noir",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Taille du ventilateur": "120 mm",
-        "Price": 199.0,
-        "ID": 120
-    },
-    {
-        "Name": "Connect Arctic Frost FRGB",
-        "URL": "https://www.ultrapc.ma/ventirads-processeur/8735-connect-arctic-frost-frgb.html",
-        "Matériau": "Cuivre",
-        "Ventilateur(s)": "120 mm",
-        "Support du processeur": "INTEL LGA 1700/1200/1156/1155/1151/1150/775 and AMD AM5/AM4/AM3+/AM3/AM2+/AM2/FM2/FM1",
-        "Couleur": "Noir",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Compatibilité socket": "Intel LGA1700",
-        "Type de ventirad": "Tour simple",
-        "Price": 99.0,
         "ID": 121
-    },
-    {
-        "Name": "DeepCool AK400 Zero Dark Plus",
-        "URL": "https://www.ultrapc.ma/ventirads-processeur/5974-deepcool-ak400-zero-dark-plus.html",
-        "Matériau": "Aluminium,Cuivre",
-        "Ventilateur(s)": "2 x 120 mm",
-        "Support du processeur": "AMD AM4, AMD AM5, Intel 1150, Intel 1151, Intel 1155, Intel 1200, Intel 1700, Intel 1851",
-        "Vitesse max.": "1650 RPM",
-        "Débit max.": "59,46 CFM",
-        "Dimensions": "127 x 123 x 155 mm",
-        "Couleur": "Noir",
-        "Poids net": "802 g",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Non",
-        "Compatibilité socket": "Intel LGA1851",
-        "Type de ventirad": "Tour simple",
-        "Price": 449.0,
-        "ID": 122
-    },
-    {
-        "Name": "Cooler Master Hyper 212 3DHP ARGB (Noir)",
-        "URL": "https://www.ultrapc.ma/ventirads-processeur/11829-cooler-master-hyper-212-3dhp-argb-noir.html",
-        "Matériau": "Aluminium",
-        "Ventilateur(s)": "120 mm",
-        "Support du processeur": "Intel 1156, Intel 1155, Intel 1150, Intel 1151, AMD AM4, AMD AM5, Intel 1200, Intel 1700, Intel 1851",
-        "Vitesse max.": "2050 RPM​",
-        "Débit max.": "63,1 CFM",
-        "Dimensions": "133 x 86 x 158 mm",
-        "Couleur": "Noir",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Compatibilité socket": "Intel LGA1851",
-        "Type de ventirad": "Tour simple",
-        "Price": 349.0,
-        "ID": 123
     },
     {
         "Name": "Corsair RS140 ARGB Dual Pack Blanc",
@@ -1650,7 +1615,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "140 mm",
         "Price": 309.0,
-        "ID": 124
+        "ID": 122
     },
     {
         "Name": "Lian Li HydroShift II LCD-C 360CL (White)",
@@ -1665,7 +1630,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1799.0,
-        "ID": 125
+        "ID": 123
     },
     {
         "Name": "Lian Li UNI Fan CL Wireless Reverse 120 White (Triple Pack)",
@@ -1680,7 +1645,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 599.0,
-        "ID": 126
+        "ID": 124
     },
     {
         "Name": "DeepCool LQ360 (White)",
@@ -1699,7 +1664,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1399.0,
-        "ID": 127
+        "ID": 125
     },
     {
         "Name": "Lian Li HydroShift II OLED Curved 360P28 (Black)",
@@ -1717,7 +1682,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 2899.0,
-        "ID": 129
+        "ID": 127
     },
     {
         "Name": "MSI MAG CORELIQUID A15 240 Noir",
@@ -1735,7 +1700,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 699.0,
-        "ID": 130
+        "ID": 128
     },
     {
         "Name": "Cooler Master Hyper 612 APEX Noir",
@@ -1752,7 +1717,7 @@
         "Compatibilité socket": "Intel LGA1851",
         "Type de ventirad": "Tour simple",
         "Price": 699.0,
-        "ID": 131
+        "ID": 129
     },
     {
         "Name": "Corsair RS140 ARGB Dual Pack Noir",
@@ -1766,7 +1731,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "140 mm",
         "Price": 309.0,
-        "ID": 132
+        "ID": 130
     },
     {
         "Name": "Lian Li UNI Fan TL-LCD Wireless 120 Black",
@@ -1781,7 +1746,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 499.0,
-        "ID": 133
+        "ID": 131
     },
     {
         "Name": "Lian Li UNI Fan CL Wireless 120 White (Triple Pack)",
@@ -1796,7 +1761,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 599.0,
-        "ID": 134
+        "ID": 132
     },
     {
         "Name": "Connect Arctic Flow 90mm ARGB",
@@ -1810,7 +1775,7 @@
         "Compatibilité socket": "Intel LGA1700",
         "Type de ventirad": "Tour simple",
         "Price": 129.0,
-        "ID": 135
+        "ID": 133
     },
     {
         "Name": "NZXT F360 RGB Core (White)",
@@ -1825,7 +1790,25 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 599.0,
-        "ID": 136
+        "ID": 134
+    },
+    {
+        "Name": "DeepCool AK400 Zero Dark Plus",
+        "URL": "https://www.ultrapc.ma/ventirads-processeur/5974-deepcool-ak400-zero-dark-plus.html",
+        "Matériau": "Aluminium,Cuivre",
+        "Ventilateur(s)": "2 x 120 mm",
+        "Support du processeur": "AMD AM4, AMD AM5, Intel 1150, Intel 1151, Intel 1155, Intel 1200, Intel 1700, Intel 1851",
+        "Vitesse max.": "1650 RPM",
+        "Débit max.": "59,46 CFM",
+        "Dimensions": "127 x 123 x 155 mm",
+        "Couleur": "Noir",
+        "Poids net": "802 g",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Non",
+        "Compatibilité socket": "Intel LGA1851",
+        "Type de ventirad": "Tour simple",
+        "Price": 449.0,
+        "ID": 135
     },
     {
         "Name": "Lian Li HydroShift II OLED Curved 360 Fanless (Black)",
@@ -1842,25 +1825,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 2599.0,
-        "ID": 137
-    },
-    {
-        "Name": "Lian Li HydroShift II OLED Curved 360TL (White)",
-        "URL": "https://www.ultrapc.ma/kits-watercooling/12490-lian-li-hydroshift-ii-oled-curved-360tl-white.html",
-        "Matériau": "Aluminium,Cuivre",
-        "Ventilateur(s)": "3 x 120 mm",
-        "Support du processeur": "Intel LGA1851/1700 et AMD AM5/AM4",
-        "Vitesse max.": "2600 RPM",
-        "Débit max.": "90,1 CFM",
-        "Dimensions (L x H x P)": "400 × 122 × 24 mm",
-        "Couleur": "Blanc",
-        "Ecran LCD": "Oui",
-        "Taille du radiateur": "360 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Compatibilité socket": "Intel LGA1700",
-        "Price": 3199.0,
-        "ID": 138
+        "ID": 136
     },
     {
         "Name": "DeepCool AK700 DIGITAL White",
@@ -1878,7 +1843,7 @@
         "Compatibilité socket": "Intel LGA1851",
         "Type de ventirad": "Tour simple",
         "Price": 849.0,
-        "ID": 139
+        "ID": 137
     },
     {
         "Name": "Lian Li UNI Fan SL-Infinity Wireless 120 Black",
@@ -1893,7 +1858,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 399.0,
-        "ID": 140
+        "ID": 138
     },
     {
         "Name": "Cooler Master MasterLiquid 240 Core II ARGB (White)",
@@ -1911,7 +1876,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 699.0,
-        "ID": 141
+        "ID": 139
     },
     {
         "Name": "be quiet! Light Wings LX 120 mm PWM High Speed Triple Pack",
@@ -1927,7 +1892,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 599.0,
-        "ID": 142
+        "ID": 140
     },
     {
         "Name": "MSI MAG CORELIQUID C280",
@@ -1944,7 +1909,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1389.0,
-        "ID": 144
+        "ID": 142
     },
     {
         "Name": "Thermal Grizzly Ryzen 7000 Direct Die Frame V2",
@@ -1954,7 +1919,25 @@
         "Dimensions": "70 mm × 53 mm × 4 mm",
         "Compatibilité": "Ryzen 7000 & 7000X3D",
         "Price": 279.0,
-        "ID": 145
+        "ID": 143
+    },
+    {
+        "Name": "Lian Li HydroShift II OLED Curved 360TL (White)",
+        "URL": "https://www.ultrapc.ma/kits-watercooling/12490-lian-li-hydroshift-ii-oled-curved-360tl-white.html",
+        "Matériau": "Aluminium,Cuivre",
+        "Ventilateur(s)": "3 x 120 mm",
+        "Support du processeur": "Intel LGA1851/1700 et AMD AM5/AM4",
+        "Vitesse max.": "2600 RPM",
+        "Débit max.": "90,1 CFM",
+        "Dimensions (L x H x P)": "400 × 122 × 24 mm",
+        "Couleur": "Blanc",
+        "Ecran LCD": "Oui",
+        "Taille du radiateur": "360 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Compatibilité socket": "Intel LGA1700",
+        "Price": 3199.0,
+        "ID": 144
     },
     {
         "Name": "Lian Li HydroShift II OLED Curved 360TL (Black)",
@@ -1972,6 +1955,23 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 3199.0,
+        "ID": 145
+    },
+    {
+        "Name": "Cooler Master Hyper 212 3DHP ARGB (Noir)",
+        "URL": "https://www.ultrapc.ma/ventirads-processeur/11829-cooler-master-hyper-212-3dhp-argb-noir.html",
+        "Matériau": "Aluminium",
+        "Ventilateur(s)": "120 mm",
+        "Support du processeur": "Intel 1156, Intel 1155, Intel 1150, Intel 1151, AMD AM4, AMD AM5, Intel 1200, Intel 1700, Intel 1851",
+        "Vitesse max.": "2050 RPM​",
+        "Débit max.": "63,1 CFM",
+        "Dimensions": "133 x 86 x 158 mm",
+        "Couleur": "Noir",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Compatibilité socket": "Intel LGA1851",
+        "Type de ventirad": "Tour simple",
+        "Price": 349.0,
         "ID": 146
     },
     {
@@ -2154,32 +2154,13 @@
         "ID": 158
     },
     {
-        "Name": "DeepCool MYSTIQUE 360 ARGB Black",
-        "URL": "https://www.ultrapc.ma/kits-watercooling/10158-deepcool-mystique-360-argb-black.html",
-        "Matériau": "Aluminium,Cuivre",
-        "Ventilateur(s)": "3 x 120 mm",
-        "Support du processeur": "AMD AM4, AMD AM5, Intel 1150, Intel 1151, Intel 1155, Intel 1200, Intel 1700, Intel 1851",
-        "Vitesse max.": "2400 RPM",
-        "Débit max.": "72,04 CFM",
-        "Dimensions (L x H x P)": "402×120×27 mm",
-        "Couleur": "Noir",
-        "Ecran LCD": "Oui",
-        "Poids net": "1 847 g",
-        "Taille du radiateur": "360 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Compatibilité socket": "Intel LGA1700",
-        "Price": 1499.0,
-        "ID": 159
-    },
-    {
         "Name": "Thermal Grizzly AM5 Contact & Sealing Frame",
         "URL": "https://www.ultrapc.ma/refroidissement/8296-thermal-grizzly-am5-contact-sealing-frame.html",
         "Matériau": "Aluminium anodisé",
         "Compatibilité": "AM5",
         "Type de produit": "Accessoire",
         "Price": 299.0,
-        "ID": 160
+        "ID": 159
     },
     {
         "Name": "Cooler Master MasterLiquid ML240L V2 ARGB",
@@ -2195,24 +2176,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "AMD AM4",
         "Price": 1190.0,
-        "ID": 161
-    },
-    {
-        "Name": "Lian Li HydroShift II OLED Curved 360 Fanless (White)",
-        "URL": "https://www.ultrapc.ma/kits-watercooling/12495-lian-li-hydroshift-ii-oled-curved-360-fanless-white.html",
-        "Matériau": "Aluminium,Cuivre",
-        "Ventilateur(s)": "Aucun",
-        "Support du processeur": "Intel LGA1851/1700 et AMD AM5/AM4",
-        "Vitesse max.": "2800 RPM",
-        "Dimensions (L x H x P)": "400 × 122 × 24 mm",
-        "Couleur": "Blanc",
-        "Ecran LCD": "Oui",
-        "Taille du radiateur": "360 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Compatibilité socket": "Intel LGA1700",
-        "Price": 2599.0,
-        "ID": 162
+        "ID": 160
     },
     {
         "Name": "Lian Li HydroShift II OLED Curved 360P28 (White)",
@@ -2230,25 +2194,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 2899.0,
-        "ID": 163
-    },
-    {
-        "Name": "DeepCool AK700 Digital NYX Black",
-        "URL": "https://www.ultrapc.ma/ventirads-processeur/11752-deepcool-ak700-digital-nyx-black.html",
-        "Matériau": "Aluminium,Cuivre",
-        "Ventilateur(s)": "120 mm",
-        "Support du processeur": "Intel LGA1851/1700/1200/115X , AMD AM5/AM4",
-        "Vitesse max.": "2700±10% RPM(max)",
-        "Débit max.": "77.23 CFM",
-        "Dimensions": "126 x 98 x 157 mm",
-        "Couleur": "Noir",
-        "Poids net": "1 252 g",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Non",
-        "Compatibilité socket": "Intel LGA1851",
-        "Type de ventirad": "Tour simple",
-        "Price": 849.0,
-        "ID": 164
+        "ID": 161
     },
     {
         "Name": "Corsair RS120-R ARGB Triple Pack Noir",
@@ -2262,7 +2208,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 379.0,
-        "ID": 165
+        "ID": 162
     },
     {
         "Name": "Corsair Nautilus 360 RS LCD (Blanc)",
@@ -2280,7 +2226,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1749.0,
-        "ID": 166
+        "ID": 163
     },
     {
         "Name": "Lian Li HydroShift II LCD-C 360TL (Black)",
@@ -2297,7 +2243,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 2579.0,
-        "ID": 167
+        "ID": 164
     },
     {
         "Name": "Lian Li HydroShift II LCD-C 360CL (Black)",
@@ -2312,7 +2258,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1919.0,
-        "ID": 168
+        "ID": 165
     },
     {
         "Name": "XTRMLAB Frost F902",
@@ -2325,7 +2271,26 @@
         "Éclairage RGB": "Non",
         "Compatibilité socket": "Intel LGA1851",
         "Price": 129.0,
-        "ID": 169
+        "ID": 166
+    },
+    {
+        "Name": "DeepCool MYSTIQUE 360 ARGB Black",
+        "URL": "https://www.ultrapc.ma/kits-watercooling/10158-deepcool-mystique-360-argb-black.html",
+        "Matériau": "Aluminium,Cuivre",
+        "Ventilateur(s)": "3 x 120 mm",
+        "Support du processeur": "AMD AM4, AMD AM5, Intel 1150, Intel 1151, Intel 1155, Intel 1200, Intel 1700, Intel 1851",
+        "Vitesse max.": "2400 RPM",
+        "Débit max.": "72,04 CFM",
+        "Dimensions (L x H x P)": "402×120×27 mm",
+        "Couleur": "Noir",
+        "Ecran LCD": "Oui",
+        "Poids net": "1 847 g",
+        "Taille du radiateur": "360 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Compatibilité socket": "Intel LGA1700",
+        "Price": 1499.0,
+        "ID": 167
     },
     {
         "Name": "DeepCool LQ240 (Black)",
@@ -2344,37 +2309,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 899.0,
-        "ID": 170
-    },
-    {
-        "Name": "Connect LB360mm",
-        "URL": "https://www.ultrapc.ma/kits-watercooling/9970-connect-lb360mm.html",
-        "Matériau": "Aluminium",
-        "Ventilateur(s)": "120mm*120mm*25mm",
-        "Support du processeur": "Intel: LGA 1851,1700,2066,2011,1200,1366, 1151,1150,1156,,1155/ AMD: AM5, AM4, AM3, AM2+,AM2",
-        "Couleur": "Noir",
-        "Ecran LCD": "Non",
-        "Taille du radiateur": "360 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Compatibilité socket": "Intel LGA1700",
-        "Price": 599.0,
-        "ID": 171
-    },
-    {
-        "Name": "Connect LB240mm",
-        "URL": "https://www.ultrapc.ma/kits-watercooling/9969-connect-lb240mm.html",
-        "Matériau": "Aluminium",
-        "Ventilateur(s)": "120mm*120mm*25mm",
-        "Support du processeur": "Intel: LGA 1851,1700,2066,2011,1200,1366, 1151,1150,1156,,1155/ AMD: AM5, AM4, AM3, AM2+,AM2",
-        "Couleur": "Noir",
-        "Ecran LCD": "Non",
-        "Taille du radiateur": "240 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Compatibilité socket": "Intel LGA1700",
-        "Price": 449.0,
-        "ID": 172
+        "ID": 168
     },
     {
         "Name": "MSI MAG CORELIQUID A13 360 White",
@@ -2392,7 +2327,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 849.0,
-        "ID": 173
+        "ID": 169
     },
     {
         "Name": "BUNDLE NZXT H5 Flow White + 3xNZXT F120 RGB Core (White)",
@@ -2401,7 +2336,24 @@
         "Longueur Max. Carte Graphique": "410 mm",
         "Marque": "NZXT",
         "Price": 1796.0,
-        "ID": 175
+        "ID": 171
+    },
+    {
+        "Name": "Lian Li HydroShift II OLED Curved 360 Fanless (White)",
+        "URL": "https://www.ultrapc.ma/kits-watercooling/12495-lian-li-hydroshift-ii-oled-curved-360-fanless-white.html",
+        "Matériau": "Aluminium,Cuivre",
+        "Ventilateur(s)": "Aucun",
+        "Support du processeur": "Intel LGA1851/1700 et AMD AM5/AM4",
+        "Vitesse max.": "2800 RPM",
+        "Dimensions (L x H x P)": "400 × 122 × 24 mm",
+        "Couleur": "Blanc",
+        "Ecran LCD": "Oui",
+        "Taille du radiateur": "360 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Compatibilité socket": "Intel LGA1700",
+        "Price": 2599.0,
+        "ID": 172
     },
     {
         "Name": "Antec Luna 360 ARGB White",
@@ -2420,25 +2372,43 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 769.0,
-        "ID": 176
+        "ID": 173
     },
     {
-        "Name": "DeepCool AG620 G2 White",
-        "URL": "https://www.ultrapc.ma/ventirads-processeur/12176-deepcool-ag620-g2-white.html",
+        "Name": "DeepCool AK500 G2 DIGITAL NYX Black",
+        "URL": "https://www.ultrapc.ma/ventirads-processeur/12186-deepcool-ak500-g2-digital-nyx-black.html",
         "Matériau": "Aluminium,Cuivre",
-        "Ventilateur(s)": "2 x 120 mm",
-        "Support du processeur": "Intel LGA1851/1700 et AMD AM5/AM4",
+        "Ventilateur(s)": "120 mm",
+        "Support du processeur": "Intel LGA1851/1700/1200/115X , AMD AM5/AM4",
         "Vitesse max.": "2200±10% RPM",
-        "Débit max.": "70,09 CFM",
-        "Dimensions": "129 x 136 x 159 mm",
-        "Couleur": "Blanc",
-        "Poids net": "1 036 g",
+        "Débit max.": "63.4 CFM",
+        "Dimensions": "129 x 117 x 159 mm",
+        "Couleur": "Noir",
+        "Poids net": "1 362 g",
         "Garantie": "12 Mois",
         "Éclairage RGB": "Non",
         "Compatibilité socket": "Intel LGA1851",
-        "Type de ventirad": "Double tour",
-        "Price": 449.0,
-        "ID": 177
+        "Type de ventirad": "Tour simple",
+        "Price": 699.0,
+        "ID": 174
+    },
+    {
+        "Name": "DeepCool AK700 Digital NYX Black",
+        "URL": "https://www.ultrapc.ma/ventirads-processeur/11752-deepcool-ak700-digital-nyx-black.html",
+        "Matériau": "Aluminium,Cuivre",
+        "Ventilateur(s)": "120 mm",
+        "Support du processeur": "Intel LGA1851/1700/1200/115X , AMD AM5/AM4",
+        "Vitesse max.": "2700±10% RPM(max)",
+        "Débit max.": "77.23 CFM",
+        "Dimensions": "126 x 98 x 157 mm",
+        "Couleur": "Noir",
+        "Poids net": "1 252 g",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Non",
+        "Compatibilité socket": "Intel LGA1851",
+        "Type de ventirad": "Tour simple",
+        "Price": 849.0,
+        "ID": 175
     },
     {
         "Name": "DeepCool AK620 DIGITAL PRO (White)",
@@ -2456,7 +2426,7 @@
         "Compatibilité socket": "Intel LGA1851",
         "Type de ventirad": "Double tour",
         "Price": 899.0,
-        "ID": 178
+        "ID": 176
     },
     {
         "Name": "NZXT F420 RGB Core (Black)",
@@ -2472,26 +2442,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "140 mm",
         "Price": 649.0,
-        "ID": 179
-    },
-    {
-        "Name": "be quiet! Pure Loop 3 LX 360mm",
-        "URL": "https://www.ultrapc.ma/kits-watercooling/11246-be-quiet-pure-loop-3-lx-360mm.html",
-        "Matériau": "Aluminium,Cuivre",
-        "Ventilateur(s)": "3 x 120 mm",
-        "Support du processeur": "AMD AM4, AMD AM5, Intel 1150, Intel 1151, Intel 1155, Intel 1200, Intel 1700, Intel 1851",
-        "Vitesse max.": "2 100 RPM",
-        "Débit max.": "61,8 CFM",
-        "Dimensions (L x H x P)": "397 x 120 x 52 mm (radiateur avec ventilateurs)",
-        "Couleur": "Noir",
-        "Ecran LCD": "Non",
-        "Poids net": "1,28 kg",
-        "Taille du radiateur": "360 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Compatibilité socket": "Intel LGA1700",
-        "Price": 1199.0,
-        "ID": 180
+        "ID": 177
     },
     {
         "Name": "be quiet! Light Loop 360 mm ARGB White",
@@ -2510,7 +2461,37 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1799.0,
-        "ID": 181
+        "ID": 178
+    },
+    {
+        "Name": "Connect LB360mm",
+        "URL": "https://www.ultrapc.ma/kits-watercooling/9970-connect-lb360mm.html",
+        "Matériau": "Aluminium",
+        "Ventilateur(s)": "120mm*120mm*25mm",
+        "Support du processeur": "Intel: LGA 1851,1700,2066,2011,1200,1366, 1151,1150,1156,,1155/ AMD: AM5, AM4, AM3, AM2+,AM2",
+        "Couleur": "Noir",
+        "Ecran LCD": "Non",
+        "Taille du radiateur": "360 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Compatibilité socket": "Intel LGA1700",
+        "Price": 599.0,
+        "ID": 179
+    },
+    {
+        "Name": "Connect LB240mm",
+        "URL": "https://www.ultrapc.ma/kits-watercooling/9969-connect-lb240mm.html",
+        "Matériau": "Aluminium",
+        "Ventilateur(s)": "120mm*120mm*25mm",
+        "Support du processeur": "Intel: LGA 1851,1700,2066,2011,1200,1366, 1151,1150,1156,,1155/ AMD: AM5, AM4, AM3, AM2+,AM2",
+        "Couleur": "Noir",
+        "Ecran LCD": "Non",
+        "Taille du radiateur": "240 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Compatibilité socket": "Intel LGA1700",
+        "Price": 449.0,
+        "ID": 180
     },
     {
         "Name": "Corsair iCUE LINK QX120 RGB (3in1) Noir",
@@ -2524,7 +2505,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 1749.0,
-        "ID": 182
+        "ID": 181
     },
     {
         "Name": "Corsair iCUE LINK LX120-R RGB (3in1) Blanc",
@@ -2538,25 +2519,25 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 1349.0,
-        "ID": 183
+        "ID": 182
     },
     {
-        "Name": "DeepCool AK500 G2 DIGITAL NYX Black",
-        "URL": "https://www.ultrapc.ma/ventirads-processeur/12186-deepcool-ak500-g2-digital-nyx-black.html",
+        "Name": "DeepCool AG620 G2 White",
+        "URL": "https://www.ultrapc.ma/ventirads-processeur/12176-deepcool-ag620-g2-white.html",
         "Matériau": "Aluminium,Cuivre",
-        "Ventilateur(s)": "120 mm",
-        "Support du processeur": "Intel LGA1851/1700/1200/115X , AMD AM5/AM4",
+        "Ventilateur(s)": "2 x 120 mm",
+        "Support du processeur": "Intel LGA1851/1700 et AMD AM5/AM4",
         "Vitesse max.": "2200±10% RPM",
-        "Débit max.": "63.4 CFM",
-        "Dimensions": "129 x 117 x 159 mm",
-        "Couleur": "Noir",
-        "Poids net": "1 362 g",
+        "Débit max.": "70,09 CFM",
+        "Dimensions": "129 x 136 x 159 mm",
+        "Couleur": "Blanc",
+        "Poids net": "1 036 g",
         "Garantie": "12 Mois",
         "Éclairage RGB": "Non",
         "Compatibilité socket": "Intel LGA1851",
-        "Type de ventirad": "Tour simple",
-        "Price": 699.0,
-        "ID": 184
+        "Type de ventirad": "Double tour",
+        "Price": 449.0,
+        "ID": 183
     },
     {
         "Name": "ASUS PRIME LC 360 ARGB LCD",
@@ -2574,22 +2555,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1899.0,
-        "ID": 185
-    },
-    {
-        "Name": "Arctic P12 Pro A-RGB 3in1 Noir",
-        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/11743-arctic-p12-pro-a-rgb-3in1-noir.html",
-        "Vitesse max.": "3000 RPM",
-        "Débit max.": "77 CFM",
-        "Diamètre": "120 mm",
-        "Dimensions": "120 x 120 x 25 mm",
-        "Couleur": "Noir",
-        "Poids net": "185 g (par ventilateur)",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Taille du ventilateur": "120 mm",
-        "Price": 449.0,
-        "ID": 186
+        "ID": 184
     },
     {
         "Name": "Corsair Nautilus 240 RS LCD (Blanc)",
@@ -2607,7 +2573,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1499.0,
-        "ID": 187
+        "ID": 185
     },
     {
         "Name": "DeepCool AK620 DIGITAL SE (White)",
@@ -2625,7 +2591,26 @@
         "Compatibilité socket": "Intel LGA1851",
         "Type de ventirad": "Double tour",
         "Price": 649.0,
-        "ID": 188
+        "ID": 186
+    },
+    {
+        "Name": "be quiet! Pure Loop 3 LX 360mm",
+        "URL": "https://www.ultrapc.ma/kits-watercooling/11246-be-quiet-pure-loop-3-lx-360mm.html",
+        "Matériau": "Aluminium,Cuivre",
+        "Ventilateur(s)": "3 x 120 mm",
+        "Support du processeur": "AMD AM4, AMD AM5, Intel 1150, Intel 1151, Intel 1155, Intel 1200, Intel 1700, Intel 1851",
+        "Vitesse max.": "2 100 RPM",
+        "Débit max.": "61,8 CFM",
+        "Dimensions (L x H x P)": "397 x 120 x 52 mm (radiateur avec ventilateurs)",
+        "Couleur": "Noir",
+        "Ecran LCD": "Non",
+        "Poids net": "1,28 kg",
+        "Taille du radiateur": "360 mm",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Compatibilité socket": "Intel LGA1700",
+        "Price": 1199.0,
+        "ID": 187
     },
     {
         "Name": "ASUS RYUJIN III 360 ARGB Extreme Blanc",
@@ -2643,7 +2628,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 3899.0,
-        "ID": 189
+        "ID": 188
     },
     {
         "Name": "ASUS ROG Strix LC III 360 ARGB LCD",
@@ -2661,7 +2646,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 2699.0,
-        "ID": 190
+        "ID": 189
     },
     {
         "Name": "Corsair Nautilus 240 RS ARGB (Blanc)",
@@ -2678,7 +2663,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1149.0,
-        "ID": 191
+        "ID": 190
     },
     {
         "Name": "MSI MAG CORELIQUID E240 White",
@@ -2735,36 +2720,6 @@
         "ID": 196
     },
     {
-        "Name": "DeepCool FD12 V2 Black",
-        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/12192-deepcool-fd12-v2-black.html",
-        "Vitesse max.": "2500 RPM",
-        "Débit max.": "79.89 CFM",
-        "Bruit max.": "35,66 dB(A)",
-        "Diamètre": "120 mm",
-        "Couleur": "Noir",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Non",
-        "Taille du ventilateur": "120 mm",
-        "Price": 109.0,
-        "ID": 197
-    },
-    {
-        "Name": "DeepCool AG300 G2 Black",
-        "URL": "https://www.ultrapc.ma/ventirads-processeur/12181-deepcool-ag300-g2-black.html",
-        "Matériau": "Aluminium,Cuivre",
-        "Ventilateur(s)": "1 × 92 mm PWM",
-        "Support du processeur": "Intel LGA1851/1700 et AMD AM5/AM4",
-        "Vitesse max.": "2300 RPM",
-        "Débit max.": "36,94 CFM",
-        "Couleur": "Noir",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Non",
-        "Compatibilité socket": "Intel LGA1851",
-        "Type de ventirad": "Tour simple",
-        "Price": 219.0,
-        "ID": 198
-    },
-    {
         "Name": "ASUS ROG Strix LC III 360 ARGB LCD White",
         "URL": "https://www.ultrapc.ma/kits-watercooling/11947-asus-rog-strix-lc-iii-360-argb-lcd-white.html",
         "Matériau": "Aluminium,Cuivre",
@@ -2780,7 +2735,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 2799.0,
-        "ID": 199
+        "ID": 197
     },
     {
         "Name": "DeepCool AK400 G2 Digital NYX Black",
@@ -2798,7 +2753,22 @@
         "Compatibilité socket": "Intel LGA1851",
         "Type de ventirad": "Tour simple",
         "Price": 499.0,
-        "ID": 200
+        "ID": 198
+    },
+    {
+        "Name": "Arctic P12 Pro A-RGB 3in1 Noir",
+        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/11743-arctic-p12-pro-a-rgb-3in1-noir.html",
+        "Vitesse max.": "3000 RPM",
+        "Débit max.": "77 CFM",
+        "Diamètre": "120 mm",
+        "Dimensions": "120 x 120 x 25 mm",
+        "Couleur": "Noir",
+        "Poids net": "185 g (par ventilateur)",
+        "Garantie": "12 Mois",
+        "Éclairage RGB": "Oui",
+        "Taille du ventilateur": "120 mm",
+        "Price": 449.0,
+        "ID": 199
     },
     {
         "Name": "Lian Li UNI Fan TL-LCD Wireless Reverse 120 Black (Triple Pack)",
@@ -2813,7 +2783,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 1599.0,
-        "ID": 201
+        "ID": 200
     },
     {
         "Name": "MSI CoreLiquid A17 MLG Edition",
@@ -2831,41 +2801,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1399.0,
-        "ID": 202
-    },
-    {
-        "Name": "DeepCool AK500S DIGITAL SE (Black)",
-        "URL": "https://www.ultrapc.ma/ventirads-processeur/11385-deepcool-ak500s-digital-se-black.html",
-        "Ventilateur(s)": "1 x 120 mm",
-        "Support du processeur": "Intel LGA1851/1700/1200/1151/1150/1155, AMD AM5/AM4",
-        "Vitesse max.": "1 850 RPM",
-        "Débit max.": "68,99 CFM",
-        "Dimensions": "125 x 96 x 160 mm",
-        "Couleur": "Noir",
-        "Poids net": "864 g",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Oui",
-        "Compatibilité socket": "Intel LGA1851",
-        "Type de ventirad": "Tour simple",
-        "Price": 499.0,
-        "ID": 203
-    },
-    {
-        "Name": "be quiet! Silent Wings 4 140mm PWM",
-        "URL": "https://www.ultrapc.ma/ventilateurs-boitier/11258-be-quiet-silent-wings-4-140mm-pwm.html",
-        "Vitesse max.": "1100 RPM",
-        "Débit max.": "51.3 CFM",
-        "Bruit max.": "13.6 dB",
-        "Diamètre": "140 mm",
-        "Dimensions": "140 x 140 x 25 mm",
-        "Couleur": "Noir",
-        "Poids net": "220 g",
-        "Diamètre ventilateur": "140 mm",
-        "Garantie": "12 Mois",
-        "Éclairage RGB": "Non",
-        "Taille du ventilateur": "140 mm",
-        "Price": 299.0,
-        "ID": 204
+        "ID": 201
     },
     {
         "Name": "MSI MAG CORELIQUID A15 360 Black",
@@ -2883,7 +2819,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 849.0,
-        "ID": 205
+        "ID": 202
     },
     {
         "Name": "DeepCool AG620 BK ARGB V2 (Black)",
@@ -2901,7 +2837,7 @@
         "Compatibilité socket": "Intel LGA1851",
         "Type de ventirad": "Double tour",
         "Price": 619.0,
-        "ID": 206
+        "ID": 203
     },
     {
         "Name": "MSI MAG COREFROZR AA13 Blanc",
@@ -2917,7 +2853,7 @@
         "Compatibilité socket": "Intel LGA1851",
         "Type de ventirad": "Tour simple",
         "Price": 329.0,
-        "ID": 207
+        "ID": 204
     },
     {
         "Name": "MSI MPG CORELIQUID P13 360 Noir",
@@ -2935,7 +2871,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1799.0,
-        "ID": 208
+        "ID": 205
     },
     {
         "Name": "MSI MPG CORELIQUID P13 360 Blanc",
@@ -2953,7 +2889,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1799.0,
-        "ID": 209
+        "ID": 206
     },
     {
         "Name": "Corsair Titan 360 RX RGB (Blanc)",
@@ -2971,7 +2907,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 2299.0,
-        "ID": 210
+        "ID": 207
     },
     {
         "Name": "DeepCool MYSTIQUE 240 ARGB (Black)",
@@ -2989,7 +2925,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1399.0,
-        "ID": 211
+        "ID": 208
     },
     {
         "Name": "DeepCool LQ360 (Black)",
@@ -3008,7 +2944,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1399.0,
-        "ID": 212
+        "ID": 209
     },
     {
         "Name": "Cooler Master MasterLiquid 360 Core II ARGB (Black)",
@@ -3026,7 +2962,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1199.0,
-        "ID": 213
+        "ID": 210
     },
     {
         "Name": "ASUS ProArt LC 360",
@@ -3044,7 +2980,7 @@
         "Éclairage RGB": "Non",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 3099.0,
-        "ID": 214
+        "ID": 211
     },
     {
         "Name": "ASUS ROG STRIX LC II 360 ARGB",
@@ -3060,7 +2996,7 @@
         "Taille du radiateur": "360 mm",
         "Garantie": "12 Mois",
         "Price": 1999.0,
-        "ID": 215
+        "ID": 212
     },
     {
         "Name": "Corsair Nautilus 240 RS ARGB (Noir)",
@@ -3077,7 +3013,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1149.0,
-        "ID": 216
+        "ID": 213
     },
     {
         "Name": "Gamdias Chione M4 240 ARGB LCD Black",
@@ -3095,7 +3031,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1200 / 115x",
         "Price": 999.0,
-        "ID": 217
+        "ID": 214
     },
     {
         "Name": "DeepCool LT520 White",
@@ -3114,7 +3050,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1200 / 115x",
         "Price": 799.0,
-        "ID": 219
+        "ID": 215
     },
     {
         "Name": "DeepCool LD240",
@@ -3132,7 +3068,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1199.0,
-        "ID": 220
+        "ID": 216
     },
     {
         "Name": "Mars Gaming MF3DKIT",
@@ -3146,7 +3082,7 @@
         "Éclairage RGB": "Oui",
         "Taille du ventilateur": "120 mm",
         "Price": 349.0,
-        "ID": 221
+        "ID": 217
     },
     {
         "Name": "MSI MAG CORELIQUID E240",
@@ -3163,7 +3099,7 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 699.0,
-        "ID": 222
+        "ID": 218
     },
     {
         "Name": "MSI MPG CORELIQUID K240 V2",
@@ -3181,6 +3117,6 @@
         "Éclairage RGB": "Oui",
         "Compatibilité socket": "Intel LGA1700",
         "Price": 1899.0,
-        "ID": 223
+        "ID": 219
     }
 ]
