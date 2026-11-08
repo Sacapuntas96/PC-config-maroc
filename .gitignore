@@ -12,11 +12,12 @@ node_modules/
 # Build output
 dist/
 
-# Python (your scrapers)
+# Python
 __pycache__/
 *.pyc
 .venv/
 venv/
+database/scrapper/scrapper_techspace.py
 
 # Logs and OS junk
 *.log
